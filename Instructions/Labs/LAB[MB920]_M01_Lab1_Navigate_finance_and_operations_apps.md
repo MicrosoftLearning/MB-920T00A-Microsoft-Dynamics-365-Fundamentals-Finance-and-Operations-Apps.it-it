@@ -1,32 +1,37 @@
 ---
 lab:
-    title: 'Lab 1: Esplorare le app Finance and Operations'
-    module: 'Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Lab 1: Esplorare le app Finance and Operations'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: b0202a22e00a6fb2d561179ed1d6006f13d871f9
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909773"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modulo 1. Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
 
-# Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-1---navigate-finance-and-operations-apps"></a>Lab 1. Esplorare le app Finance and Operations
 
-## Lab 1. Esplorare le app Finance and Operations
-
-## Obiettivi
+## <a name="objectives"></a>Obiettivi
 
 Ora che è stata acquisita familiarità con le app Finance and Operations, dedicare del tempo a esplorarne l'interfaccia.
 
-## Configurazione del lab
+## <a name="lab-setup"></a>Configurazione del lab
 
 - **Tempo stimato**: 10 minuti
 
-## Istruzioni
+## <a name="instructions"></a>Istruzioni
 
-### Accedere al computer del lab
+### <a name="sign-in-to-the-lab-computer"></a>Accedere al computer del lab
 
 1. Accedere al computer del lab usando le credenziali seguenti
 
-    - Nome utente:
+    - User Name (Nome utente):
 
         Incollare il contenuto
 
-        Administrator
+        Amministratore
 
     - Password:
 
@@ -34,7 +39,7 @@ Ora che è stata acquisita familiarità con le app Finance and Operations, dedic
 
         pass@word1
 
-    >[!Nota] Internet Explorer può venire aperto automaticamente nel desktop. Se non sono già stati completati i passaggi 2-5, completarli prima di tornare a Internet Explorer.
+    >[!Note] Internet Explorer può essere aperto automaticamente nel desktop. Se non sono già stati completati i passaggi 2-5, completarli prima di tornare a Internet Explorer.
 
 1. Selezionare il file **AdminUserProvisioning** sul desktop.
 
@@ -51,7 +56,7 @@ Le credenziali sono disponibili nel menu **Risorse** nell'angolo in alto a destr
 
 1. Effettuare l'accesso usando le credenziali fornite nel menu **Risorse**.
 
-### Esplorare le app Finance and Operations
+### <a name="navigate-finance-and-operations-apps"></a>Esplorare le app Finance and Operations
 1. Nella home page di Finance and Operations, se è stata eseguita la configurazione, verrà visualizzato quanto segue:
 
     - Il menu di spostamento a sinistra che è compresso per impostazione predefinita.

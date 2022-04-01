@@ -1,22 +1,27 @@
 ---
 lab:
-    title: 'Lab 4: Creare un ordine fornitore'
-    module: 'Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Lab 4: Creare un ordine fornitore'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 04c349859896368763e172203a4bec80073c35bf
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909971"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modulo 1. Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
 
-# Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-4---create-a-purchase-order"></a>Lab 4. Creare un ordine fornitore
 
-## Lab 4. Creare un ordine fornitore
-
-## Obiettivi
+## <a name="objectives"></a>Obiettivi
 
 In genere, gli ordini fornitore vengono creati automaticamente come risultato di una pianificazione generale, una consegna diretta e altri processi. Quando la creazione avviene manualmente, in genere un ordine fornitore viene creato da un addetto acquisti. Creare un ordine fornitore usando la società USMF.
 
-## Configurazione del lab
+## <a name="lab-setup"></a>Configurazione del lab
 
    - **Tempo stimato**: 10 minuti
 
-## Istruzioni
+## <a name="instructions"></a>Istruzioni
 
 1. Nella home page Finance and Operations, in alto a destra, verificare di lavorare con la società USMF.
 

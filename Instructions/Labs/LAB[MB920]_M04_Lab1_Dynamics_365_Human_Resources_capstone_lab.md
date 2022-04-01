@@ -1,24 +1,29 @@
 ---
 lab:
-    title: 'Lab 1: Lab di fine modulo per Dynamics 365 Human Resources'
-    module: 'Modulo 4: Concetti fondamentali su Microsoft Dynamics 365 Human Resources'
+  title: 'Lab 1: Lab di fine modulo su Dynamics 365 Human Resources'
+  module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
+ms.openlocfilehash: e1d0f9974a3c1d6f4b31bb62733153850e2c86b0
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910144"
 ---
+## <a name="lab-1---dynamics-365-human-resources-capstone-lab"></a>Lab 1. Lab di fine modulo per Dynamics 365 Human Resources
 
-## Lab 1: Lab di fine modulo per Dynamics 365 Human Resources
-
-## Obiettivo
+## <a name="objective"></a>Obiettivo
 
 In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, inclusa la creazione di un record dipendente. Si esaminerà anche il processo di verifica delle prestazioni che comprende la definizione di un obiettivo e la valutazione delle prestazioni. Si useranno inoltre le funzionalità self-service per inviare una nota spese.
 
-## Configurazione del lab
+## <a name="lab-setup"></a>Configurazione del lab
 
-- **Tempo stimato**: 20 minuti 
+- **Tempo stimato**: 20 minuti 
 
-## Esercizio 1. Esplorare Human Resources
+## <a name="exercise-1-explore-human-resources"></a>Esercizio 1: Esplorare Human Resources
 
-### Creare un nuovo record di assunzione
+### <a name="create-a-new-hire-record"></a>Creare un nuovo record di assunzione
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Risorse umane** > **Posizioni** > **Posizioni**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Risorse umane** > **Posizioni** > **Posizioni**.
 
 1. Nel riquadro azioni selezionare **+ Nuovo** per creare una nuova posizione.
 
@@ -26,7 +31,7 @@ In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, i
 
 1. Selezionare **Crea posizione**.
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Lavoratori** > **Dipendenti**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Lavoratori** > **Dipendenti**.
 
 1. Nel riquadro azioni selezionare **+ Nuovo** per creare un nuovo dipendente.
 
@@ -38,15 +43,15 @@ In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, i
     | Cognome | Smith |
     | Data di inizio impiego | Selezionare la data corrente|
 
-### Creare un obiettivo per la nuova assunzione
+### <a name="create-a-goal-for-the-new-hire"></a>Creare un obiettivo per la nuova assunzione
 
-1. Nel riquadro azioni selezionare **Lavoratore**.
+1. Nel riquadro Azioni selezionare **Lavoratore**.
 
 1. Nella scheda **SVILUPPO** selezionare **Obiettivi**.
 
 1. Potrebbe essere necessario scorrere verso destra per visualizzare la scheda.
 
-1. Nel riquadro azioni selezionare **+ Nuovo** per creare un nuovo obiettivo.
+1. Nel riquadro Azioni selezionare **+ Nuovo** per creare un nuovo obiettivo.
 
 1. Nella Scheda dettaglio **Generale** immettere gli aggiornamenti seguenti:
 
@@ -54,9 +59,9 @@ In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, i
     | :--- | :---- |
     | Nome | Quarterly Sales Goal |
     | Panoramica | Help the store team reach the quarterly sales goal. |
-    | Categoria obiettivo | Vendite |
+    | Categoria obiettivo | Sales |
     | Data di inizio | Selezionare una data a una settimana dalla data corrente |
-    | Data di fine | Selezionare una data due settimane dopo la data di inizio |
+    | Data fine | Selezionare una data due settimane dopo la data di inizio |
 
 1. Nel riquadro azioni selezionare **Salva**.
 
@@ -64,15 +69,15 @@ In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, i
 
 1. Chiudere la pagina Obiettivi | Bill.
 
-### Assegnare un corso di formazione alla persona neoassunta
+### <a name="assign-learning-course-to-the-new-hire"></a>Assegnare un corso di formazione alla persona neoassunta
 
-1. Nella pagina Dipendenti per Bill, nel riquadro azioni selezionare **Lavoratore**
+1. Nella pagina Dipendenti per Bill, nel riquadro Azioni selezionare **Lavoratore**
 
 1. Nella scheda **COMPETENZE** selezionare **Corsi**.
 
 1. Potrebbe essere necessario scorrere verso destra per visualizzare la scheda.
 
-1. Nel riquadro azioni selezionare **+ Nuovo** per creare un nuovo corso.
+1. Nel riquadro Azioni selezionare **+ Nuovo** per creare un nuovo corso.
 
 1. In visualizzazione Griglia, nella colonna **ID corso** selezionare il menu e quindi scegliere **00004**.
 
@@ -86,7 +91,7 @@ In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, i
 
 1. Chiudere la pagina Corsi | Bill.
 
-### Creare una nota spese
+### <a name="create-an-expense-report"></a>Creare una nota spese
 
 1. Usando il pannello di navigazione, selezionare **Moduli** > **Risorse umane** > **Aree di lavoro** > **Dipendente self-service**.
 
@@ -98,7 +103,7 @@ In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, i
 
     | **Impostazione** | **Valore** |
     | :--- | :---- |
-    | Data transazione | Selezionare la data odierna |
+    | Data della transazione | Selezionare la data odierna |
     | Categoria di spesa | Noleggio auto |
     | Esercente | LitWare Travel |
     | Importo transazione | 150.00 |
@@ -113,7 +118,7 @@ In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, i
 
 1. Tornare alla scheda del browser relativa a Microsoft Dynamics 365 Finance and Operations.
 
-1. Nel riquadro azioni selezionare **Entrate intestazioni**.
+1. Nel riquadro Azioni selezionare **Entrate intestazioni**.
 
 1. Nel riquadro **Entrate intestazioni** selezionare **Carica e collega nuova ricevuta**.
 
@@ -121,7 +126,7 @@ In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, i
 
 1. Selezionare il file **Receipt.txt** creato in precedenza e quindi scegliere **Apri**.
 
-1. Nella casella **Note** immettere **Car rental** e quindi selezionare **Carica**.
+1. Nella casella **Note** immettere **Noleggio auto** e quindi selezionare **Carica**.
 
 1. Selezionare la casella di controllo **Ricevuta** e quindi scegliere **Seleziona righe**.
 
@@ -133,13 +138,13 @@ In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, i
 
 1. Nel riquadro **Nota spese - USMF - Invia**, nella casella **Commenti** immettere **Please review my expense report**.
 
-1. Selezionare **Invia**.
+1. Selezionare **Submit** (Invia).
 
-### Registrare una registrazione prestazioni
+### <a name="record-performance-journal"></a>Registrare una registrazione prestazioni
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Risorse umane** > **Prestazioni** > **Registrazione prestazioni**
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Risorse umane** > **Prestazioni** > **Registrazione prestazioni**
 
-1. Nel riquadro azioni selezionare **+ Nuovo**.
+1. Nel riquadro Azioni selezionare **+ Nuovo**.
 
 1. Nella pagina **Nuovo giornale di registrazione** immettere gli aggiornamenti seguenti.
 
@@ -153,7 +158,7 @@ In questo lab si esaminerà il processo di inserimento di un nuovo dipendente, i
 
 1. Nel riquadro azioni selezionare **Salva**.
 
-1. Nel riquadro azioni selezionare **Aggiungi a obiettivo**.
+1. Nel riquadro Azioni selezionare **Aggiungi a obiettivo**.
 
 1. Selezionare **Quarterly Sales Goal** e quindi scegliere **OK**.
 

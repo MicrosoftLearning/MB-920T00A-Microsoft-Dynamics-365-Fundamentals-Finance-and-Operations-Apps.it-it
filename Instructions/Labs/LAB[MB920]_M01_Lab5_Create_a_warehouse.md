@@ -1,14 +1,19 @@
 ---
 lab:
-    title: 'Lab 5: Creare un magazzino'
-    module: 'Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Lab 5: Creare un magazzino'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 919ea602b0768683acd845dd184b3bf5a0364fd0
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909762"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modulo 1. Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
 
-# Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-5---create-a-warehouse"></a>Lab 5. Creare un magazzino
 
-## Lab 5. Creare un magazzino
-
-## Obiettivi
+## <a name="objectives"></a>Obiettivi
 Il sistema di gestione magazzino in Supply Chain Management offre modi flessibili per definire il layout del magazzino in modo da soddisfare le esigenze in continua evoluzione, così da ottenere un'efficienza ottimale del magazzino.
 
 - È possibile stabilire le aree di stoccaggio ad alta priorità e a bassa priorità per una collocazione ottimale dei beni.
@@ -19,17 +24,17 @@ Il sistema di gestione magazzino in Supply Chain Management offre modi flessibil
 
 Per usare la gestione magazzino in Supply Chain Management, è necessario creare un magazzino e abilitarlo per attività di gestione più avanzate o specializzate.
 
-## Configurazione del lab
+## <a name="lab-setup"></a>Configurazione del lab
 
    - **Tempo stimato**: 10 minuti
 
-## Istruzioni
+## <a name="instructions"></a>Istruzioni
 
 1. Nella home page Finance and Operations, in alto a destra, verificare di lavorare con la società USMF.
 
 1. Se necessario, selezionare la società e scegliere **USMF** dal menu.
 
-1. Nel pannello di navigazione a sinistra selezionare **Moduli** > **Gestione inventario** > **Configurazione** > **Suddivisione scorte** > **Magazzini**.
+1. Nel riquadro di spostamento a sinistra selezionare **Moduli** > **Gestione inventario** > **Configurazione** > **Suddivisione scorte** > **Magazzini**.
 
     ![Schermata che mostra lo spostamento nel modulo Magazzini](./media/lp1-m3-warehouses-module-navigation.png)
 
@@ -51,13 +56,13 @@ Per usare la gestione magazzino in Supply Chain Management, è necessario creare
 
 1. In **LIVELLO** impostare l'opzione **Includi ripiano** su **Sì**.
 
-1. Nel campo **Formato** per il ripiano immettere **-##**.
+1. Nel campo **Formato** per il ripiano immettere **-##** .
 
 1. Nel menu in alto selezionare **Magazzino**.
 
     ![Schermata che mostra l'opzione di menu Magazzino evidenziata](./media/lp1-m3-warehouses-menu-option.png)
 
-1. In **Gestisci** selezionare **Creazione guidata ubicazione**.
+1. In **Gestisci** selezionare **Creazione guidata ubicazione**.
 
 1. Nella pagina iniziale esaminare le informazioni e quindi selezionare **Avanti** nell'angolo inferiore destro.
 
@@ -65,6 +70,6 @@ Per usare la gestione magazzino in Supply Chain Management, è necessario creare
 
 1. Selezionare **Avanti** ed esaminare le informazioni.
 
-1. Procedere alle pagine successive e al termine selezionare **Fine**.
+1. Procedere alle pagine successive e al termine selezionare **Fine**.
 
 1. Chiudere la pagina e tornare alla home page.

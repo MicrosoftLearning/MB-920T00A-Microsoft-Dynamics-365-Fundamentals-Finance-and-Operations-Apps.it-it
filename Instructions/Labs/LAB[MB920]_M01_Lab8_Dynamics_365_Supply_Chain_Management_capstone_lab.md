@@ -1,22 +1,27 @@
 ---
 lab:
-    title: 'Lab 8: Lab di fine modulo per Dynamics 365 Supply Chain Management'
-    module: 'Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Lab 8: Lab di fine modulo su Dynamics 365 Supply Chain Management'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 05fc7cf7a81164c2cabf3637e307dcae2ca5d3f7
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910031"
 ---
+## <a name="lab-8---dynamics-365-supply-chain-management-capstone-lab"></a>Lab 8. Lab di fine modulo per Dynamics 365 Supply Chain Management
 
-## Lab 8: Lab di fine modulo per Dynamics 365 Supply Chain Management
-
-## Obiettivo
+## <a name="objective"></a>Obiettivo
 
 Durante questo lab verranno esaminate la creazione di prodotti e la gestione dei prezzi. Si esamineranno anche i principali processi aziendali delle catene di approvvigionamento, ad esempio gestione articoli, approvvigionamento ed esternalizzazione.
 
-## Configurazione del lab
+## <a name="lab-setup"></a>Configurazione del lab
 
-- **Tempo stimato**: 45 minuti 
+- **Tempo stimato**: 45 minuti 
 
-## Esercizio 1. Esplorare la gestione dei prodotti
+## <a name="exercise-1-explore-product-management"></a>Esercizio 1: Esplorare Gestione prodotti
 
-### Creare un prodotto
+### <a name="create-a-product"></a>Creare un prodotto
 
 In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articolo per un alloggiamento per altoparlanti configurato da acquistare dai fornitori.
 
@@ -24,7 +29,7 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. In caso contrario, selezionare la società indicata nell'elenco e modificarla in **USMF**.
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Gestione informazioni sul prodotto** > **Prodotti** > **Prodotti rilasciati**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Gestione informazioni sul prodotto** > **Prodotti** > **Prodotti rilasciati**.
 
 1. Nella pagina dettagli Prodotto rilasciato, nel riquadro azioni selezionare **+ Nuovo**.
 
@@ -42,11 +47,11 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. In **TASSAZIONE ACQUISTI** selezionare il menu **Fascia IVA articoli**, quindi selezionare **TUTTO**.
 
-1. In **PREZZI**, nella casella **Prezzo di acquisto** immettere **30.00**.
+1. In **PREZZI**, nella casella **Prezzo di acquisto** immettere **30,00**.
 
-1. Nella casella **Prezzo di vendita** immettere **30.00**.
+1. Nella casella **Prezzo di vendita** immettere **30,00**.
 
-1. In **GRUPPI DI RIFERIMENTO** selezionare il menu **Gruppo di modelli di articoli**, quindi selezionare **FIFO (First-In-First-Out)**.
+1. In **GRUPPI DI RIFERIMENTO** selezionare il menu **Gruppo di modelli di articoli**, quindi selezionare **FIFO (First-In-First-Out)** .
 
 1. Selezionare il menu **Gruppo di articoli** e quindi scegliere **CarAudio**.
 
@@ -69,13 +74,13 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. Chiudere tutte le pagine e tornare alla home page.
 
-## Esercizio 2. Esplorare la gestione del magazzino
+## <a name="exercise-2-explore-warehouse-management"></a>Esercizio 2: Esplorare Gestione magazzino
 
-### Creare un magazzino
+### <a name="create-a-warehouse"></a>Creare un magazzino
 
-1. Nel pannello di navigazione selezionare **Moduli** > **Gestione inventario** > **Configurazione** > **Suddivisione scorte** > **Magazzini**.
+1. Nel riquadro di spostamento selezionare **Moduli** > **Gestione inventario** > **Configurazione** > **Suddivisione scorte** > **Magazzini**.
 
-1. Nella pagina Magazzini, nel riquadro azioni selezionare **Nuovo**.
+1. Nella pagina Magazzini, nel riquadro Azioni selezionare **Nuovo**.
 
 1. Nella casella **Magazzino** immettere **150**.
 
@@ -91,11 +96,11 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. Impostare l'opzione **Includi ripiano** su **Sì**.
 
-1. Nella casella **Formato** per il ripiano immettere **-##**.
+1. Nella casella **Formato** per il ripiano immettere **-##** .
 
-1. Nel riquadro azioni selezionare **Magazzino**.
+1. Nel riquadro Azioni selezionare **Magazzino**.
 
-1. In **Gestisci** selezionare **Creazione guidata ubicazione**.
+1. In **Gestisci** selezionare **Creazione guidata ubicazione**.
 
 1. Nella pagina iniziale esaminare le informazioni e quindi selezionare **Avanti** nell'angolo inferiore destro.
 
@@ -103,13 +108,13 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. Selezionare **Avanti** ed esaminare le informazioni.
 
-1. Procedere alle pagine successive e al termine selezionare **Fine**.
+1. Procedere alle pagine successive e al termine selezionare **Fine**.
 
 1. Chiudere la pagina e tornare alla home page.
 
-### Creare un accordo commerciale per il prezzo di vendita
+### <a name="create-a-trade-agreement-for-sales-price"></a>Creare un accordo commerciale per il prezzo di vendita
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Gestione informazioni sul prodotto** > **Prodotti** > **Prodotti rilasciati**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Gestione informazioni sul prodotto** > **Prodotti** > **Prodotti rilasciati**.
 
 1. Nella pagina dettagli Prodotti rilasciati cercare il numero di prodotto **GTL201**.
 
@@ -117,11 +122,11 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. Nel riquadro azioni selezionare **Vendi** e quindi in **ACCORDI COMMERCIALI** selezionare **Crea accordi commerciali**.
 
-1. Nel riquadro azioni selezionare **+ Nuovo**.
+1. Nel riquadro Azioni selezionare **+ Nuovo**.
 
 1. Nella colonna **Nome** selezionare il menu e quindi scegliere **S_Price**.
 
-1. Nel riquadro azioni selezionare **Righe**.
+1. Nel riquadro Azioni selezionare **Righe**.
 
 1. Nelle righe di registrazione della pagina dell'accordo commerciale, nella colonna **Relazione articolo** selezionare il menu e quindi **GTL201**.
 
@@ -155,11 +160,11 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. Chiudere le pagine e tornare alla home page.
 
-## Esercizio 3. Esplorare la gestione della produzione
+## <a name="exercise-3-explore-production-management"></a>Esercizio 3: Esplorare la gestione della produzione
 
-### Creare un ordine di produzione per un prodotto
+### <a name="create-a-production-order-for-a-product"></a>Creare un ordine di produzione per un prodotto
 
-1. Nel pannello di navigazione a sinistra selezionare **Moduli** > **Controllo produzione** > **Ordini di produzione** > **Tutti gli ordini di produzione**.
+1. Nel riquadro di spostamento a sinistra selezionare **Moduli** > **Controllo produzione** > **Ordini di produzione** > **Tutti gli ordini di produzione**.
 
 1. Nel riquadro azioni selezionare **Nuovo ordine di produzione**.
 
@@ -175,13 +180,13 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. Chiudere tutte le pagine e tornare alla home page.
 
-## Esercizio 4. Esplorare la gestione dell'inventario
+## <a name="exercise-4-explore-inventory-management"></a>Esercizio 4: Esplorare Gestione inventario
 
-### Creare un giornale di registrazione conteggi con il prodotto per il magazzino creato
+### <a name="create-a-count-journal-with-the-product-for-the-created-warehouse"></a>Creare un giornale di registrazione conteggi con il prodotto per il magazzino creato
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Gestione inventario** > **Inserimenti nel giornale di registrazione** > **Conteggio articoli > Conteggio**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Gestione inventario** > **Inserimenti nel giornale di registrazione** > **Conteggio articoli > Conteggio**.
 
-1. Nel riquadro azioni selezionare **+ Nuovo**.
+1. Nel riquadro Azioni selezionare **+ Nuovo**.
 
 1. Nel riquadro **Crea giornale di registrazione inventario** in **Conteggio per** selezionare l'interruttore **Magazzino** per impostarlo su **Sì**.
 
@@ -197,21 +202,21 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. Questo valore specifica il numero di articoli stoccati in magazzino per questo prodotto.
 
-1. Nel riquadro azioni selezionare **Convalida**.
+1. Nel riquadro Azioni selezionare **Convalida**.
 
 1. Nel riquadro **Verifica giornale di registrazione** selezionare **OK**.
 
-1. Nel riquadro azioni selezionare **Registra**.
+1. Nel riquadro azioni selezionare **Registra**.
 
 1. Nel riquadro **Registra giornale** selezionare **OK**.
 
 1. Chiudere tutte le pagine e tornare alla home page.
 
-### Controllare le scorte disponibili per il prodotto
+### <a name="check-on-hand-inventory-for-the-product"></a>Controllare le scorte disponibili per il prodotto
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Gestione inventario** > **Richieste di informazioni e report** > **Elenco scorte disponibili**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Gestione inventario** > **Richieste di informazioni e report** > **Elenco scorte disponibili**.
 
-1. Nel riquadro azioni selezionare **Dimensioni**.
+1. Nel riquadro Azioni selezionare **Dimensioni**.
 
 1. Nel riquadro **Visualizzazione dimensioni** in **DIMENSIONI DI IMMAGAZZINAMENTO** selezionare le caselle di controllo **Sito** e **Magazzino** e quindi **OK**.
 
@@ -221,9 +226,9 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. Chiudere tutte le pagine e tornare alla home page.
 
-## Esercizio 5. Esplorare l'approvvigionamento
+## <a name="exercise-5-explore-procurement-and-sourcing"></a>Esercizio 5: Esplorare Approvvigionamento
 
-### Creare un ordine fornitore con un prodotto
+### <a name="create-a-purchase-order-with-a-product"></a>Creare un ordine fornitore con un prodotto
 
 1. Usando il pannello di navigazione, selezionare **Moduli** > **Approvvigionamento** > **Ordini fornitore** > **Tutti gli ordini fornitore**.
 
@@ -264,7 +269,7 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 1. Selezionare la scheda **Consegna** e nella casella **Data di consegna** usare la data assegnata o immettere una data futura.  
     È possibile assegnare una data di consegna univoca a ogni riga dell'ordine. La data viene ereditata dal campo nell'intestazione dell'ordine fornitore, ma è possibile modificarla.
 
-1. Annotare il numero di ordine fornitore. Sarà necessario in seguito.
+1. Annotare il numero di ordine fornitore. che sarà necessario più avanti.
 
 1. Nel riquadro azioni selezionare **Salva**.
 

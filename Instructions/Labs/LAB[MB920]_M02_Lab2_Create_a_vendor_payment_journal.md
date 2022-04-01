@@ -1,12 +1,17 @@
 ---
 lab:
-    title: 'Lab 2: Creare un giornale di registrazione pagamenti fornitore'
-    module: 'Modulo 2: Concetti fondamentali su Microsoft Dynamics 365 Finance'
+  title: 'Lab 2: Creare una registrazione dei pagamenti dei fornitori'
+  module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
+ms.openlocfilehash: cc38bf9c77d8b5d45e8a27f0a8f766d7834e065a
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910090"
 ---
+## <a name="lab-2---create-a-vendor-payment-journal"></a>Lab 2. Creare un giornale di registrazione pagamenti fornitore
 
-## Lab 2: Creare un giornale di registrazione pagamenti fornitore
-
-## Obiettivi
+## <a name="objectives"></a>Obiettivi
 
 Le organizzazioni che pagano i in base a una pianificazione ricorrente possono ora automatizzare il processo di generazione di proposte di pagamento fornitore. Le automazioni delle proposte di pagamento fornitore definiscono i dettagli seguenti:
 
@@ -18,17 +23,17 @@ Le automazioni delle proposte di pagamento non registrano automaticamente i paga
 
 Creare una nuova scrittura contabile nel giornale di registrazione pagamenti fornitore e una proposta di pagamento.
 
-## Configurazione del lab
+## <a name="lab-setup"></a>Configurazione del lab
 
    - **Tempo stimato**: 10 minuti
 
-## Istruzioni
+## <a name="instructions"></a>Istruzioni
 
 1. Nella home page Finance and Operations, in alto a destra, verificare di lavorare con la società USMF.
 
 1. Se necessario, selezionare la società e scegliere **USMF** dal menu.
 
-1. Nel pannello di navigazione a sinistra selezionare **Moduli** > **Contabilità fornitori** > **Pagamenti** > **Giornale di registrazione pagamenti fornitore**.
+1. Nel riquadro di spostamento a sinistra selezionare **Moduli** > **Contabilità fornitori** > **Pagamenti** > **Giornale di registrazione pagamenti fornitore**.
 
 1. Nel menu superiore selezionare **+ Nuovo**.
 
@@ -47,7 +52,7 @@ Creare una nuova scrittura contabile nel giornale di registrazione pagamenti for
 
 1. In **Dal** e **Al** eliminare i valori esistenti. Per questo esercizio gli intervalli di date verranno lasciati vuoti.
 
-    >[!NOTA] È possibile usare una data di pagamento minima come data di pagamento. La data di pagamento minima è la prima data possibile da usare quando si creano pagamenti. Se, ad esempio, una fattura ha una scadenza successiva alla data di pagamento minima, la scadenza diventa la data di pagamento al posto della data di pagamento minima in modo da pagare la fattura nell'ultima data possibile.
+    >[!NOTE] È possibile usare una data di pagamento minima come data di pagamento. La data di pagamento minima è la prima data possibile da usare quando si creano pagamenti. Se, ad esempio, una fattura ha una scadenza successiva alla data di pagamento minima, la scadenza diventa la data di pagamento al posto della data di pagamento minima in modo da pagare la fattura nell'ultima data possibile.
 
 1. Espandere **Record da includere** e quindi esaminare le opzioni.  
     Il filtro viene spesso usato per limitare le fatture selezionate per il pagamento in base al gruppo di fornitori o al metodo di pagamento. È ad esempio possibile aggiungere un filtro per pagare le fatture solo con assegno per il ciclo di pagamenti in corso.

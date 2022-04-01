@@ -1,22 +1,27 @@
-﻿---
-lab:
-    title: 'Lab 3: Creare un’offerta di prodotto con dimensioni e colori diversi'
-    module: 'Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management'
 ---
+lab:
+  title: "Lab 3: Creare un'offerta di prodotti con misure e colori diversi"
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 268432a06fab68b219e68d0748b959aa089045c4
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909935"
+---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modulo 1. Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
 
-# Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-3---create-a-new-product"></a>Lab 3. Creare un nuovo prodotto
 
-## Lab 3. Creare un nuovo prodotto
-
-## Obiettivi
+## <a name="objectives"></a>Obiettivi
 
 In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articolo per una nuova configurazione di un armadietto da acquistare dai fornitori.
 
-## Configurazione del lab
+## <a name="lab-setup"></a>Configurazione del lab
 
    - **Tempo stimato**: 10 minuti
 
-## Istruzioni
+## <a name="instructions"></a>Istruzioni
 
 1. Nella home page Finance and Operations, in alto a destra, verificare di lavorare con la società USMF.
 
@@ -24,7 +29,7 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. In alto a sinistra selezionare il menu hamburger **Espandere il pannello di navigazione**.
 
-1. Nel pannello di navigazione selezionare **Moduli** > **Gestione informazioni sul prodotto** e quindi nella categoria **Prodotti** selezionare **Prodotti rilasciati**.
+1. Nel riquadro di spostamento selezionare **Moduli** > **Gestione informazioni sul prodotto** e quindi nella categoria **Prodotti** selezionare **Prodotti rilasciati**.
 
 1. Nella pagina dettagli Prodotto rilasciato, nel menu in alto selezionare **+ Nuovo**.
 
@@ -38,7 +43,7 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. Nella casella **Nome prodotto** immettere **Cabinet 2**.
 
-1. In **GRUPPI DI RIFERIMENTO** selezionare il menu **Gruppo di modelli di articoli**, quindi selezionare **FIFO (First-In-First-Out)**.
+1. In **GRUPPI DI RIFERIMENTO** selezionare il menu **Gruppo di modelli di articoli**, quindi selezionare **FIFO (First-In-First-Out)** .
 
 1. Selezionare il menu **Gruppo di articoli** e quindi scegliere **TV&Video**.
 
@@ -57,9 +62,9 @@ In Contoso Entertainment System USA (USMF) è necessario creare un nuovo articol
 
 1. In **TASSAZIONE ACQUISTI** selezionare il menu **Fascia IVA articoli**, quindi selezionare **TUTTO**.
 
-1. In PREZZI, nella casella Prezzo di acquisto immettere 30.00.
+1. In PREZZI, nella casella Prezzo di acquisto immettere 30,00.
 
-1. Nella casella Prezzo di acquisto immettere 30.00.
+1. Nella casella Prezzo di vendita immettere 30,00.
 
 1. Il nuovo prodotto rilasciato sarà simile a quanto segue:
 

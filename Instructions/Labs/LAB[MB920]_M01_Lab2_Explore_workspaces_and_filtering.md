@@ -1,22 +1,27 @@
 ---
 lab:
-    title: 'Lab 2: Esplorare le aree di lavoro e i filtri'
-    module: 'Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management'
+  title: "Lab 2: Esplorare gli spazi di lavoro e l'applicazione di filtri"
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 0a2815e312b9798dcf93ec6cee669eb65a1f9942
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909923"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modulo 1. Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
 
-# Modulo 1: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-2---explore-workspaces-and-filtering"></a>Lab 2. Esplorare le aree di lavoro e i filtri
 
-## Lab 2. Esplorare le aree di lavoro e i filtri
-
-## Obiettivi
+## <a name="objectives"></a>Obiettivi
 
 Quando si accede per la prima volta a Finance and Operations, sono disponibili molte aree di lavoro predefinite. È anche possibile creare un'area di lavoro personalizzata in base alle esigenze. Le aree di lavoro sono una delle numerose funzionalità di Dynamics 365, ma è importante tenere anche presente che i filtri sono lo strumento con cui ottenere gli elementi specifici desiderati. È necessario creare una nuova area di lavoro personalizzata e usare i filtri per identificare i diversi elementi necessari.
 
-## Configurazione del lab
+## <a name="lab-setup"></a>Configurazione del lab
 
    - **Tempo stimato**: 10 minuti
 
-## Istruzioni
+## <a name="instructions"></a>Istruzioni
 
 1. Nella home page di Finance and Operations, a destra dei riquadri dell'area di lavoro fare clic con il pulsante destro del mouse o toccare e tenere premuto in un'area vuota per attivare il menu.
 
@@ -45,7 +50,7 @@ Quando si accede per la prima volta a Finance and Operations, sono disponibili m
 
 1. Selezionare il riquadro **My workspace** e spostarlo in un'altra posizione nella home page.
 
-    >[!Nota] Se non è possibile spostare il riquadro, aggiornare la pagina e provare a eseguire di nuovo i passaggi precedenti per spostarlo.
+    >[!Note] Se non è possibile spostare il riquadro, aggiornare la pagina e provare a eseguire di nuovo i passaggi precedenti per spostarlo.
 
 1. Chiudere la barra degli strumenti.
 

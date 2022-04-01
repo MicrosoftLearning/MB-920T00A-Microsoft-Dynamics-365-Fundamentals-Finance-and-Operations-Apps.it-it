@@ -1,20 +1,25 @@
 ---
 lab:
-    title: 'Lab 2: Creare un assortimento di prodotti'
-    module: 'Modulo 3: Concetti fondamentali su Microsoft Dynamics 365 Commerce'
+  title: 'Lab 2: Creare un assortimento di prodotti'
+  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
+ms.openlocfilehash: d6c414c266f0403139dc31de38f602b5a0290ef5
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910134"
 ---
+## <a name="lab-2---create-a-product-assortment"></a>Lab 2. Creare un assortimento di prodotti
 
-## Lab 2: Creare un assortimento di prodotti
-
-## Obiettivi
+## <a name="objectives"></a>Obiettivi
 
 È necessario creare un assortimento di prodotti correlati assegnati a un canale di Commerce specifico che verrà reso disponibile in una data futura.
 
-## Configurazione del lab
+## <a name="lab-setup"></a>Configurazione del lab
 
    - **Tempo stimato**: 10 minuti
 
-## Istruzioni
+## <a name="instructions"></a>Istruzioni
 
 1. Nella pagina Finance and Operations, in alto a sinistra, selezionare il menu hamburger **Espandere il pannello di navigazione**.
 
@@ -38,7 +43,7 @@ lab:
 
 1. Nel menu relativo ai canali di Commerce selezionare **+ Aggiungi riga**.
 
-1. In Scegli nodi organizzazione selezionare il menu **Gerarchia organizzativa** e quindi selezionare **Punti vendita al dettaglio per tipo (Fabrikam)**.
+1. In Scegli nodi organizzazione selezionare il menu **Gerarchia organizzativa** e quindi selezionare **Punti vendita al dettaglio per tipo (Fabrikam)** .
 
 1. Nell'elenco NODI ORGANIZZAZIONE DISPONIBILI selezionare Online e quindi selezionare l'icona Aggiungi ![Icona freccia DESTRA](./media/d365-fo-add-org-node-icon.png) per l'aggiunta in **NODI ORGANIZZAZIONE SELEZIONATI**.  
   In questo modo verranno aggiunti il nodo padre e tutti i nodi figlio.
@@ -57,7 +62,7 @@ lab:
 
 1. Esaminare l'ultima colonna denominata **Tipo di riga**. Per impostazione predefinita, verranno inclusi tutti gli articoli.
 
-1. Selezionare **+ Aggiungi riga**, selezionare il menu **Categoria**, espandere **Team Sports (Team Sports)**, selezionare **Baseball** e quindi selezionare **OK**.
+1. Selezionare **+ Aggiungi riga**, selezionare il menu **Categoria**, espandere **Team Sports (Team Sports)** , selezionare **Baseball** e quindi selezionare **OK**.
 
 1. Per escludere un articolo da una categoria più ampia già inclusa, in questo caso Team Sports, nella colonna Tipo di riga modificare il valore in **Escludi**.
 
