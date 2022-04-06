@@ -1,34 +1,39 @@
 ---
 lab:
-    title: 'Lab 3: Lab di fine modulo per Dynamics 365 Finance'
-    module: 'Modulo 2: Concetti fondamentali su Microsoft Dynamics 365 Finance'
+  title: 'Lab 3: Lab di fine modulo per Dynamics 365 Finance'
+  module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
+ms.openlocfilehash: c6f655349c360df83fb064fe716cd712ff61c2aa
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910114"
 ---
+## <a name="lab-3---dynamics-365-finance-capstone-lab"></a>Lab 3. Lab di fine modulo per Dynamics 365 Finance
 
-## Lab 3: Lab di fine modulo per Dynamics 365 Finance
-
-## Obiettivo
+## <a name="objective"></a>Obiettivo
 
 Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamics 365 Finance. Si esaminerà la contabilità generale creando una nuova entità, aggiungendo un nuovo conto e valori di dimensioni ed eseguendo un bilancio di verifica. Si esplorerà anche la contabilità fornitori creando un fornitore, un ordine fornitore e una fattura nuovi e quindi liquidando la fattura. Si analizzerà infine la contabilità clienti, creando un cliente, una fattura e un report di aging nuovi e quindi applicando il pagamento cliente.
 
-## Configurazione del lab
+## <a name="lab-setup"></a>Configurazione del lab
 
    - **Tempo stimato**: 45 minuti
 
-## Esercizio 1. Esplorare la contabilità generale
+## <a name="exercise-1-explore-the-general-ledger"></a>Esercizio 1: Esplorare la contabilità generale
 
-### Creare una nuova persona giuridica
+### <a name="create-a-new-legal-entity"></a>Creare una nuova persona giuridica
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Amministrazione organizzazione** > **Organizzazioni** > **Persone giuridiche**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Amministrazione organizzazione** > **Organizzazioni** > **Persone giuridiche**.
 
-1. Nel riquadro azioni selezionare **+ Nuovo** per creare una nuova persona giuridica.
+1. Nel riquadro Azioni selezionare **+ Nuovo** per creare una nuova persona giuridica.
 
 1. Nel riquadro **Nuova entità** creare una nuova entità usando le informazioni seguenti e quindi selezionare **OK**:
 
     | **Impostazione** | **Valore** |
     | :--- | :--- |
     | Nome | Contoso Training USA |
-    | Società | USTR |
-    | Paese | Stati Uniti |
+    | Company | USTR |
+    | Paese/Area geografica | USA |
 
 1. Nella pagina Persone giuridiche selezionare la Scheda dettaglio **Indirizzi** e quindi selezionare **Modifica**.
 
@@ -37,7 +42,7 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
     | **Impostazione**| **Valore**|
     | :--- | :--- |
     | CAP| 98052|
-    | Via| 123 Main Street|
+    | Indirizzo| 123 Main Street|
     | Principale per paese | Verificare che sia selezionata l'opzione **Sì** |
 
 1. Selezionare la Scheda dettaglio **Informazioni contatto**.
@@ -46,7 +51,7 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
 
     | **Impostazione**| **Valore**|
     | :--- | :--- |
-    | Descrizione| Ufficio principale|
+    | Descrizione| Main Office|
     | Numero/indirizzo contatto| 888-555-1234|
     | Principale| Selezionare la casella di controllo |
 
@@ -56,16 +61,16 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
 
 1. Nel riquadro azioni selezionare **Salva**.
 
-1. Nel pannello di navigazione selezionare **Home**.
+1. Nel riquadro di spostamento selezionare **Home**.
 
-### Creare un nuovo conto in un piano dei conti esistente
+### <a name="create-a-new-account-in-an-existing-chart-of-accounts"></a>Creare un nuovo conto in un piano dei conti esistente
 
 1. Nella home page, in alto a destra, verificare che sia selezionata la società **USMF**.  
     In caso contrario, selezionare la società indicata nell'elenco e modificarla in **USMF**.
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Contabilità generale** > **Piano dei conti** > **Conti** > **Conti principali**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** >  > **Piano dei conti** > **Conti** > **Conti principali**.
 
-1. Nel riquadro azioni selezionare **+ Nuovo** per creare un nuovo conto ricavi.
+1. Nel riquadro Azioni selezionare **+ Nuovo** per creare un nuovo conto ricavi.
 
 1. Nella pagina Conti principali immettere gli aggiornamenti seguenti:
 
@@ -77,30 +82,30 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
 
 1. Nel riquadro azioni selezionare **Salva**.
 
-### Aggiungere un nuovo valore di dimensione
+### <a name="add-a-new-dimension-value"></a>Aggiungere un nuovo valore di dimensione
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Contabilità generale** > **Piano dei conti** > **Dimensioni** > **Dimensioni finanziarie**.
+1. Usando il riquadro di spostamento selezionare **Moduli** > **Contabilità generale** > **Piano dei conti** > **Dimensioni** > **Dimensioni finanziarie**.
 
-1. Nell'elenco di navigazione selezionare **Riga servizio**.  
+1. Nell'elenco di spostamento selezionare **Riga servizio**.  
     È anche possibile usare la casella **Filtro** per cercare **Riga servizio**.
 
 1. Nel riquadro azioni selezionare **Valori di dimensione**.
 
-1. Nel riquadro azioni selezionare **+ Nuovo**.
+1. Nel riquadro Azioni selezionare **+ Nuovo**.
 
 1. Nelle caselle **Valore di dimensione** e **Descrizione** immettere **Training Services**.
 
 1. Nel riquadro azioni selezionare **Salva**.
 
-### Usare un conto e un valore di dimensione in un giornale di registrazione generale
+### <a name="use-an-account-and-dimension-value-in-a-general-journal"></a>Usare un conto e un valore di dimensione in un giornale di registrazione generale
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Contabilità generale** > **Inserimenti nel giornale di registrazione** > **Giornali di registrazione generali**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Contabilità generale** > **Inserimenti nel giornale di registrazione** > **Giornali di registrazione generali**.
 
-1. Nel riquadro azioni selezionare **+ Nuovo**.
+1. Nel riquadro Azioni selezionare **+ Nuovo**.
 
 1. Nella prima riga dell'elenco, nella colonna **Nome** selezionare il menu e quindi selezionare **Registrazione COGE**.
 
-1. Nel riquadro azioni selezionare **Righe**.
+1. Nel riquadro Azioni selezionare **Righe**.
 
 1. Nell'elenco, nella colonna **Data** selezionare l'icona del calendario e quindi modificare la data scegliendo il primo giorno del mese.
 
@@ -110,13 +115,13 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
     | :--- | :--- |
     | MainAccount| 601200|
     | BusinessUnit| 004|
-    | Reparto| 025|
+    | department| 025|
     | CostCenter| 009|
     | ItemGroup| Servizi|
 
 1. Nella casella **Descrizione** immettere **Expense Reclass**.
 
-1. Nella casella **Dare** immettere **1000.00**.
+1. Nella casella **Dare** immettere **1000,00**.
 
 1. Scorrere verso destra e nella colonna **Conto di contropartita** selezionare il menu e quindi immettere gli aggiornamenti seguenti:
 
@@ -124,23 +129,23 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
     | :--- | :--- |
     | MainAccount| 602200|
     | BusinessUnit| 004|
-    | Reparto| 025|
+    | department| 025|
     | CostCenter| 009|
     | ItemGroup| Servizi|
 
 1. Nel riquadro azioni selezionare **Salva**.
 
-1. Nel riquadro azioni selezionare **Convalida** > **Convalida**.  
+1. Nel riquadro Azioni selezionare **Convalida** > **Convalida**.  
     Attendere il completamento della convalida del giornale di registrazione.
 
 1. Esaminare il banner di avviso.  
     Per questo lab, è possibile ignorare il messaggio di avviso.
 
-1. Nel riquadro azioni selezionare **Registra**.
+1. Nel riquadro azioni selezionare **Registra**.
 
-### Eseguire un bilancio di verifica usando un set di dimensioni
+### <a name="run-a-trial-balance-using-a-dimension-set"></a>Eseguire un bilancio di verifica usando un set di dimensioni
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Contabilità generale** > **Richieste di informazioni e report** > **Bilancio di verifica**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Contabilità generale** > **Richieste di informazioni e report** > **Bilancio di verifica**.
 
 1. Nella pagina Bilancio di verifica selezionare **Calcola saldi**.
 
@@ -156,13 +161,13 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
 
 1. Chiudere la pagina.
 
-## Esercizio 2. Esplorare la contabilità fornitori
+## <a name="exercise-2-explore-accounts-payable"></a>Esercizio 2: Esplorare la contabilità fornitori
 
-### Creare un fornitore
+### <a name="create-a-vendor"></a>Creare un fornitore
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Contabilità fornitori** > **Fornitori** > **Tutti i fornitori**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Contabilità fornitori** > **Fornitori** > **Tutti i fornitori**.
 
-1. Nel riquadro azioni selezionare **+ Nuovo** per creare un fornitore.
+1. Nel riquadro Azioni selezionare **+ Nuovo** per creare un fornitore.
 
 1. Nella pagina Nuovo record creare un nuovo fornitore usando le informazioni seguenti:
 
@@ -180,9 +185,9 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
 
     | **Impostazione**| **Valore**|
     | :--- | :--- |
-    | Nome o descrizione| Ufficio principale|
+    | Nome o descrizione| Main Office|
     | CAP| 98052|
-    | Via| 123 Front Street|
+    | Indirizzo| 123 Front Street|
 
 1. Nel riquadro azioni selezionare **Salva**.
 
@@ -196,18 +201,18 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
     | :--- | :--- |
     | Report 1099| Sì|
     | ID imposta federale| 82-1234567|
-    | Tipo ID imposta| ID datore di lavoro|
+    | Tipo ID imposta| EIN (Employer Identification Number, Identificativo del datore di lavoro)|
     | Casella 1099| MISC-03|
 
 1. Nel riquadro azioni selezionare **Salva**.
 
-1. Chiudere il modulo.
+1. Chiudere il form.
 
-### Creare un ordine fornitore per il nuovo fornitore
+### <a name="create-a-purchase-order-for-the-new-vendor"></a>Creare un ordine fornitore per il nuovo fornitore
 
-1. Nella pagina V00001: ABC Training, Inc selezionare **Approvvigionamento** nel riquadro azioni.
+1. Nella pagina V00001: ABC Training, Inc selezionare **Approvvigionamento** nel riquadro Azioni.
 
-1. Nel riquadro azioni, nella scheda **NUOVO** selezionare **Ordine fornitore**.
+1. Nel riquadro Azioni, nella scheda **NUOVO** selezionare **Ordine fornitore**.
 
 1. Nella pagina Ordine fornitore, in **Righe ordine fornitore** immettere gli aggiornamenti seguenti:
 
@@ -216,19 +221,19 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
     | Numero articolo| S0001|
     | Quantità| 2|
 
-    >[!NOTA] Potrebbe essere necessario scorrere verso destra per visualizzare la colonna **Quantità**.
+    >[!NOTE] Potrebbe essere necessario scorrere verso destra per visualizzare la colonna **Quantità**.
 
 1. Nel riquadro azioni selezionare **Salva**.
 
-1. Nel riquadro azioni **Acquisto** e quindi nella scheda **AZIONI** selezionare **Conferma**.
+1. Nel riquadro Azioni selezionare **Acquisto** e quindi nella scheda **AZIONI** selezionare **Conferma**.
 
-### Registrare la fattura fornitore per l'ordine fornitore
+### <a name="record-vendor-invoice-for-the-purchase-order"></a>Registrare la fattura fornitore per l'ordine fornitore
 
-1. Nel riquadro azioni selezionare **Fattura**.
+1. Nel riquadro Azioni selezionare **Fattura**.
 
 1. Nella scheda **GENERA** selezionare **Fattura**.
 
-1. Nel riquadro azioni selezionare **Predefinito da: Quantità entrata prodotti**.
+1. Nel riquadro Azioni selezionare **Predefinito da: Quantità entrata prodotti**.
 
 1. Nel menu **Quantità predefinita per le righe** selezionare **Quantità ordinata** e quindi **OK**.
 
@@ -242,19 +247,19 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
 
 1. Nel riquadro azioni selezionare **Salva**.
 
-1. Nel riquadro azioni selezionare **Aggiorna stato di abbinamento**.
+1. Nel riquadro Azioni selezionare **Aggiorna stato di abbinamento**.
 
-1. Nel riquadro azioni selezionare **Registra**.
+1. Nel riquadro azioni selezionare **Registra**.
 
-### Liquidazione della fattura fornitore
+### <a name="settling-the-vendor-invoice"></a>Liquidazione della fattura fornitore
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Contabilità fornitori** > **Pagamenti** > **Giornale di registrazione pagamenti fornitore**.
+1. Usando il riquadro di spostamento selezionare **Moduli** > **Contabilità fornitori** > **Pagamenti** > **Giornale di registrazione pagamenti fornitore**.
 
-1. Nel riquadro azioni selezionare **+ Nuovo**.
+1. Nel riquadro Azioni selezionare **+ Nuovo**.
 
-1. Nella pagina Giornale di registrazione pagamenti fornitore, nella prima riga, selezionare il menu nella colonna **Nome** e quindi selezionare **VendPay**.
+1. Nella pagina Giornale di registrazione pagamenti fornitore, nella prima riga selezionare il menu nella colonna **Nome** e quindi selezionare **VendPay**.
 
-1. Nel riquadro azioni selezionare **Righe** per registrare un pagamento.
+1. Nel riquadro Azioni selezionare **Righe** per registrare un pagamento.
 
 1. Nella pagina Pagamenti fornitore, nella casella **Conto** immettere **V00001**.
 
@@ -264,13 +269,13 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
 
 1. Nell'angolo in basso a destra selezionare **OK**.
 
-1. Nel riquadro azioni selezionare **Genera pagamenti**.
+1. Nel riquadro Azioni selezionare **Genera pagamenti**.
 
 1. Nel riquadro **Genera pagamenti** immettere gli aggiornamenti seguenti e quindi selezionare **OK**:
 
     | **Impostazione**| **Valore**|
     | :--- | :--- |
-    | Metodo di pagamento| ASSEGNO|
+    | Metodo di pagamento| CHECK|
     | Conto bancario| USMF OPER|
 
 1. Nel riquadro **Pagamento con assegno** esaminare le informazioni e quindi scegliere **OK**.
@@ -279,17 +284,17 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
 
 1. Scorrere verso destra e nella colonna **Stato pagamenti** verificare che sia selezionata l'opzione **Inviato**.
 
-1. Nel riquadro azioni selezionare **Convalida** > **Convalida**.
+1. Nel riquadro Azioni selezionare **Convalida** > **Convalida**.
 
-1. Nel riquadro azioni selezionare **Registra**.
+1. Nel riquadro azioni selezionare **Registra**.
 
-## Esercizio 3. Esplorare la contabilità clienti
+## <a name="exercise-3-explore-accounts-receivable"></a>Esercizio 3: Esplorare la contabilità clienti
 
-### Creare un cliente
+### <a name="create-a-customer"></a>Creare un cliente
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Contabilità clienti** > **Clienti** > **Tutti i clienti**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Contabilità clienti** > **Clienti** > **Tutti i clienti**.
 
-1. Nel riquadro azioni selezionare **+ Nuovo** per creare un cliente.
+1. Nel riquadro Azioni selezionare **+ Nuovo** per creare un cliente.
 
 1. Nel riquadro **Crea cliente** creare il nuovo cliente usando le informazioni seguenti e quindi selezionare **Salva**:
 
@@ -299,7 +304,7 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
     | Nome| Fabrikam Consulting Services|
     | Gruppo di clienti| 30|
     | CAP| 98052|
-    | Via| 123 Middle Street|
+    | Indirizzo| 123 Middle Street|
 
 1. Nella pagina US-901 Fabrikam Consulting Services selezionare la Scheda dettaglio **Impostazioni predefinite pagamento**.
 
@@ -311,11 +316,11 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
 
 1. Nel riquadro azioni selezionare **Salva**.
 
-### Creare una fattura a testo libero per il nuovo cliente
+### <a name="create-a-free-text-invoice-for-the-new-customer"></a>Creare una fattura a testo libero per il nuovo cliente
 
-1. Nel riquadro azioni selezionare **Fattura** e quindi nella scheda **NUOVO** selezionare **Fattura a testo libero**.
+1. Nel riquadro Azioni selezionare **Fattura** e quindi nella scheda **NUOVO** selezionare **Fattura a testo libero**.
 
-1. Nella pagina US-901 Fabrikam Consulting Services, in **Intestazione** **fattura a testo libero** impostare la data per **FATTURA** sulla data odierna.
+1. Nella pagina US-901 Fabrikam Consulting Services, in **Intestazione** **fattura a testo libero** impostare la data per **FATTURA** sulla data odierna.
 
 1. In **Righe fattura** apportare le modifiche seguenti:
 
@@ -324,13 +329,13 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
     | Descrizione| Consultant Service Training|
     | Conto principale| 401200|
     | Fascia IVA| WA|
-    | Importo| 1500.00|
+    | Amount| 1500,00|
 
-1. Nel riquadro azioni selezionare **IVA**.
+1. Nel riquadro Azioni selezionare **IVA**.
 
 1. Nella pagina Transazioni IVA esaminare il record e quindi selezionare **OK**.
 
-1. Nel riquadro azioni selezionare **Registra**.
+1. Nel riquadro azioni selezionare **Registra**.
 
 1. Nel riquadro **Registra fattura a testo libero**, in **OPZIONI DI STAMPA** impostare **Stampa fattura** su **Sì** e quindi selezionare **OK**.
 
@@ -338,11 +343,11 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
 
 1. Esaminare la fattura e al termine chiuderla.
 
-1. Chiudere il modulo.
+1. Chiudere il form.
 
-### Eseguire un report di aging contabilità clienti da controllare
+### <a name="run-an-accounts-receivable-aging-report-to-check"></a>Eseguire un report di aging contabilità clienti da controllare
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Crediti e riscossioni** > **Richieste di informazioni e report** > **Clienti** > **Report di aging clienti**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Crediti e riscossioni** > **Richieste di informazioni e report** > **Clienti** > **Report di aging clienti**.
 
 1. Nel riquadro **Report di aging clienti** immettere gli aggiornamenti seguenti e quindi selezionare **OK**:
 
@@ -352,35 +357,35 @@ Durante questo lab si esamineranno le funzionalità di base di Microsoft Dynamic
     | Definizione periodo di aging| 30_60_90_180|
     | Dettagli| Anni|
 
-1. Nel report di aging clienti selezionare l'icona freccia GIÙ **Pagina successiva** e quindi scorrere fino all'ultima pagina.
+1. Nel report di aging clienti selezionare l'icona della freccia rivolta verso il basso **Pagina successiva** e quindi scorrere fino all'ultima pagina.
     Esaminare la fattura creata per il cliente US-901.
 
-1. Chiudere il modulo.
+1. Chiudere il form.
 
-### Applicare il Pagamento cliente per la fattura a testo libero
+### <a name="apply-customer-payment-for-the-free-text-invoice"></a>Applicare il Pagamento cliente per la fattura a testo libero
 
-1. Usando il pannello di navigazione, selezionare **Moduli** > **Contabilità clienti** > **Pagamenti** > **Giornale di registrazione pagamenti cliente**.
+1. Usando il riquadro di spostamento, selezionare **Moduli** > **Contabilità clienti** > **Pagamenti** > **Giornale di registrazione pagamenti cliente**.
 
-1. Nel riquadro azioni selezionare **+ Nuovo**.
+1. Nel riquadro Azioni selezionare **+ Nuovo**.
 
 1. Nella pagina Giornale di registrazione pagamenti cliente, nella colonna **Nome** selezionare il menu e quindi selezionare **CustPay**.
 
-1. Nel riquadro azioni selezionare **Pagamenti cliente**.
+1. Nel riquadro Azioni selezionare **Pagamenti cliente**.
 
 1. Nella casella **Cliente** immettere **US-901**.  
     Attendere il caricamento dei dati e quindi nella colonna **Contrassegna** selezionare la casella di controllo.
 
-1. Sopra la griglia, nella casella **Importo** immettere **1597.50**.L'importo visualizzato nella casella **Importo rimanente** cambierà automaticamente da **1,597.50** a **0**.  
+1. Sopra la griglia, nella casella **Importo** immettere **1597,50**. L'importo visualizzato nella casella **Importo rimanente** cambierà automaticamente da **1.597,50** a **0**.  
     Può essere necessario selezionare uno spazio vuoto affinché il valore venga calcolato.
 
 1. Nella casella **Riferimento di pagamento** immettere **Check# 123**.
 
-1. Nel riquadro azioni selezionare **Salva nel giornale di registrazione**.
+1. Nel riquadro Azioni selezionare **Salva nel giornale di registrazione**.
 
-1. Chiudere il modulo.
+1. Chiudere il form.
 
-1. Nel riquadro azioni selezionare **Righe**.
+1. Nel riquadro Azioni selezionare **Righe**.
 
-1. Nel riquadro azioni selezionare **Convalida** > **Convalida**.
+1. Nel riquadro Azioni selezionare **Convalida** > **Convalida**.
 
-1. Nel riquadro azioni selezionare **Registra**.
+1. Nel riquadro azioni selezionare **Registra**.
