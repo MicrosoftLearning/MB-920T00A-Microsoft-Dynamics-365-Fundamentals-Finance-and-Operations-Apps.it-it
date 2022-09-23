@@ -2,13 +2,18 @@
 title: Istruzioni online
 permalink: index.html
 layout: home
+ms.openlocfilehash: f4e2e1489e1997cfd064aa74eb5345e302bb2424
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910155"
 ---
+# <a name="content-directory"></a>Directory contenuto
 
-# Directory del contenuto
+In basso sono elencati i collegamenti ipertestuali a tutte le demo e a tutti gli esercizi lab.
 
-Di seguito sono elencati i collegamenti ipertestuali a ciascuno degli esercizi e delle demo dei lab.
-
-## Lab
+## <a name="labs"></a>Lab
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 | Modulo | Lab |
@@ -16,7 +21,7 @@ Di seguito sono elencati i collegamenti ipertestuali a ciascuno degli esercizi e
 {% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
-## Demo
+## <a name="demos"></a>Demo
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
 | Modulo | Demo |
