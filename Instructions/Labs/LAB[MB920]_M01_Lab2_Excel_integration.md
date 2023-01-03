@@ -2,14 +2,11 @@
 lab:
   title: 'Lab 2: Integrazione di Excel'
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
-ms.openlocfilehash: 7388809d8222580e4c6ed9cc38c51800d56b1aa0
-ms.sourcegitcommit: 66b904b57adc52ee5c896858be0924d6778642a7
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "147448035"
 ---
+
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>Modulo 1. Esplorare le funzionalità principali delle app per la finanza e le operazioni di Dynamics 365
+
+## <a name="lab-2---excel-integration"></a>Lab 2 - Integrazione di Excel
 
 ## <a name="objective"></a>Obiettivo
 

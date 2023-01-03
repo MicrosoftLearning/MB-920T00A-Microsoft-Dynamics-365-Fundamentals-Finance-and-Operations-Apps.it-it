@@ -2,13 +2,8 @@
 lab:
   title: 'Lab 1: Esplorare le app Finance and Operations'
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
-ms.openlocfilehash: f1d534e6d6d960be8f6672048f83a20a491264cc
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116215"
 ---
+
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>Modulo 1. Esplorare le funzionalità principali delle app per la finanza e le operazioni di Dynamics 365
 
 ## <a name="lab-1---navigate-finance-and-operations-apps"></a>Lab 1. Esplorare le app Finance and Operations
@@ -39,29 +34,18 @@ Ora che è stata acquisita familiarità con le app Finance and Operations, dedic
 
         pass@word1
 
-    >[!Note] Internet Explorer può essere aperto automaticamente nel desktop. Se non sono già stati completati i passaggi 2-5, completarli prima di tornare a Internet Explorer.
+1. Attendere il completamento dello script AdminUserProvisioning prima di continuare. Questa operazione può richiedere 2-3 minuti. Una volta completato lo script, verrà visualizzata brevemente una finestra popup per confermare che l'utente amministratore è stato aggiornato correttamente.
 
-1. Selezionare il file **AdminUserProvisioning** sul desktop.
+1. **Microsoft Edge** aprirà l'URL di Finance and Operations: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
-1. Immettere le credenziali fornite e quindi selezionare **Invia**.  
-Le credenziali sono disponibili nel menu **Risorse** nell'angolo in alto a destra dello schermo.
+1. Accedere usando il nome utente e la password indicati nel menu **Risorse**.
 
-1. Attendere il completamento dello script prima di continuare. Questa operazione può richiedere 2-3 minuti. Una volta completato lo script, verrà visualizzata una finestra popup per confermare che l'utente amministratore è stato aggiornato correttamente.
-
-1. Selezionare **OK** per continuare.
-
-1. Aprire **Internet Explorer**.
-
-1. Passare al collegamento indicato: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
-
-1. Effettuare l'accesso usando le credenziali fornite nel menu **Risorse**.
-
-### <a name="navigate-finance-and-operations-apps"></a>Esplorare le app Finance and Operations
-1. Nella home page di Finance and Operations, se è stata eseguita la configurazione, verrà visualizzato quanto segue:
+### <a name="navigate-finance-and-operations-apps"></a>Esplorare le app per la finanza e le operazioni
+1. Nella home page di Finance and Operations verrà visualizzato quanto segue:
 
     - Il menu di spostamento a sinistra che è compresso per impostazione predefinita.
 
-    - Il logo della società.
+    - Immagine banner dell'azienda.
 
     - I riquadri dell'area di lavoro disponibili per l'utente in base al relativo ruolo nell'organizzazione.
 
@@ -124,10 +108,14 @@ Le credenziali sono disponibili nel menu **Risorse** nell'angolo in alto a destr
 
 1. In alto a destra osservare la funzionalità aggiuntiva. Spostare il mouse su ogni elemento ed esaminare il callout della funzionalità. Al termine, selezionare l'icona **Chiudi** per chiudere la pagina e tornare alla home page.
 
-    ![Menu in alto a destra nella pagina elenco che mostra funzionalità aggiuntive per la connessione a Power Apps, App di Office, Aggiorna pagina, Apri in nuova finestra e Chiudi](./media/m1-common-list-page-additional-features-menu.png)
+    ![Menu in alto a destra nella pagina elenco che mostra funzionalità aggiuntive per la connessione a Power Apps, App di Office, Allegati, Aggiorna, Apri in nuova finestra e Chiudi](./media/m1-common-list-page-additional-features-menu.png)
 
 1. Nell'angolo in alto a destra seleziona l'icona a forma di punto interrogativo della **Guida** e quindi selezionare **Guida**.
 
 1. Osservare che le informazioni della Guida sono correlate alla pagina corrente.
 
-1. Provare a selezionare un riquadro dell'area di lavoro ed esaminare le informazioni della Guida per tale area di lavoro. Al termine, tornare alla home page.
+1. Tornare al **dashboard predefinito** usando il collegamento "Finance and Operations" in alto a sinistra o l'icona Home nel menu di spostamento a sinistra.
+
+>[!Note] Tasti di scelta rapida: ALT+MAIUSC+HOME, Finance and Operations supporta numerosi tasti di scelta rapida per velocizzare l'accesso al sistema: https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/shortcut-keys
+
+1. Provare a selezionare un **riquadro dell'area di lavoro** ed esaminare le informazioni della Guida per tale area di lavoro. Al termine, tornare al dashboard predefinito.
