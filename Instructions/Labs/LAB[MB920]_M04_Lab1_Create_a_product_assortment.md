@@ -2,13 +2,8 @@
 lab:
   title: 'Lab 1: Creare un assortimento di prodotti'
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
-ms.openlocfilehash: 7a1764cacfbf92ca50cda3baf9c8f374bf99bacd
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116303"
 ---
+
 ## <a name="lab-1---create-a-product-assortment"></a>Lab 1 - Creare un assortimento di prodotti
 
 ## <a name="objectives"></a>Obiettivi
@@ -25,17 +20,13 @@ ms.locfileid: "147116303"
 
 1. Nel pannello di navigazione selezionare **Vendita al dettaglio e commercio** > **Cataloghi e assortimenti** > **Assortimenti**.
 
-1. Attendere il caricamento della pagina.
-
 1. Nella pagina Assortimenti selezionare **+ Nuovo**.
 
-1. Nel riquadro Nuovo record espandere **Generale**.
+1. Nel riquadro Nuovo record, se necessario espandere **Generale**.
 
 1. Selezionare la casella **Data di validità** e quindi selezionare una data futura.
 
 1. Nella casella **Nome assortimento** immettere un nome per il nuovo assortimento. Ad esempio, **New Spring Season**.
-
-1. Impostare **Data di scadenza** su **Mai**.
 
 1. La data di scadenza può essere usata per disattivare automaticamente un assortimento pubblicato.
 

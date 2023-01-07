@@ -2,13 +2,8 @@
 lab:
   title: 'Lab 3: Creare un giornale di registrazione di conteggio'
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: 5e61646d33f284bb7e30b6f63a7db4778f58b47c
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116308"
 ---
+
 # <a name="module-3-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modulo 3: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
 
 ## <a name="lab-3---create-a-counting-journal"></a>Lab 3 - Creare un giornale di registrazione di conteggio
@@ -21,15 +16,15 @@ ms.locfileid: "147116308"
 
 4. Il modulo del giornale di registrazione conteggio scorte verrà visualizzato con informazioni di intestazione e dettagliate
 
-![Screenshot del modulo del giornale di registrazione conteggio scorte con informazioni di intestazione e dettagliate compilate.](../media/lp-scm-m-002-warehouse-inventory-mgmt-06.png)
+    ![Screenshot del modulo del giornale di registrazione conteggio scorte con informazioni di intestazione e dettagliate compilate.](./media/lp-scm-m-002-warehouse-inventory-mgmt-06.png)
 
-5. Selezionare **Crea righe -&gt; Online** nel riquadro azioni.
+5. Selezionare **Crea righe -&gt; Disponibilità** nel riquadro azioni.
 
-6. Nel riquadro della finestra di dialogo **Crea giornale di registrazione di conteggio disponibilità** impostare i campi **Magazzino**, **Stato inventario**, Posizione e **Targa** su **Sì**. 
+6. Nel riquadro della finestra di dialogo **Crea giornale di registrazione di conteggio disponibilità** impostare i campi **Magazzino**, **Stato inventario**, **Posizione** e **Targa** su **Sì**. 
 
-![Screenshot del riquadro della finestra di dialogo Crea giornale di registrazione di conteggio disponibilità con i campi impostati come descritto.](../media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
+    ![Screenshot del riquadro della finestra di dialogo Crea giornale di registrazione di conteggio disponibilità con i campi impostati come descritto.](./media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
 
-7. Espandere la sezione **Record da includere** e selezionare il collegamento **Filtro**. Nel campo **Numero articolo** selezionare **A0001** e quindi **OK**.
+7. Espandere la sezione **Record da includere** e selezionare il collegamento **Filtro**. Per il campo **Numero articolo** digitare **A0001** in Criteri e quindi selezionare **OK**.
 
 8. Selezionare **OK** nella parte inferiore della finestra di dialogo **Crea giornale di registrazione di conteggio disponibilità**.
 
