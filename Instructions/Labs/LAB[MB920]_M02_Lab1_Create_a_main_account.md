@@ -24,7 +24,7 @@ lab:
 
     - Nome: **International call expense**
 
-    - Tipo di spesa principale: **Spesa**
+    - Tipo di conto principale: **Spese**
 
     - Categoria di conto principale: **TANDEEXP**
 
