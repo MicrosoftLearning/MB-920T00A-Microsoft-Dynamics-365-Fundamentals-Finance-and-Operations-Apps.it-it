@@ -4,118 +4,118 @@ lab:
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
 
-# <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>Modulo 1. Esplorare le funzionalità principali delle app per la finanza e le operazioni di Dynamics 365
+# Modulo 1. Esplorare le funzionalità principali delle app per la finanza e le operazioni di Dynamics 365
 
-## <a name="lab-1---navigate-finance-and-operations-apps"></a>Lab 1. Esplorare le app Finance and Operations
+## Lab 1: Esplorare le app Finance and Operations
 
-## <a name="objectives"></a>Obiettivi
+## Obiettivo
 
 Ora che è stata acquisita familiarità con le app Finance and Operations, dedicare del tempo a esplorarne l'interfaccia.
 
-## <a name="lab-setup"></a>Configurazione del lab
+## Configurazione del lab
 
 - **Tempo stimato**: 10 minuti
 
-## <a name="instructions"></a>Istruzioni
+## Istruzioni
 
-### <a name="sign-in-to-the-lab-computer"></a>Accedere al computer del lab
+### Accedere al computer del lab
 
-1. Accedere al computer del lab usando le credenziali seguenti
+1.  Accedere al computer lab usando le credenziali seguenti:
 
-    - User Name (Nome utente):
+    - Nome utente: `Administrator`
 
-        Incollare il contenuto
+    - Password: `pass@word1`
 
-        Amministratore
+1.  Attendere il completamento dello script AdminUserProvisioning prima di continuare. Questa operazione può richiedere 2-3 minuti. Una volta completato lo script, verrà visualizzata brevemente una finestra popup per confermare che l'utente amministratore è stato aggiornato correttamente. 
 
-    - Password:
+1.  **Microsoft Edge** aprirà l'URL di Finance and Operations: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
-        Incollare il contenuto
+1.  Accedere usando il nome utente e la password indicati nel menu **Risorse**. 
 
-        pass@word1
 
-1. Attendere il completamento dello script AdminUserProvisioning prima di continuare. Questa operazione può richiedere 2-3 minuti. Una volta completato lo script, verrà visualizzata brevemente una finestra popup per confermare che l'utente amministratore è stato aggiornato correttamente.
+### Esplorare le app per la finanza e le operazioni
 
-1. **Microsoft Edge** aprirà l'URL di Finance and Operations: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
+1.  Nella **home page Finance and Operations** verrà visualizzato: 
 
-1. Accedere usando il nome utente e la password indicati nel menu **Risorse**.
+    - Il menu di spostamento a sinistra che è compresso per impostazione predefinita. 
 
-### <a name="navigate-finance-and-operations-apps"></a>Esplorare le app per la finanza e le operazioni
-1. Nella home page di Finance and Operations verrà visualizzato quanto segue:
+    - Immagine banner predefinita dell'azienda. 
 
-    - Il menu di spostamento a sinistra che è compresso per impostazione predefinita.
+    - I riquadri dell'area di lavoro disponibili per l'utente in base al relativo ruolo nell'organizzazione. 
 
-    - Immagine banner dell'azienda.
+    - Un calendario e gli elementi di lavoro assegnati all'utente. 
 
-    - I riquadri dell'area di lavoro disponibili per l'utente in base al relativo ruolo nell'organizzazione.
+    - La barra **di ricerca di una pagina** molto utile per trovare rapidamente ciò che è necessario. 
 
-    - Un calendario e gli elementi di lavoro assegnati all'utente.
-
-    - La barra di ricerca, che è molto utile per trovare rapidamente ciò che è necessario.
-
-    - In alto a destra sono presenti la società per cui l'utente lavora, le notifiche, le impostazioni e collegamenti alla Guida.  
-    Verificare che la società indicata sia **USMF**.
+    - In alto a destra sono presenti la società per cui l'utente lavora, le notifiche, le impostazioni e collegamenti alla Guida. 
 
     ![Home page di Dynamics 365 Finance and Operations con le aree evidenziate.](./media/m1-common-home-page.png)
 
-1. In alto a sinistra selezionare il menu hamburger **Espandere il pannello di navigazione**.
+1.  Verificare che la società indicata sia **USMF**. 
 
-1. Il pannello di navigazione è l'area in cui sono disponibili le raccolte relative a **Preferiti**, elementi **Recenti**, **Aree di lavoro** e **Moduli**.
+1.  In alto a sinistra selezionare il menu hamburger **Espandere il pannello di navigazione**. 
 
-1. Nel pannello di navigazione selezionare **Moduli** > **Amministrazione sistema**.
+1.  Il pannello di navigazione è l'area in cui sono disponibili le raccolte relative a **Preferiti**, elementi **Recenti**, **Aree di lavoro** e **Moduli**. 
 
-1. Esaminare le aree disponibili nel modulo Amministrazione sistema.
+1.  Nel pannello di navigazione selezionare **Moduli** > **Amministrazione sistema**. 
 
-1. In **Configurazione** selezionare **Opzioni di prestazioni client**.
+1.  **Esaminare** le diverse aree disponibili nel modulo **Amministrazione sistema** . 
 
-1. Nel riquadro Opzioni di prestazioni client, in **Callout delle funzionalità attivati** selezionare l'interruttore e assicurarsi che sia impostato su **Sì**.
+1.  In **Configurazione** selezionare **Opzioni di prestazioni client**. 
 
-1. Esaminare le altre opzioni disponibili, scorrere verso la parte inferiore del riquadro e quindi selezionare **OK**.
+1.  Nel riquadro Opzioni di prestazioni client, in **Callout delle funzionalità attivati** selezionare l'interruttore e assicurarsi che sia impostato su **Sì**. 
 
-1. Nell'angolo in alto a destra della home page selezionare l'icona Impostazioni e quindi selezionare Opzioni utente.
+1.  Esaminare le altre opzioni disponibili, scorrere fino alla fine del riquadro e selezionare **OK**. 
+
+1.  Nella home page selezionare l'icona **Impostazioni** nella parte superiore destra e quindi selezionare **Opzioni utente**. 
 
     ![Screenshot che mostra l'icona Impostazioni e l'elenco a discesa Opzioni utente](./media/m1-common-settings-user-settings.png)
 
-1. Nella pagina Opzioni usare le schede per configurare le diverse impostazioni da applicare all'account.
+1.  Nella pagina **Opzioni utente** usare le schede per configurare impostazioni diverse che verranno applicate all'account. 
 
-1. Selezionare la scheda **Preferenze**.
+1.  Selezionare la scheda **Preferenze**. 
 
-1. Esaminare le preferenze disponibili. Si noti che è possibile modificare la società predefinita e la visualizzazione pagina iniziale che viene mostrata all'accesso.
+1.  Esaminare le preferenze disponibili. Si noti che è possibile modificare la pagina **Aziendale** e **Iniziale** predefinita visualizzata quando si accede. 
 
-1. Selezionare ed esaminare le schede **Account** e **Flusso di lavoro**.
+1.  Selezionare ed esaminare le schede **Account** e **Flusso di lavoro**. 
 
-1. Nel menu di spostamento a sinistra selezionare l'icona **Home**.
+1.  Nel menu di spostamento a sinistra selezionare l'icona **Home**. 
 
-1. Nella parte superiore centrale della home page selezionare la casella **Cerca una pagina**.
+1.  Nella parte superiore centrale della home page selezionare la casella **Cerca una pagina**. 
 
-1. Nella casella di ricerca cercare **Tutti i fornitori**.
+1.  Nella casella di ricerca cercare `All vendors` 
 
-1. La prima volta che si cerca una pagina, può essere necessario attendere un po' di tempo. Mentre la ricerca è in corso, verrà visualizzato un piccolo cerchio che ruota a destra della casella di ricerca.
+1.  La prima volta che si cerca una pagina, può essere necessario attendere un po' di tempo. Mentre la ricerca è in corso, verrà visualizzato un piccolo cerchio che ruota a destra della casella di ricerca. 
 
-1. La pagina Tutti i fornitori è un esempio di pagina elenco. La pagina elenco contiene in genere i dati master che è possibile leggere, creare, eliminare e aggiornare. Usando la barra multifunzione sopra l'elenco, verranno visualizzate altre funzionalità.
+1.  Selezionare**** il primo risultato **Tutti i fornitori**, ovvero lo stesso che si passa ai fornitori di **moduli** > **a pagamento** >  >  Tutti**i fornitori**. 
+
+1.  La pagina **Tutti i fornitori** è un esempio di una pagina elenco. La pagina elenco contiene in genere i dati master che è possibile leggere, creare, eliminare e aggiornare. Verranno visualizzate funzioni aggiuntive disponibili usando il riquadro azioni sopra l'elenco. 
 
     ![Elenco Tutti i fornitori con le funzionalità del menu evidenziate](./media/m1-common-all-vendor-list-page.png)
 
-1. Evidenziare uno dei fornitori nell'elenco, quindi a destra selezionare il menu **Informazioni correlate** ed esaminare le informazioni aggiuntive fornite.
+1.  Evidenziare uno dei fornitori dell'elenco e, a destra, selezionare il riquadro FactBox **informazioni correlate** a destra e esaminare le informazioni aggiuntive fornite. 
 
-1. Nell'elenco di fornitori selezionare **Acme Office Supplies**.
+1.  Nell'elenco fornitori aprire il record **Acme Office Supplies** . 
 
-1. Selezionare il menu **Gruppo** e quindi l'intestazione di colonna **Gruppo di fornitori**.
+1.  Selezionare **Modifica** nel riquadro azioni, quindi nel campo **Gruppo** selezionare il menu a discesa e quindi selezionare **il titolo** della colonna Gruppo fornitore. 
 
     ![Screenshot dell'intestazione di colonna Gruppo di fornitori per Acme Office Supplies.](./media/m1-common-vendor-group-menu-24493345.png)
 
-1. In molti menu sono disponibili opzioni di ordinamento e filtro. Usare i filtri per individuare rapidamente il contenuto del campo che si sta cercando.
+1.  Molti menu dispongono di **ordinamento** e **filtro** disponibili. Usare i filtri per individuare rapidamente il contenuto del campo che si sta cercando. Se si conosce già il valore, è sufficiente immetterlo nel campo, anziché usare il menu a discesa. 
 
-1. In alto a destra osservare la funzionalità aggiuntiva. Spostare il mouse su ogni elemento ed esaminare il callout della funzionalità. Al termine, selezionare l'icona **Chiudi** per chiudere la pagina e tornare alla home page.
+1.  A destra del riquadro azioni notare le funzionalità aggiuntive. Passare il puntatore del mouse su ogni elemento e esaminare il callout delle funzionalità. 
+
+1.  Selezionare l'icona **Chiudi** per chiudere questo record e tornare alla pagina **Elenco Tutti i fornitori** . 
 
     ![Menu in alto a destra nella pagina elenco che mostra funzionalità aggiuntive per la connessione a Power Apps, App di Office, Allegati, Aggiorna, Apri in nuova finestra e Chiudi](./media/m1-common-list-page-additional-features-menu.png)
 
-1. Nell'angolo in alto a destra seleziona l'icona a forma di punto interrogativo della **Guida** e quindi selezionare **Guida**.
+1.  In alto a destra selezionare **?** Icona punto interrogativo e quindi **Guida**. 
 
-1. Osservare che le informazioni della Guida sono correlate alla pagina corrente.
+1.  Si noti che il riquadro informazioni della Guida mostra il contenuto per la pagina corrente. **Chiudere** il riquadro Della Guida. 
 
-1. Tornare al **dashboard predefinito** usando il collegamento "Finance and Operations" in alto a sinistra o l'icona Home nel menu di spostamento a sinistra.
+1.  Tornare al **dashboard predefinito** usando il pulsante **Finance and Operations** nella parte superiore sinistra o l'icona **Home** nel menu di spostamento a sinistra. 
 
->[!Note] Tasti di scelta rapida: ALT+MAIUSC+HOME, Finance and Operations supporta numerosi tasti di scelta rapida per velocizzare l'accesso al sistema: https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/shortcut-keys
+    > **Nota:** Scelta rapida da tastiera: ALT+MAIUSC+Home. Dynamics 365 Finance e Operazioni supporta molti tasti di scelta rapida per velocizzare l'accesso al sistema:https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/shortcut-keys
 
-1. Provare a selezionare un **riquadro dell'area di lavoro** ed esaminare le informazioni della Guida per tale area di lavoro. Al termine, tornare al dashboard predefinito.
+1.  Provare a selezionare un **riquadro Area di lavoro** e quindi esaminare le informazioni della Guida per tale area di lavoro. Al termine, tornare al dashboard predefinito. 
+

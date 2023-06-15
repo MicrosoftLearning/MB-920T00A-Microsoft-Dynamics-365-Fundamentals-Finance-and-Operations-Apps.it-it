@@ -2,14 +2,9 @@
 demo:
   title: 'Demo 1: Determinazione dei prezzi in Project Operations'
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
-ms.openlocfilehash: bbe3de969557591700be5874c7c709b74d1d286a
-ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137909772"
 ---
-## <a name="demo-1---project-operations-pricing"></a>Demo 1. Determinazione dei prezzi in Project Operations
+
+## Demo 1. Determinazione dei prezzi in Project Operations
 
 1. Passare all'area di lavoro **Gestione progetti**.  
     In questa demo si imposteranno i prezzi di vendita e di costo in Project Operations. Si osserverà inoltre in che modo i costi e i prezzi vengono derivati da una fattura precedentemente registrata.

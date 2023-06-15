@@ -2,14 +2,9 @@
 demo:
   title: 'Demo 3: Esplorare i costi del progetto'
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
-ms.openlocfilehash: ca5f0816e2d018c01ab7e24b43219ff32c0e693e
-ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137909673"
 ---
-## <a name="demo-3---explore-project-costs"></a>Demo 3. Esplorare i costi del progetto
+
+## Demo 3. Esplorare i costi del progetto
 
 In questa demo verrà descritta la creazione di un inserimento ore e di una voce di spesa che verranno addebitati al progetto Contoso Consulting. Si esploreranno le voci in formati ottimizzati per presentazioni Web e su dispositivi mobili e si osserverà come viene usato un flusso di lavoro per gestire il processo di approvazione.
 
