@@ -2,14 +2,9 @@
 demo:
   title: 'Demo 1: Chiusura di fine mese'
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
-ms.openlocfilehash: 64e058508083538795592815e4657ac905000ded
-ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137909663"
 ---
-## <a name="demo-1---month-end-close"></a>Demo 1. Chiusura di fine mese
+
+## Demo 1. Chiusura di fine mese
 
 1. Passare alla home page **Microsoft 365 for Finance and Operations**.  
     Per creare una nuova chiusura di un periodo finanziario in Microsoft Dynamics 365 for Finance and Operations, ad esempio una chiusura di fine mese, passare prima di tutto al modulo **Contabilità generale**.

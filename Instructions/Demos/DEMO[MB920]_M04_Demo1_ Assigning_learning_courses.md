@@ -2,14 +2,9 @@
 demo:
   title: 'Demo 1: Assegnazione di corsi di formazione'
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
-ms.openlocfilehash: 06483c659174e77391b0181963299d51f2011d35
-ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137909713"
 ---
-## <a name="demo-1---assigning-learning-courses"></a>Demo 1. Assegnazione di corsi di formazione
+
+## Demo 1. Assegnazione di corsi di formazione
 
 1. Passare alla home page **Microsoft Dynamics 365 Human Resources**.  
     In Microsoft Dynamics 365 Human Resources i manager del personale possono assegnare corsi di formazione ai dipendenti. In questo esempio alla neoassunta Alicia della società deve essere assegnata la formazione disponibile per i dipendenti entro i primi trenta giorni.
