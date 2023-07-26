@@ -14,7 +14,8 @@ lab:
 
 ## Obiettivo
 
-In genere, gli ordini fornitore vengono creati automaticamente come risultato di una pianificazione generale, una consegna diretta e altri processi. Quando la creazione avviene manualmente, in genere un ordine fornitore viene creato da un addetto acquisti. Creare un ordine di acquisto usando l'azienda USMF. 
+In questo lab si ha familiarità con l'interfaccia utente e i diversi campi disponibili nel modulo di ordine di acquisto. Si apprenderà anche come creare un nuovo ordine di acquisto.
+
 
 ## Configurazione del lab
 
@@ -22,91 +23,90 @@ In genere, gli ordini fornitore vengono creati automaticamente come risultato di
 
 ## Istruzioni
 
-1.  Nella home page **Finance and Operations** ,in alto a destra, verificare di lavorare con l'azienda **USMF** . 
+1. Nella home page Finance and Operations ,in alto a destra, verificare di lavorare con l'azienda **USMF** . Se necessario, selezionare l'azienda e nell'elenco a discesa selezionare **USMF**.
 
-1.  Se necessario, selezionare la società e scegliere **USMF** dal menu. 
+2. In alto a sinistra selezionare **il menu Espandi il menu hamburger del riquadro di spostamento** .
 
-1.  In alto a sinistra selezionare il menu hamburger **Espandere il pannello di navigazione**. 
+3. Selezionare **Moduli** > **Approvvigionamento** > **Ordini fornitore** > **Tutti gli ordini fornitore**.
 
-1.  Nel modulo **Approvvigionamento e origine** selezionare **Ordini****di acquisto Tutti gli ordini** >  di acquisto. 
+4. Nella pagina **Tutti gli ordini di acquisto** selezionare **+Nuovo** nel menu superiore.
 
-1.  Nella pagina **Tutti gli ordini di acquisto** selezionare **+ Nuovo** nel riquadro azioni. 
+5. Nel riquadro **Crea ordine di acquisto** selezionare l'elenco a discesa **Account fornitore** e quindi selezionare **US-101**.
 
-1.  Nel riquadro **Crea ordine di acquisto** selezionare il campo **Account fornitore** e immettere o selezionare `US-101`
+> [!NOTE]
+> Nota: quando si seleziona un fornitore, i dettagli del record fornitore, ad esempio l'indirizzo, l'account della fattura, le condizioni di recapito e la modalità di recapito, vengono copiati come valori predefiniti nell'intestazione dell'ordine. È possibile modificare questi valori in qualsiasi momento.
 
-1.  Quando si seleziona un fornitore, i dettagli del record fornitore, ad esempio indirizzo, account di fattura, termini di recapito e modalità di recapito, verranno copiati come valori predefiniti nell'intestazione dell'ordine di acquisto. Se necessario, è possibile modificare questi valori. 
+6.  Espandere la sezione **Generale** se necessario.
 
-1.  Espandere la sezione **Generale**. 
+7. In **DIMENSIONI ARCHIVIAZIONe** selezionare l'elenco a discesa **Sito** e esaminare l'elenco dei siti.
 
-1.  In **DIMENSIONI DI IMMAGAZZINAMENTO** selezionare il menu **Sito** ed esaminare l'elenco di siti. 
+Il campo **Sito** , insieme al campo **Warehouse** , specificare dove devono essere recapitati i beni o i servizi acquistati. L'indirizzo di consegna predefinito è il sito.  Entrambi i campi possono essere popolati con i valori configurati per il fornitore selezionato oppure è possibile specificarli manualmente.
 
-    > **Nota:** Il campo **Sito** , insieme al campo **Warehouse** , specifica dove devono essere recapitati i beni o i servizi acquistati. L'indirizzo di recapito predefinito viene preso dal **sito**. Entrambi i campi possono essere popolati con i valori configurati per il fornitore selezionato oppure è possibile specificarli manualmente. 
+8. In **DATE**, il campo **Data di consegna** viene usato per specificare quando devono essere recapitati beni e servizi acquistati.
 
-1.  Per **Warehouse** immettere o selezionare `13`
+    È possibile specificare una singola data di consegna per l'ordine oppure date di consegna specifiche per ogni riga ordine.  Se la data di consegna specificata qui non può essere soddisfatta per prodotti o servizi specifici perché hanno tempi di lead più lunghi, tali righe vengono create con una data di consegna successiva.
 
-1.   In **DATE** il campo **Data di consegna** consente di specificare quando devono essere consegnati i beni o i servizi approvvigionati.
+9. Espandere la sezione **Amministrazione**. La casella **Autore ordine** consente di specificare chi sta effettuando l'ordine.
 
-    > **Nota:** È possibile specificare una singola data di consegna per l'ordine oppure è possibile specificare le singole righe di recapito univoche. Se la data di consegna specificata non può essere rispettata per determinati prodotti o servizi a causa di lead time più lunghi, tali righe verranno create con una data di consegna successiva.
+    Può essere utile condividere queste informazioni con il fornitore nel caso in cui debba contattare tale persona. Il valore può essere assegnato automaticamente se l'account utente corrente è associato a un nome nella pagina **Utenti** .
 
-1.  Espandere la sezione **Amministrazione**. Il campo **Orderer** può essere usato per specificare chi sta inserendo l'ordine. 
+10. Selezionare **OK**.
 
-    > **Nota:** Può essere utile condividere con il fornitore nel caso in cui debbano contattare tale persona. Il valore può essere assegnato automaticamente se l'account utente corrente è associato a un record **Person** nella pagina **Utenti** . 
+L'intestazione ordine è ora stata creata. Quando si lavora con le righe dell'ordine di acquisto, viene visualizzato solo un riepilogo delle informazioni sull'intestazione. Per visualizzare il resto delle informazioni, selezionare **Intestazione**.
 
-1.  Selezionare **OK**. 
+![Screenshot che illustra l'intestazione dell'ordine in cui viene visualizzato il riepilogo delle informazioni sull'ordine. La parola Intestazione è evidenziata.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-17.png)
 
-1.  L'intestazione ordine è ora stata creata. Quando si lavora con le righe ordine fornitore, viene visualizzato solo un riepilogo delle informazioni dell'intestazione.  Se è necessario visualizzare il resto delle informazioni, selezionare la scheda **Intestazione** . 
+11. In **Linee ordine di acquisto** selezionare **Riga ordine acquisto**.
 
-    ![Schermata che mostra la posizione del menu Intestazione](./media/lp1-m3-purchase-order-header-option.png)
+![Screenshot che illustra le righe dell'ordine di acquisto.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-18.png)
 
-1.  In **Linee di ordine di acquisto**, nella barra degli strumenti selezionare il menu **Della riga di ordine di acquisto** . 
+12. In **VISUALIZZAZIONE** selezionare **Dimensioni**.
 
-    ![Schermata che mostra la posizione dell'opzione di menu Riga ordine fornitore](./media/lp1-m3-purchase-order-purchase-order-line-menu.png)
+    I prodotti possono essere in varianti differenziate per dimensioni, ad esempio colore, dimensioni o stile. È anche possibile impostare i prodotti per usare le dimensioni di immagazzinamento, ad esempio sito e magazzino.  Sono disponibili anche altre dimensioni di tracciabilità opzionali, ad esempio numeri di batch e di serie.  Per migliorare l'efficienza di una registrazione ordine, è possibile aggiungere i campi delle dimensioni usati comunemente direttamente nella griglia dell'ordine.
 
-1.  In **VISUALIZZAZIONE** selezionare **Dimensioni**. 
+13.  Nel pannello **Visualizzazione dimensioni**, in **DIMENSIONI PRODOTTO** selezionare la casella di controllo **Colore**.
 
-    > **Nota:** I prodotti possono essere in varianti differenziate in base alle dimensioni, ad esempio colore, dimensioni o stile. È anche possibile impostare i prodotti per usare le dimensioni di immagazzinamento, ad esempio sito e magazzino.  Sono disponibili anche altre dimensioni di tracciabilità opzionali, ad esempio numeri di batch e di serie.  Per migliorare l'efficienza di una registrazione ordine, è possibile aggiungere i campi delle dimensioni usati comunemente direttamente nella griglia dell'ordine. 
+Facoltativo: se si seleziona l'opzione **Salva interruttore di impostazione** , le dimensioni selezionate verranno visualizzate anche nella griglia della riga dell'ordine la prossima volta che si apre la pagina dell'ordine di acquisto.
 
-1.  Nel riquadro **Visualizzazione Dimensioni** in **DIMENSIONI PRODOTTO** selezionare **Colore**. 
+14. Selezionare **OK**.
 
-1.  *Opzionale:* Se si seleziona l'opzione **Salva impostazione** attiva, le dimensioni scelte verranno visualizzate anche nella griglia della riga dell'ordine alla successiva apertura della pagina dell'ordine. 
+15. Selezionare l'elenco a discesa **Numero di elemento** e quindi **selezionare T0004**.
 
-1.  Selezionare **OK**. 
+Tenere presente che è anche possibile digitare nella casella di filtro anziché scorrere l'elenco.
 
-1.  In **Linee ordine acquisto** selezionare il campo **Numero elemento** e selezionare **T0004**. 
+Le righe ordine vengono create per i prodotti e i servizi specificando un numero di articolo oppure come spese specificando una categoria di approvvigionamento.
 
-    > **Nota:** Tenere presente che è anche possibile immettere `T0004` nel **filtro** anziché scorrere l'elenco. 
+La categoria di approvvigionamento viene usata per aggiungere righe quando gli articoli approvvigionati vengono contabilizzati direttamente invece che essere inseriti nell'inventario. Se è necessario effettuare un acquisto, è possibile farlo creando una riga di ordine di acquisto che specifica una categoria di approvvigionamento, anziché creare una riga con un numero di articolo. Gli elementi possono anche essere associati a una categoria di approvvigionamento e, in questo caso, la categoria di approvvigionamento viene visualizzata solo come informazioni.
 
-    > **Nota:** Le righe di ordine vengono create per i prodotti e i servizi specificando un **numero di voce** o come spese specificando una **categoria di approvvigionamento**.
-    > 
-    > **La categoria di approvvigionamento** viene usata per l'aggiunta di righe in cui gli elementi acquistati vengono spese direttamente, anziché passare all'inventario. Ciò significa che se è necessario spese per un acquisto, è possibile farlo creando una riga di ordine di acquisto che specifica una **categoria di approvvigionamento**, anziché creare una riga con un **numero di elemento**. Gli articoli possono anche essere associati a una categoria di approvvigionamento e in questo caso la categoria viene visualizzata solo a scopo informativo. 
+16. Selezionare l'elenco a discesa **Colore** , esaminare le opzioni disponibili e quindi selezionare una delle combinazioni di colori o colori.
 
-1.  Selezionare il menu **Colore**, esaminare le opzioni disponibili e quindi selezionare uno dei colori o delle combinazioni di colori. 
+17. **Il sito** e **il warehouse** vengono in genere popolati con valori dall'intestazione dell'ordine, ma è possibile eseguire l'override dei campi se alcune righe devono essere recapitate in posizioni diverse.
 
-    > **Nota:** **il sito** e **il warehouse** vengono in genere popolati con valori dall'intestazione Dell'ordine di acquisto, ma è possibile eseguire l'override dei campi se alcune righe devono essere recapitate in posizioni diverse. 
+18. Nella casella **Quantità** immettere **10**.
 
-1.  Nel campo **Quantity** immettere `10` 
+    La **quantità** viene popolata automaticamente con la quantità minima di ordine per il prodotto se viene configurata o con il valore **1**.
 
-    > **Nota:** La **quantità** viene popolata automaticamente con la **quantità di ordine minima** per il **prodotto** se viene configurata o con un valore **pari a 1**. 
+19. Alcune informazioni aggiuntive:
 
-    > **Nota:** Altri campi dettagli riga disponibili: 
-    >
-    >    - **Unità**: indica l'unità di misura per la quantità ordinata. In genere, questa unità viene fornita automaticamente dall'unità di acquisto nei dati master del prodotto. 
-    >
-    >    - **Prezzo unitario**: contiene un valore derivato da un contratto di acquisto o da un accordo commerciale. È possibile modificare il prezzo unitario per singole righe ordine, ad esempio se viene negoziato un prezzo specifico con il fornitore. 
-    >
-    >    - **Sconto**: rappresenta l'importo dello sconto per unità. Questo sconto riduce quindi il prezzo unitario dell'importo corrispondente. Lo sconto viene in genere fornito automaticamente dai contratti di acquisto o dagli accordi commerciali, ma è possibile sostituire l'importo in singole righe se sono stati negoziati sconti specifici con il fornitore. 
-    >
-    >    - **Percentuale sconto**: quando viene immessa, l'importo netto della riga viene ridotto di conseguenza. La percentuale di sconto viene in genere fornita automaticamente dai contratti di acquisto o dagli accordi commerciali, ma è possibile sostituire il valore in singole righe se è stata negoziata una percentuale di sconto specifica con il fornitore. 
-    >
-    >    - **Importo netto**: calcolato in base ad altri campi della riga, tra cui Quantità, Prezzo unitario, Sconto e Percentuale sconto. È possibile modificare il valore di Importo netto, ma in questo caso i campi Prezzo unitario, Sconto e Percentuale sconto saranno vuoti e quando si esegue una registrazione in base alla riga l'importo registrato sarà proporzionale all'importo netto. In genere, il campo Importo netto viene usato solo per visualizzare l'importo netto della riga. 
+- **Unità**: indica l'unità di misura per la quantità ordinata. In genere, questa unità viene fornita automaticamente dall'unità di acquisto nei dati master del prodotto.
 
-1.  Nella scheda Dettagli **riga** espandere se necessario e selezionare la scheda **Recapito** . 
+- **Prezzo unitario**: contiene un valore derivato da un contratto di acquisto o da un accordo commerciale. È possibile modificare il prezzo unitario su singole righe di ordine, ad esempio se un prezzo univoco viene negoziato con il fornitore.
 
-    > **Nota:** È possibile assegnare una **data di consegna** univoca a ogni riga di ordine. La data viene ereditata dal campo **Data di consegna** nell'intestazione Dell'ordine di acquisto, ma è possibile modificarla qui. 
+- **Sconto**: rappresenta l'importo dello sconto per unità. Questo sconto riduce quindi il prezzo unitario dell'importo corrispondente. Lo sconto viene in genere fornito automaticamente dai contratti di acquisto o dagli accordi commerciali, ma è possibile sostituire l'importo in singole righe se sono stati negoziati sconti specifici con il fornitore.
 
-1.  Prendere nota del **numero di ordine acquisto** e **chiudere** la pagina. 
+- **Percentuale sconto**: quando viene immessa, l'importo netto della riga viene ridotto di conseguenza. La percentuale di sconto viene spesso fornita automaticamente da contratti di acquisto o contratti commerciali, ma è possibile eseguire l'override sulle singole righe se una percentuale di sconto univoca è stata negoziata con il fornitore.
 
-1.  Nella visualizzazione **Elenco Tutti gli ordini di acquisto** usare **il filtro** per trovare il nuovo ordine di acquisto. 
+- **Importo netto**: calcolato in base ad altri campi della riga, tra cui Quantità, Prezzo unitario, Sconto e Percentuale sconto. È possibile modificare l'importo netto, ma quindi i campi Unit Price, Sconto e Percentuale sconto sono vuoti. Quando si pubblica verso la riga, l'importo registrato sarà proporzionale all'importo netto. Il campo Importo netto viene usato solo per visualizzare l'importo netto della riga.
 
-1.  Al termine, **chiudere** la pagina **Tutti gli ordini di acquisto** e tornare alla Home page. 
+20. Sotto alle righe ordine fornitore, nella parte inferiore della pagina, selezionare **Dettagli riga**.
+
+21. Selezionare la scheda **Consegna**.
+
+    È possibile assegnare una data di consegna univoca a ogni riga dell'ordine. La data viene ereditata dal campo nell'intestazione dell'ordine di acquisto, ma è possibile modificarla.
+
+22.  Chiudere la pagina **Riga ordine fornitore**.
+
+23.  Nella pagina **Tutti gli ordini fornitore** usare la funzionalità di filtro e cercare il nuovo ordine fornitore.
+
+24. Al termine, chiudere la pagina **Tutti gli ordini di acquisto** e tornare alla home page.
 
