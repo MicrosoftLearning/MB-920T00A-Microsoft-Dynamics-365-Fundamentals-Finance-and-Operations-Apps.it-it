@@ -14,27 +14,51 @@ lab:
 
 ## Istruzioni
 
-1.  Nella home page **Finance and Operations** ,in alto a destra, verificare di lavorare con l'azienda **USMF** . 
 
-2.  Se necessario, selezionare il selettore aziendale e scegliere **USMF**. 
+1.  Nella home page **Finance and Operations** , in alto a destra, verificare di lavorare con la società **USMF** .
 
-3.  Nel riquadro di spostamento a sinistra, nel modulo **Generale ledger** selezionare **Grafico degli account** > **Account** > **Principali**.
+2.  Se necessario, selezionare la società e scegliere **USMF** dal menu.
 
-4.  Selezionare **+ Nuovo** nel riquadro azioni.
+3.  Nel riquadro di spostamento a sinistra selezionare **Moduli** > **Contabilità generale** > **Piano dei conti** > **Conti** > **Conti principali**.
 
-5.  Immettere i valori seguenti nella pagina **Account principale** : 
+4.  Nel riquadro azioni selezionare **+ Nuovo**.
 
-    - Account principale: `601510`
+5.  Immettere i valori seguenti nella pagina **Account principale** :
 
-    - Nome: `International call expense`
+    - Conto principale: **601510**
 
-    - Tipo di account principale: `Expense`
+    - Nome: **International call expense**
 
-    - Categoria dell'account principale: `TANDEEXP`
+    - Tipo di spesa principale: **Spesa**
 
-    - DB/CR predefinito: `Debit`
+    - Categoria di conto principale: **TANDEEXP**
 
-    ![Screenshot del piano dei conti dei conti principali: Pagina condivisa con i campi compilati dal passaggio 5](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+    - Valori dare/avere predefiniti: **Dare**
 
-6.  Selezionare **Salva** e **chiudere** la pagina. 
+    ![Screenshot che illustra gli account principali- grafico degli account: pagina condivisa in cui è necessario aggiungere valori diversi.](./media/lab-create-a-main-account-01.png)
 
+6.  Passare a **Modules &gt; General ledger Journalntries &gt; General journals (Registrazioni generali del libro mastro&gt;).**
+
+7.  Nel riquadro azioni selezionare **+ Nuovo**.
+
+8.  Immettere il valore seguente nella pagina **Journal generali** e selezionare **Righe** nel riquadro azioni:
+
+    - Nome: GenJrn
+
+9.  Immettere i valori seguenti nella pagina **del voucher journal** :
+
+    - Tipo di account: **Libro mastro**
+
+    - Conto principale: **601510**
+
+    - Debito: **10,00** 
+
+    - Tipo di conto offset: **Libro mastro**
+
+    - Numero conto offset: **110180** 
+
+10. Selezionare il pulsante **Salva** nel riquadro azioni.
+
+11. Selezionare **Convalida simula &gt; registrazione**. 
+
+12. Selezionare il pulsante **Pubblica** nel riquadro azioni. Il giornale di registrazione dovrebbe essere pubblicato.

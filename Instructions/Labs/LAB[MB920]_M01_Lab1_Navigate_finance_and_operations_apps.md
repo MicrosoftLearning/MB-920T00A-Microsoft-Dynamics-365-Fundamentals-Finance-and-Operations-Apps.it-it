@@ -35,87 +35,81 @@ Ora che è stata acquisita familiarità con le app Finance and Operations, dedic
 
 ### Esplorare le app per la finanza e le operazioni
 
-1.  Nella **home page Finance and Operations** verrà visualizzato: 
+Dopo aver acquisito familiarità con le app finanziarie e operative, è necessario tempo per esplorare le interfacce.
 
-    - Il menu di spostamento a sinistra che è compresso per impostazione predefinita. 
+1.  Nella **home page Finance and Operations** , se configurata, è possibile trovare:
 
-    - Immagine banner predefinita dell'azienda. 
+    - Il menu di spostamento a sinistra che è compresso per impostazione predefinita.
 
-    - I riquadri dell'area di lavoro disponibili per l'utente in base al relativo ruolo nell'organizzazione. 
+    - Il logo della società.
 
-    - Un calendario e gli elementi di lavoro assegnati all'utente. 
+    - I riquadri dell'area di lavoro disponibili per l'utente in base al relativo ruolo nell'organizzazione.
 
-    - La barra **di ricerca di una pagina** molto utile per trovare rapidamente ciò che è necessario. 
+    - Un calendario e gli elementi di lavoro assegnati all'utente.
 
-    - In alto a destra sono presenti la società per cui l'utente lavora, le notifiche, le impostazioni e collegamenti alla Guida. 
+    -  La barra di ricerca, utile per trovare rapidamente ciò che è necessario.
 
-    ![Home page di Dynamics 365 Finance and Operations con le aree evidenziate.](./media/m1-common-home-page.png)
+    - In alto a destra, l'azienda con cui si sta lavorando, le notifiche, le impostazioni e i collegamenti della Guida. Verificare che la società indicata sia **USMF**.
 
-1.  Verificare che la società indicata sia **USMF**. 
+    ![Screenshot della home page Dynamics 365 Finance e Operazioni con aree evidenziate.](./media/lab-navigate-finance-and-operations-apps-04.png)
 
-1.  In alto a sinistra selezionare il menu hamburger **Espandere il pannello di navigazione**. 
+2.  In alto a sinistra selezionare il menu hamburger **Espandere il pannello di navigazione**.
 
-1.  Il pannello di navigazione è l'area in cui sono disponibili le raccolte relative a **Preferiti**, elementi **Recenti**, **Aree di lavoro** e **Moduli**. 
+3.  Il riquadro di spostamento è il luogo in cui sono disponibili raccolte per i **preferiti**, gli elementi **recenti** , **le aree di lavoro** e **i moduli**.
 
-1.  Nel pannello di navigazione selezionare **Moduli** > **Amministrazione sistema**. 
+4.  Nel pannello di navigazione selezionare **Moduli** > **Amministrazione sistema**.
 
-1.  **Esaminare** le diverse aree disponibili nel modulo **Amministrazione sistema** . 
+5.  Esaminare le aree disponibili nel modulo Amministrazione sistema.
 
-1.  In **Configurazione** selezionare **Opzioni di prestazioni client**. 
+6.  In **Configurazione** selezionare **Opzioni di prestazioni client**.
 
-1.  Nel riquadro Opzioni di prestazioni client, in **Callout delle funzionalità attivati** selezionare l'interruttore e assicurarsi che sia impostato su **Sì**. 
+7.  Nel riquadro **Opzioni prestazioni client** , in **Callout funzionalità abilitato**, selezionare l'opzione attiva e assicurarsi che sia impostata su **Sì**.
 
-1.  Esaminare le altre opzioni disponibili, scorrere fino alla fine del riquadro e selezionare **OK**. 
+8.  Esaminare le altre opzioni disponibili, scorrere verso la parte inferiore del riquadro e quindi selezionare **OK**.
 
-1.  Nella home page selezionare l'icona **Impostazioni** nella parte superiore destra e quindi selezionare **Opzioni utente**. 
+9.  Nella **home** page selezionare l'icona **Impostazioni** nella parte superiore destra e quindi selezionare **Opzioni utente**.
 
-    ![Screenshot che mostra l'icona Impostazioni e l'elenco a discesa Opzioni utente](./media/m1-common-settings-user-settings.png)
+    ![Screenshot dell'icona Impostazioni e dell'elenco a discesa Opzioni utente.](./media/lab-navigate-finance-and-operations-apps-05.png)
 
-1.  Nella pagina **Opzioni utente** usare le schede per configurare impostazioni diverse che verranno applicate all'account. 
+10. Nella pagina **Opzioni** usare le schede per configurare impostazioni diverse che si applicano all'account.
 
-1.  Selezionare la scheda **Preferenze**. 
+11. Selezionare la scheda **Preferenze**.
 
-1.  Esaminare le preferenze disponibili. Si noti che è possibile modificare la pagina **Aziendale** e **Iniziale** predefinita visualizzata quando si accede. 
+12. Esaminare le preferenze disponibili. Si noti che è possibile modificare la visualizzazione pagina aziendale e iniziale predefinita quando si accede.
 
-1.  Selezionare ed esaminare le schede **Account** e **Flusso di lavoro**. 
+13. Selezionare ed esaminare le schede **Account** e **Flusso di lavoro**.
 
-1.  Nel menu di spostamento a sinistra selezionare l'icona **Home**. 
+14. Nel menu di spostamento a sinistra selezionare l'icona **Home**.
 
-1.  Nella parte superiore centrale della home page selezionare la casella **Cerca una pagina**. 
+15. Nella home **page** selezionare la **casella Cerca una pagina** nel centro superiore della pagina.
 
-1.  Nella casella di ricerca cercare `All vendors` 
+16. Nella casella di ricerca cercare **Tutti i fornitori**.
 
-1.  La prima volta che si cerca una pagina, può essere necessario attendere un po' di tempo. Mentre la ricerca è in corso, verrà visualizzato un piccolo cerchio che ruota a destra della casella di ricerca. 
+17. Selezionare **Tutti i fornitori** di account a pagamento > fornitori
 
-1.  Selezionare**** il primo risultato **Tutti i fornitori**, ovvero lo stesso che si passa ai fornitori di **moduli** > **a pagamento** >  >  Tutti**i fornitori**. 
+18. La prima volta che si cerca una pagina, può essere necessario attendere un po' di tempo. C'è un piccolo cerchio ruotato a destra della casella di ricerca mentre la ricerca viene elaborata.
 
-1.  La pagina **Tutti i fornitori** è un esempio di una pagina elenco. La pagina elenco contiene in genere i dati master che è possibile leggere, creare, eliminare e aggiornare. Verranno visualizzate funzioni aggiuntive disponibili usando il riquadro azioni sopra l'elenco. 
+19. La pagina **Tutti i fornitori** è un esempio di una pagina elenco. La pagina elenco contiene i dati master che è possibile leggere, creare, eliminare e aggiornare.  Sono disponibili altre funzionalità usando la barra multifunzione sopra l'elenco.
 
-    ![Elenco Tutti i fornitori con le funzionalità del menu evidenziate](./media/m1-common-all-vendor-list-page.png)
+    ![Screenshot dell'elenco Tutti i fornitori con le funzionalità di menu evidenziate.](./media/lab-navigate-finance-and-operations-apps-06.png)
 
-1.  Evidenziare uno dei fornitori dell'elenco e, a destra, selezionare il riquadro FactBox **informazioni correlate** a destra e esaminare le informazioni aggiuntive fornite. 
+20. Evidenziare uno dei fornitori nell'elenco, quindi a destra selezionare il menu **Informazioni correlate** ed esaminare le informazioni aggiuntive fornite.
 
-1.  Nell'elenco fornitori aprire il record **Acme Office Supplies** . 
+21. Nell'elenco di fornitori selezionare **Acme Office Supplies**.
 
-1.  Selezionare **Modifica** nel riquadro azioni, quindi nel campo **Gruppo** selezionare il menu a discesa e quindi selezionare **il titolo** della colonna Gruppo fornitore. 
+22. Selezionare il menu **Gruppo** e quindi l'intestazione di colonna **Gruppo di fornitori**.
 
-    ![Screenshot dell'intestazione di colonna Gruppo di fornitori per Acme Office Supplies.](./media/m1-common-vendor-group-menu-24493345.png)
+    ![Screenshot del titolo della colonna Del gruppo fornitore per gli articoli di Acme Office.](./media/lab-navigate-finance-and-operations-apps-07.png)
 
-1.  Molti menu dispongono di **ordinamento** e **filtro** disponibili. Usare i filtri per individuare rapidamente il contenuto del campo che si sta cercando. Se si conosce già il valore, è sufficiente immetterlo nel campo, anziché usare il menu a discesa. 
+23. In molti menu sono disponibili opzioni di ordinamento e filtro. Usare i filtri per individuare rapidamente il contenuto del campo che si sta cercando.
 
-1.  A destra del riquadro azioni notare le funzionalità aggiuntive. Passare il puntatore del mouse su ogni elemento e esaminare il callout delle funzionalità. 
+24. In alto a destra si notino le funzionalità aggiuntive. Spostare il mouse su ogni elemento ed esaminare il callout della funzionalità. Al termine, selezionare l'icona **Chiudi** per chiudere la pagina e tornare alla **Home** page.
 
-1.  Selezionare l'icona **Chiudi** per chiudere questo record e tornare alla pagina **Elenco Tutti i fornitori** . 
+    ![Screenshot del menu elenco in alto a destra che mostra funzionalità aggiuntive per la connessione a Power Apps, app di Office, pagina Aggiornamento allegati documento, Apri nella nuova finestra e Pulsanti Chiudi.](./media/lab-navigate-finance-and-operations-apps-08.png)
 
-    ![Menu in alto a destra nella pagina elenco che mostra funzionalità aggiuntive per la connessione a Power Apps, App di Office, Allegati, Aggiorna, Apri in nuova finestra e Chiudi](./media/m1-common-list-page-additional-features-menu.png)
+25. Nell'angolo in alto a destra seleziona l'icona a forma di punto interrogativo della **Guida** e quindi selezionare **Guida**.
 
-1.  In alto a destra selezionare **?** Icona punto interrogativo e quindi **Guida**. 
+26. Osservare che le informazioni della Guida sono correlate alla pagina corrente.
 
-1.  Si noti che il riquadro informazioni della Guida mostra il contenuto per la pagina corrente. **Chiudere** il riquadro Della Guida. 
-
-1.  Tornare al **dashboard predefinito** usando il pulsante **Finance and Operations** nella parte superiore sinistra o l'icona **Home** nel menu di spostamento a sinistra. 
-
-    > **Nota:** Scelta rapida da tastiera: ALT+MAIUSC+Home. Dynamics 365 Finance e Operazioni supporta molti tasti di scelta rapida per velocizzare l'accesso al sistema:https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/shortcut-keys
-
-1.  Provare a selezionare un **riquadro Area di lavoro** e quindi esaminare le informazioni della Guida per tale area di lavoro. Al termine, tornare al dashboard predefinito. 
+27. Provare a selezionare un riquadro dell'area di lavoro ed esaminare le informazioni della Guida per tale area di lavoro. Al termine, tornare alla **home** page.
 

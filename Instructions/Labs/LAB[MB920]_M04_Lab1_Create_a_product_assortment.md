@@ -18,57 +18,63 @@ lab:
 
 ## Istruzioni
 
-1.  Nella home page **Finance and Operations** ,in alto a destra, verificare di lavorare con l'azienda **USMF** . 
+1.  Nella home page Finance and Operations selezionare il menu **Hamburger del riquadro di spostamento** in alto a sinistra.
 
-1.  Se necessario, selezionare la società e scegliere **USMF** dal menu. 
+2.  Nel pannello di navigazione selezionare **Vendita al dettaglio e commercio** > **Cataloghi e assortimenti** > **Assortimenti**.
 
-1.  Nel riquadro di spostamento a sinistra selezionare **Cataloghi e assortimenti** >  nel modulo **Retail and Commerce**.**** 
+3.  Attendere il caricamento della pagina.
 
-1.  Nella pagina **Assortimenti** selezionare **+ Nuovo**. 
+4.  Nella pagina **Assortments (Assortimenti** ) selezionare **+ New (+ Nuovo**).
 
-1.  Nel modulo **Nuovo record** , se necessario, espandere la scheda **dettaglio Generale** . 
+5.  Nel riquadro **Nuovo record** espandere **Generale**.
 
-1.  Selezionare il campo **Data effettiva** e quindi selezionare una data in futuro.  
+6.  Selezionare la casella **Data di validità** e quindi selezionare una data futura.
 
-1.  Nel campo **Nome assortimento** immettere un nome per il nuovo assortimento. Ad esempio, usare `New Spring Season`
+7.  Nella casella **Nome assortimento** immettere un nome per il nuovo assortimento. Ad esempio, **New Spring Season**.
 
-    > **Nota:** La **data di scadenza** può essere usata per disattivare automaticamente un assortimento pubblicato. 
+8.  Impostare **Data di scadenza** su **Mai**.
 
-1.  Espandere la scheda Dettagli **canali Commerce** . 
+    La data di scadenza può essere usata per disattivare automaticamente un assortimento pubblicato.
 
-1.  Nella barra degli strumenti **Canali commerce** selezionare **+ Aggiungi riga**. 
+9.  Espandere **Commerce channels** (Canali di Commerce).
 
-1.  Nel riquadro **Scegli nodi organizzazione** selezionare **Negozi al dettaglio per tipo (Fabrikam)**.**** 
+10. Nel menu **Canali commerciali** selezionare **+ Aggiungi riga**.
 
-1.  Nell'elenco NODI ORGANIZZAZIONE DISPONIBILI selezionare Online e quindi selezionare l'icona Aggiungi ![Icona freccia DESTRA](./media/d365-fo-add-org-node-icon.png) per l'aggiunta in **NODI ORGANIZZAZIONE SELEZIONATI**.
+11. In **Scegli nodi dell'organizzazione** selezionare il menu **Gerarchia organizzazione** e quindi selezionare **Punti vendita al dettaglio per tipo (Fabrikam)**.
 
-    In questo modo verranno aggiunti il nodo padre e tutti i nodi figlio. 
+12. Nell'elenco **NODI ORGANIZZAZIONE DISPONIBILI** selezionare **Online** e quindi selezionare l'icona **Aggiungi** ![immagine 15](./media/04-learn-the-fundamentals-of-dynamics-365-commerce-17.png) per aggiungerla ai **NODI ORGANIZZAZIONE SELEZIONATI**.
 
-1.  Aggiungere il nodo padre **Mall** e quindi selezionare **OK**. 
+    Viene aggiunto al nodo padre e a tutti i nodi figlio.
 
-1.  Verificare che i due nodi siano stati aggiunti alla scheda **Dettaglio canali commerce** . 
+13. Aggiungere il nodo padre **Mall** e quindi selezionare **OK**.
 
-1.  Espandere la scheda Dettagli **prodotti** . 
+14. Verificare che siano stati aggiunti due nodi ai canali di Commerce.
 
-1.  Nella barra degli strumenti **Prodotti** selezionare **+Aggiungi riga**. 
+15. Espandere **Prodotti**.
 
-1.  Per il campo **Categoria** espandere **Team Sports (Team Sports)** e quindi selezionare **OK**.
+16. Scegliere **+ Aggiungi riga** dal menu **Prodotti**.
 
-    In questo modo verranno aggiunti tutti gli articoli figlio della categoria padre.
+17. Selezionare il menu **Categoria** , selezionare **Sport di squadra (Sport di squadra)** e quindi selezionare **OK**.
 
-1.  Esaminare l'ultima colonna denominata **Tipo di riga**. Per impostazione predefinita, verranno inclusi tutti gli articoli.
+    In questo modo vengono aggiunti tutti gli elementi figlio della categoria padre.
 
-1.  Selezionare **+ Aggiungi riga**, selezionare il menu **Categoria**, espandere **Team Sports (Team Sports)** , selezionare **Baseball** e quindi selezionare **OK**. 
+18. Esaminare l'ultima colonna denominata **Tipo di riga**. Per impostazione predefinita, vengono inclusi tutti gli elementi.
 
-1.  Per escludere un elemento da una categoria di dimensioni maggiori già incluse, in questo caso Team Sports, nella colonna **Tipo linea** modificare il valore su `Exclude` 
+19. Selezionare **+ Aggiungi riga**, selezionare il menu **Categoria**, espandere **Team Sports (Team Sports)** , selezionare **Baseball** e quindi selezionare **OK**.
 
-1.  Usando la riga della categoria Baseball, selezionare il menu **Prodotti**. 
+20. Per escludere un elemento da una categoria più grande già inclusa, in questo caso **Team Sports**, nella colonna **Tipo di linea** modificare il valore in **Escludi**.
 
-1.  Quando vengono definiti i prodotti di una categoria, è possibile selezionare un prodotto specifico da includere o escludere. Selezionare **AdultBaseballInfield** o immettere `0013` 
+21. Usando la riga **Categoria Baseball** , selezionare il menu **Prodotti** .
 
-    > **Nota:** Per rimuovere un prodotto aggiunto, eliminare il contenuto del campo **Product** e quindi premere Tab o selezionare un'altra area della pagina. 
+22. Quando vengono definiti i prodotti di una categoria, è possibile selezionare un prodotto specifico da includere o escludere. Selezionare **AdultBaseballInfield**.
 
-1.  Nel riquadro azioni selezionare **Salva** e selezionare **Pubblica**. 
+23. Per rimuovere un prodotto aggiunto, eliminare il contenuto della casella del prodotto e quindi premere **TAB** sulla tastiera o selezionare un'altra area della pagina.
 
-1.  Selezionare **Sì** nella finestra di dialogo di conferma. L'assortimento di prodotti appena creato diventerà disponibile nella **data effettiva** selezionata. 
+24. Nel menu in alto selezionare **Salva**.
+
+25. Nel menu in alto selezionare **Pubblica**.
+
+26. Esaminare le informazioni nella finestra di dialogo e quindi selezionare **Sì**.
+
+    L'assortimento di prodotti appena creato diventa disponibile alla data di validità.
 
