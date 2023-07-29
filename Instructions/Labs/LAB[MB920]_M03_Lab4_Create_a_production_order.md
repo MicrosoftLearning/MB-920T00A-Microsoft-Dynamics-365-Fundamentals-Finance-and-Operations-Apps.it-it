@@ -1,18 +1,16 @@
 ---
 lab:
-  title: 'Lab 4: Creare un ordine di produzione'
+  title: 'Lab 3: Creare un ordine di produzione'
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
 # Modulo 3: Concetti fondamentali su Microsoft Dynamics 365 Supply Chain Management
 
-## Lab 4: Creare un ordine di produzione
+## Lab 3: Creare un ordine di produzione
 
 ## Obiettivo
 
-L'ordine di produzione contiene informazioni su ciò che verrà prodotto, sulla quantità da produrre e sulla data di fine pianificata. Contiene inoltre informazioni sui materiali da usare e sul processo da seguire per la produzione dell'articolo.
-
-È necessario creare un nuovo ordine di produzione per la società.
+Gli ordini di produzione consentono di avviare il processo di produzione in Supply Chain Management. In questo lab si ha familiarità con l'interfaccia utente e le funzionalità del modulo ordine di produzione. Si apprenderà anche come creare un ordine di produzione entro la fine dell'esercizio.
 
 ## Configurazione del lab
 
@@ -20,27 +18,25 @@ L'ordine di produzione contiene informazioni su ciò che verrà prodotto, sulla 
 
 ## Istruzioni
 
-1.  Nella home page **Finance and Operations** , in alto a destra, verificare di lavorare con la società **USMF** . 
+1.  Nella **home page Finance and Operations** , in alto a destra, verificare di lavorare con la società **USMF** .
 
-1.  Se necessario, selezionare la società e scegliere **USMF** dal menu. 
+2.  Se necessario, selezionare la società e scegliere **USMF** dal menu.
 
-1.  Nel riquadro di spostamento sinistro, nel modulo **Controllo produzione** selezionare **Ordini** >  di**produzione Tutti gli ordini di produzione**. 
+3.  Nel riquadro di spostamento a sinistra selezionare **Moduli** > **Controllo produzione** > **Ordini di produzione** > **Tutti gli ordini di produzione**.
 
-1.  Nel riquadro azioni selezionare **Nuovo ordine di produzione**. 
+4.  Nel menu in alto selezionare **Nuovo ordine di produzione**.
 
-1.  In **IDENTIFICAZIONE** immettere e selezionare l'elemento **MidRangeSpeaker** nel campo `D0001` **Numero** elemento. 
+5.  In **IDENTIFICAZIONE**, nella casella **Numero articolo** immettere **D0001**.
 
-1.  In **PRODUZIONE**, nel campo **Consegna** selezionare una data di un mese dalla data odierna. 
-   
-    > **Nota:** La data **di** consegna indica quando l'ordine di produzione deve terminare per consegnare in tempo. Questa data può essere usata nel processo di pianificazione.  Ad esempio, è possibile pianificare l'ordine a ritroso dalla data di consegna. 
+6.  Nella casella **Quantità** immettere **20**.
 
-1.  Nel campo **Quantità** immettere `20.00` 
+7.  In **PRODUZIONE**, nella casella **Consegna**, selezionare una data a un mese da oggi.
 
-    > **Nota:** In **BOM/ROUTE**, il campo **Numero DBA** visualizza automaticamente il numero di qualsiasi BOM attivo per l'articolo corrente, ma è possibile modificare la distinta base per questo ordine di produzione selezionando un BOM attivo dall'elenco delle versioni DBA approvate. Il campo **Numero** di route visualizza automaticamente il numero di route attive per l'elemento corrente, ma è possibile modificare la route per questo ordine di produzione selezionando una route attiva dall'elenco delle versioni di route approvate. 
+    La data di consegna indica quando deve terminare l'ordine di produzione per poter consegnare in tempo.  Questa data può essere usata nel processo di pianificazione.  Ad esempio, è possibile pianificare l'ordine a ritroso dalla data di consegna.
 
-    ![Schermata che mostra il riquadro Crea ordine di produzione completo](./media/lp1-m4-new-production-order-pane.png)
+8.  In DBA/CICLO DI LAVORAZIONE il campo **Numero DBA** visualizza automaticamente il numero di qualsiasi DBA attiva per l'articolo corrente, ma è possibile modificare la DBA per l'ordine di produzione selezionando una DBA attiva nell'elenco di versioni DBA approvate.  Il campo **Numero ciclo di lavorazione** visualizza automaticamente il numero di qualsiasi ciclo di lavorazione attivo per l'articolo corrente, ma è possibile modificare il ciclo di lavorazione per l'ordine di produzione selezionando un ciclo di lavorazione attivo nell'elenco di versioni di cicli di lavorazione approvate.
 
-1.  Selezionare **Crea**. 
+    ![Screenshot che illustra la pagina crea ordine di produzione. I campi numero di articolo e recapito sono evidenziati.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-40.png)
 
-1.  **Chiudere** la pagina e tornare alla home page. 
+9.  Selezionare **Crea**.
 
