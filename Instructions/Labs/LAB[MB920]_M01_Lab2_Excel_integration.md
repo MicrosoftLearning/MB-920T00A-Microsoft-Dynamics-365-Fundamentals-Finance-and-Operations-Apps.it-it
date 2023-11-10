@@ -10,33 +10,33 @@ lab:
 
 ## Obiettivo
 
-In questo lab si apprenderà come copiare dati da finanza e operazioni in Excel usando l'app del componente aggiuntivo office Dynamics Data Connector. Si apprenderà anche come usare la stessa app per inserire dati in Dynamics 365 Finance e operazioni. 
+In questo lab si apprenderà come copiare dati da finanza e operazioni in Excel usando dynamics data Connessione or office add-in app. Si apprenderà anche come usare la stessa app per inserire dati in Dynamics 365 Finance and Operations. 
 
 ## Configurazione del lab
 
-   - **Tempo stimato**: 5 minuti
+   - **Tempo** stimato: 5 minuti
 
 ## Istruzioni
 
-Ora che è stata acquisita familiarità con le app per la finanza e le operazioni, dedicare del tempo a esplorare lo scenario di integrazione di Excel.
+Una volta acquisita familiarità con le app per la finanza e le operazioni è possibile esplorare lo scenario di integrazione di Excel.
 
-1.  Assicurarsi di essere nella persona giuridica **USMF** .
+1.  Assicurarsi di essere nella **persona giuridica USMF** .
 
-2.  Passare ad **Approvvigionamento** > **Imposta** > **Fornitori** > **Gruppi di fornitori**.
+2.  Andare ad **Approvvigionamento** > **Impostazione** > **Fornitori** > **Gruppi di fornitori**.
 
 3.  Selezionare **Apri in Microsoft Office** > **Apri in Excel**.
 
-4.  Selezionare **Gruppi di fornitori** (usmf) e scaricare il modello di Excel.
+4.  Selezionare **Gruppi di fornitori** (usmf) e scaricare il modello per Excel.
 
-5.  Salvare e quindi aprire il modello di Excel scaricato, consentirne l'uso se necessario, chiudere l'attivazione e selezionare **Abilita modifica**. Impostare come attendibile questo componente aggiuntivo e quindi eseguire l'accesso (usando le stesse credenziali, se richiesto).
+5.  Salvare e aprire il modello di Excel scaricato, consentirlo se necessario, chiudere l'attivazione e selezionare **Abilita modifica**. Considerare attendibile il componente aggiuntivo e accedere (usando le proprie credenziali, se richieste).
 
-    Tutti i dati esistenti della tabella **Gruppo fornitore** vengono visualizzati nel foglio di calcolo di Excel.
+    Tutti i dati esistenti della tabella **Gruppo fornitori** appaiono nel foglio di calcolo di Excel.
 
 6.  Immettere un nuovo record.
 
-7.  Immettere **100** nel campo **Gruppo di fornitori**, **Fornitore assicurazione** nel campo **Descrizione** e **Net10** nel campo **Condizioni di pagamento**.
+7.  Immettere **100** nel campo **Gruppo fornitori**, **Fornitore assicurazione** nel campo **Descrizione** e **Net10** nel campo **Termini di pagamento**.
 
-8.  Selezionare il pulsante **Pubblica** nell'app del componente aggiuntivo Office di Microsoft Dynamics.
+8.  Selezionare il pulsante **Pubblica** nell'app Microsoft Dynamics Office Add-in.
 
-9.  Aprire il modulo **Gruppo di fornitori** per verificare che il nuovo record sia stato aggiunto.
+9.  Aprire il modulo **Gruppo fornitori** per verificare che il nuovo record sia stato aggiunto.
 
