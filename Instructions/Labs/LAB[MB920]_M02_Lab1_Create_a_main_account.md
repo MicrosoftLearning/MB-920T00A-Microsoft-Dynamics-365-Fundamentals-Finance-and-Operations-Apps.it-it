@@ -1,64 +1,71 @@
 ---
 lab:
-  title: 'Lab 1: Creare un conto principale'
+  title: 'Lab 1: Creare un account principale'
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
 
-# Modulo 2. Learn the Fundamentals of Microsoft Dynamics 365 Finance
+# Modulo 2: Informazioni sui concetti fondamentali di Microsoft Dynamics 365 Finance
 
-## Lab 1: Creare un conto principale
+## Lab 1: Creare un account principale
 
 ## Configurazione del lab
 
-   - **Tempo stimato**: 5 minuti
+   - **Tempo** stimato: 5 minuti
 
 ## Istruzioni
 
 
-1.  Nella home page **Finance and Operations** , in alto a destra, verificare di lavorare con la società **USMF** .
+1.  Nella **home page delle app per la finanza e le operazioni**, in alto a destra verificare che la società in uso sia **USMF**.
 
-2.  Se necessario, selezionare la società e scegliere **USMF** dal menu.
+2.  Se necessario, selezionare la società e dal menu scegliere **USMF**.
+3.  Nel riquadro di spostamento a sinistra selezionare **Moduli > Contabilità generale > Calendari > Calendari** fiscali.
+4.  Selezionare Calendario **fiscale**
+5.  Se l'anno di calendario corrente è già stato creato, uscire dalla **pagina Calendari** fiscali.
+6. Se l'anno di calendario corrente non viene creato, selezionare il **pulsante Nuovo anno** nel riquadro azione e immettere l'anno corrente come visualizzato nello screenshot seguente. Selezionare il **pulsante** Crea per creare il calendario dell'anno corrente.
 
-3.  Nel riquadro di spostamento a sinistra selezionare **Moduli** > **Contabilità generale** > **Piano dei conti** > **Conti** > **Conti principali**.
+![Lo screenshot illustra come creare il nuovo anno nel calendario fiscale](./media/lab-create-a-main-account-04.png)
 
-4.  Nel riquadro azioni selezionare **+ Nuovo**.
 
-5.  Immettere i valori seguenti nella pagina **Account principale** :
+4.  Nel riquadro di spostamento a sinistra selezionare **Moduli** > **Contabilità generale** > **Piano dei conti** > **Conti** > **Conti principali**.
+
+5.  Nel riquadro Azioni selezionare **+ Nuovo**.
+
+6.  Immettere i seguenti valori nella pagina **Conto principale**:
 
     - Conto principale: **601510**
 
-    - Nome: **International call expense**
+    - Nome: **Spese per chiamate internazionali**
 
-    - Tipo di spesa principale: **Spesa**
+    - Tipo di conto principale: **Spese**
 
-    - Categoria di conto principale: **TANDEEXP**
+    - Categoria di conti principali: **TANDEEXP**
 
     - Valori dare/avere predefiniti: **Dare**
 
-    ![Screenshot che illustra gli account principali- grafico degli account: pagina condivisa in cui è necessario aggiungere valori diversi.](./media/lab-create-a-main-account-01.png)
+    ![Lo screenshot mostra la pagina Conti principali - piano dei conti: Condiviso, in cui è necessario aggiungere valori diversi.](./media/lab-create-a-main-account-01.png)
 
-6.  Passare a **Modules &gt; General ledger Journalntries &gt; General journals (Registrazioni generali del libro mastro&gt;).**
+7.  Passare a **Moduli &gt; Contabilità generale &gt; Scritture contabili &gt; Giornali di registrazione generali**.
 
-7.  Nel riquadro azioni selezionare **+ Nuovo**.
+8.  Nel riquadro Azioni selezionare **+ Nuovo**.
 
-8.  Immettere il valore seguente nella pagina **Journal generali** e selezionare **Righe** nel riquadro azioni:
+9.  Immettere il seguente valore nella pagina **Giornali di registrazione generali** e selezionare **Righe** nel riquadro Azioni:
 
     - Nome: GenJrn
 
-9.  Immettere i valori seguenti nella pagina **del voucher journal** :
+10.  Immettere i seguenti valori nella pagina **Giustificativo giornale di registrazione**:
 
-    - Tipo di account: **Libro mastro**
+    - Tipo di conto: **CoGe**
 
     - Conto principale: **601510**
 
-    - Debito: **10,00** 
+    - Dare: **10,00** 
 
-    - Tipo di conto offset: **Libro mastro**
+    - Tipo di conto di contropartita: **CoGe**
 
-    - Numero conto offset: **110180** 
+    - Numero del conto di contropartita: **110180** 
 
-10. Selezionare il pulsante **Salva** nel riquadro azioni.
+11. Selezionare il pulsante **Salva** nel riquadro Azioni.
 
-11. Selezionare **Convalida simula &gt; registrazione**. 
+12. Selezionare **Convalida &gt; Simula registrazione**. 
 
-12. Selezionare il pulsante **Pubblica** nel riquadro azioni. Il giornale di registrazione dovrebbe essere pubblicato.
+13. Selezionare il pulsante **Registra** nel riquadro Azioni. La registrazione del giornale dovrebbe essersi verificata.

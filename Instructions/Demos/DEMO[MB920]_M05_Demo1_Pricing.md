@@ -1,71 +1,71 @@
 ---
 demo:
-  title: 'Demo 1: Determinazione dei prezzi in Project Operations'
+  title: 'Demo 1: Prezzi di Project Operations'
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## Demo 1. Determinazione dei prezzi in Project Operations
+## Demo 1 - Prezzi di Project Operations
 
-1. Passare all'area di lavoro **Gestione progetti**.  
-    In questa demo si imposteranno i prezzi di vendita e di costo in Project Operations. Si osserverà inoltre in che modo i costi e i prezzi vengono derivati da una fattura precedentemente registrata.
+1. Passare all'area **di lavoro Gestione** progetti.  
+    In questa demo verranno configurati i prezzi delle vendite e dei costi all'interno delle operazioni di progetto. E vedremo come i costi e i prezzi derivano da una fattura registrata in precedenza.
 
-1. Nella selezione della società in alto a destra verificare che la persona giuridica cui si è connessi sia **USSI**.  
+1. Nella selezione dell'azienda in alto a destra verificare che la persona giuridica a cui si è connessi sia **USSI**.  
     In caso contrario, modificare l'organizzazione in **USSI**.
 
-1. Nella tabella **Progetti attivi** selezionare il progetto **00000093 Contoso Consulting**. Verrà aperta la visualizzazione dei dettagli del progetto.
+1. Nella **tabella Progetti** attivi selezionare progetto **00000093 Contoso Consulting**. Verrà visualizzata la visualizzazione dei dettagli del progetto.
 
-    ![Screenshot dell'area di lavoro Gestione progetti con Contoso Consulting evidenziato nella tabella Progetti attivi.](./media/projops_prices_1_selecting_contoso_consulting.png)
+    ![Screenshot dell'area di lavoro di gestione dei progetti con Contoso Consulting evidenziata nella tabella Progetti attivi.](./media/projops_prices_1_selecting_contoso_consulting.png)
 
-1. Nella pagina **Contoso Consulting** selezionare la scheda **Gestisci** sulla barra di spostamento.
+1. Nella barra di spostamento della **pagina Contoso Consulting** selezionare la **scheda Gestisci** .
 
-1. Nel menu **Gestisci** selezionare **Giornali di registrazione fatture**.  
-    Qui è stata inserita una fattura in cui sono state applicate le ore.
+1. **Nel menu Gestisci** selezionare **Registrazioni** fatture.  
+    Qui è stata individuata una fattura in cui sono state applicate le ore.
 
-1. In **Transazioni fattura** scegliere **350.00** nella colonna **Prezzo di vendita**.  
-    In questa visualizzazione è possibile osservare che il prezzo di vendita per la risorsa Aaron Con, manager di progetto per USSI, include un addebito di 350 dollari. Verrà ora esaminato il prezzo impostato per capire come è stato determinato l'addebito.
+1. Nella **colonna Sales price** (** Transazioni** fattura) fare riferimento a **350,00**.  
+    Possiamo vedere in questa vista che il prezzo di vendita per la risorsa Aaron Con, un project Manager per USSI, ha una tariffa di addebito di 350 dollari. Si esaminerà ora la configurazione dei prezzi per vedere come è stata determinata tale tariffa.
 
-    ![Screenshot di un giornale di registrazione fatture con il valore 350 evidenziato nella colonna Prezzo di vendita.](./media/projops_prices_2_point_to_350.png)  
+    ![Screenshot di un giornale di registrazione fatture con il valore 350 evidenziato nella colonna prezzo di vendita.](./media/projops_prices_2_point_to_350.png)  
 
-    Anche se è possibile visualizzare i prezzi dal singolo progetto, si inizierà dall'area di lavoro **Gestione progetti** per osservare tutti i prezzi impostati.
+    Anche se è possibile esaminare i prezzi del singolo progetto, si inizierà dall'area **di lavoro Gestione** progetti in modo da poter visualizzare tutti i prezzi configurati.
 
-1. Passare all'area di lavoro **Gestione progetti**.
+1. Passare all'area **di lavoro Gestione** progetti.
 
-1. Sul lato destro dello schermo nella sezione **Collegamenti** selezionare **Prezzo di vendita (ora)** nel sottomenu **Imposta**.
+1. Sul lato destro della schermata, nella sezione Collegamenti **, nel **sottomenu Setup (Setup**), selezionare **Sales price (hour)**.**
 
-1. Nella pagina **Prezzo di vendita - Ore** scegliere **350.00** nella colonna **Prezzi**.  
-Da questa visualizzazione è possibile osservare dove è stato configurato il prezzo di vendita di 350 dollari di Aaron Con.
+1. Nella **pagina Sales price – hour (Prezzo vendite - ora** ) nella **colonna Pricing (Prezzi** ) della tabella fare riferimento a **350,00**.  
+Da questa vista, possiamo vedere dove è stato impostato il prezzo di vendita di Aaron Con di 350 dollari.
 
-1. Scegliere tutta la prima riga.  
-    Se si osserva l'intera riga, è possibile notare che Aaron è impostato come manager di progetto e, più in particolare, che l'addebito è associato a un ID progetto specifico per Contoso Consulting.
+1. Puntare all'intera prima riga.  
+    Se si esamina l'intera riga, è possibile notare che Aaron è configurato come Project Manager e, in particolare, che la frequenza è associata a un ID di progetto specifico per Contoso Consulting.
 
-1. Nella colonna **Risorsa** scegliere tutte le altre righe con risorse assegnate.  
-    È possibile osservare che in questa tabella sono impostati anche altri manager di progetto, ma non sono allocati a determinati ID progetto e di conseguenza gli addebiti sono specifici solo della categoria e delle risorse assegnate.
+1. **Nella colonna Risorsa** puntare a tutte le altre righe con risorse assegnate.  
+    In questa tabella è possibile osservare che sono stati configurati anche altri project manager, ma non vengono allocati in modo specifico agli ID progetto e pertanto le loro tariffe sono specifiche solo per la categoria e le risorse assegnate.
 
-    ![Screenshot della pagina Prezzo di vendita - Ore con tutte le righe con risorse assegnate evidenziate nella tabella.](./media/projops_prices_3_resources_table.png)  
+    ![Screenshot della pagina sales price - hour con tutte le righe con le risorse assegnate evidenziate nella tabella.](./media/projops_prices_3_resources_table.png)  
 
-    Questa matrice è sufficientemente flessibile per supportare il livello di dettaglio osservato per Contoso Consulting e Aaron Con e supporta anche un modello di determinazione prezzi più generico, come il prezzo di 300 dollari mostrato qui.
+    Questa matrice è abbastanza flessibile per supportare il livello di dettaglio visto con Contoso Consulting e Aaron Con, oltre a supportare un modello di prezzi più generico, ad esempio il prezzo di $ 300 mostrato qui.
 
-1. Per il progetto Contoso passare alla pagina **Giornali di registrazione fatture**.  
-    Tornando alla fattura registrata, osservare la stessa transazione oraria registrata ed esaminare i costi associati ad Aaron Con selezionando l'ID transazione nella riga della transazione fattura.
+1. Per Il progetto Contoso passare alla **pagina Registrazioni** fatture.  
+    Tornando alla fattura registrata, esamineremo la stessa transazione delle ore registrate e esamineremo i costi associati a Aaron Con selezionando l'ID transazione nella riga della transazione di fattura.
 
-1. Nella sezione **Transazioni fattura** selezionare la scheda **Ora**. Nella tabella visualizzata selezionare un ID transazione nella colonna **ID transazione**.
+1. **Nella sezione Transazioni** fatture selezionare la **scheda Ora**. Nella tabella visualizzata, nella **colonna ID** transazione, selezionare un ID transazione.
 
-    ![Screenshot della pagina Giornali di registrazione fatture con la colonna ID transazione evidenziata.](./media/projops_prices_4_select_a_transaction_id.png)
+    ![Screenshot della pagina journal della fattura con la colonna ID transazione evidenziata.](./media/projops_prices_4_select_a_transaction_id.png)
 
-1. Nella sezione **Transazioni orarie** selezionare la scheda **Panoramica**. Nella tabella visualizzata scegliere **200.00** nella colonna **Prezzo di costo**.  
-    Nella visualizzazione Transazioni orarie è possibile osservare la voce per Aaron Con, con un prezzo di costo associato di 200 dollari. Tornare ora all'impostazione dei prezzi di costo per capire come è stato derivato il tasso di costo.
+1. Nella **pagina Transazioni** orarie selezionare la **scheda Panoramica** . Nella tabella visualizzata, nella **colonna Costo prezzo** , puntare a **200,00**.  
+    Dalla visualizzazione delle transazioni orarie, è possibile vedere la voce per Aaron Con e c'è il prezzo di costo associato di $ 200. Torniamo indietro e esaminiamo la configurazione dei prezzi dei costi per vedere come è stata derivata tale tariffa di costo.
 
-1. Passare all'area di lavoro **Gestione progetti**.
+1. Passare all'area **di lavoro Gestione** progetti.
 
-1. Sul lato destro dello schermo nella sezione **Collegamenti** selezionare **Prezzo di costo (ora)** nel sottomenu **Imposta**.
+1. Sul lato destro della schermata, nella **sezione Collegamenti** , nel **sottomenu Configura** selezionare **Prezzo costo (ora)**.
 
-1. Nella pagina **Prezzo di costo - Ore - Visualizzazione standard** nella tabella scegliere la riga con **1/1/2014** nella colonna **Data di validità**, **PM** nella colonna **Categoria**, **200.00** nella colonna **Prezzo di costo** e nessun valore nelle altre colonne.  
-    Da questa visualizzazione è possibile osservare un prezzo di costo di 200 dollari che è stato impostato in modo specifico per la categoria PM, ma non sono presenti altre righe specifiche di Aaron o del progetto Contoso Consulting. Anche questa è una procedura comune, in quanto molte organizzazioni di assistenza applicano tassi di costo standard tra categorie, in questo caso come ruolo progetto. Questo costo è spesso un tasso combinato in cui la retribuzione della singola risorsa verrà archiviata solo all'interno del sistema di gestione delle retribuzioni o delle risorse umane. Il tasso di costo standard verrà quindi periodicamente rettificato, in quanto le retribuzioni vengono analizzate per garantire che siano accurate e che i margini vengano soddisfatti.
+1. **Nella pagina Cost price – hour Standard view** ,nella tabella fare riferimento alla riga con **1/1/2014** nella **colonna Data** effettiva, **PM** nella **colonna Categoria**, **200,00** nella **colonna Prezzo di costo** e nessun valore nelle altre colonne.  
+    Da questa vista è possibile vedere un prezzo di costo di $ 200 che è stato configurato specificamente per la categoria di PM, ma non ci sono altre righe specifiche per Aaron o il nostro progetto di consulenza Contoso. Anche questa è una pratica comune poiché molte organizzazioni di servizi applicano tariffe di costo standard tra le categorie, in questo caso identificate qui come ruolo di progetto. Questo costo è spesso una tariffa combinata in cui la tariffa di pagamento delle singole risorse verrà archiviata solo all'interno del sistema di retribuzioni o risorse umane. La tariffa di costo standard verrà quindi rettificata periodicamente, in quanto i costi delle retribuzioni vengono analizzati per garantire che siano accurati e vengano soddisfatti i margini.
 
-    ![Screenshot della tabella Prezzo di costo - Ore con la riga per la determinazione prezzi PM evidenziata.](./media/projops_prices_5_cost_price_hour_table.png)
+    ![Screenshot della tabella cost price - hour con la riga relativa ai prezzi pm evidenziata.](./media/projops_prices_5_cost_price_hour_table.png)
 
-1. Passare all'area di lavoro **Gestione progetti**.
+1. Passare all'area **di lavoro Gestione** progetti.
 
-1. Sul lato destro dello schermo nella sezione **Collegamenti** scegliere **Prezzo di costo (ora)** e **Prezzo di vendita (ora)** nel sottomenu **Imposta**.  
+1. Sul lato destro della schermata, nella **sezione Collegamenti** , nel **sottomenu Imposta** , scegliere **Prezzo costo (ora)** e **Prezzo vendite (ora)**.  
 
-In questa dimostrazione si è osservato in che modo vengono configurati i prezzi di vendita e i prezzi di costo in Project Operations. È stato esaminato l'impatto su una fattura registrata per acquisire informazioni sul modo in cui la configurazione di questi prezzi influisce sulla fattura di tempistica e materiali presentata.
+In questa dimostrazione è stato illustrato come vengono configurati i prezzi standard delle vendite e dei costi in Project Operations. Abbiamo esaminato il loro impatto rispetto a una fattura registrata per ottenere informazioni su come la configurazione di questi prezzi influisce direttamente sul tempo e sulla fattura materiale presentata.
