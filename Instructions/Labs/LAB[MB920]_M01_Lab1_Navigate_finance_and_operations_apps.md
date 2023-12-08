@@ -103,7 +103,7 @@ Ora che si è acquisita familiarità con le app per la finanza e le operazioni �
 
 23. Molti menu dispongono delle opzioni di ordinamento e filtro. Usare i filtri per individuare rapidamente il contenuto del campo che si sta cercando.
 
-24. Notare in alto a destra la funzionalità aggiuntiva. Spostare il mouse su ciascun elemento per visualizzare il callout della funzionalità. Al termine, selezionare l'icona **Chiudi** per chiudere la pagina e tornare alla **home page**.
+24. In alto a destra si notino le funzioni aggiuntive. Spostare il cursore su ogni elemento ed esaminare il callout delle funzionalità. Al termine, selezionare l'icona **Indietro** all'altra estremità della barra degli strumenti per chiudere la pagina e tornare alla pagina precedente.
 
     ![Screenshot del menu in alto a destra della pagina Elenco che mostra funzionalità aggiuntive per la connessione a Power Apps, app Office, pagina Aggiornamento allegati documento, Apri nella nuova finestra e Pulsanti Chiudi.](./media/lab-navigate-finance-and-operations-apps-08.png)
 
