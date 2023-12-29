@@ -1,12 +1,12 @@
 ---
 lab:
-  title: 'Lab 3: Creare un ordine di produzione'
+  title: 'Lab 4: Creare un ordine di produzione'
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
-# Modulo 3: Informazioni fondamentali sulla gestione della supply chain di Microsoft Dynamics 365
+# Modulo 3: imparare i concetti fondamentali di Microsoft Dynamics 365 Supply Chain Management
 
-## Lab 3: Creare un ordine di produzione
+## Lab 4: Creare un ordine di produzione
 
 ## Obiettivo
 
@@ -14,7 +14,7 @@ Gli ordini di produzione semplificano l'avvio del processo di produzione in Supp
 
 ## Configurazione del lab
 
-   - **Tempo** stimato: 5 minuti
+   - **Tempo stimato:** 5 minuti
 
 ## Istruzioni
 
@@ -36,7 +36,7 @@ Gli ordini di produzione semplificano l'avvio del processo di produzione in Supp
 
 8.  In DBA/CICLO DI LAVORAZIONE il campo **Numero DBA** mostra automaticamente il numero di qualsiasi DBA attiva per l'articolo corrente, ma è possibile modificare la DBA per l'ordine di produzione selezionandone una attiva dall'elenco delle versioni di DBA approvate. Il campo **Numero ciclo di lavorazione** mostra automaticamente il numero di qualsiasi ciclo di lavorazione attivo per l'articolo corrente, ma è possibile modificare il ciclo di lavorazione per l'ordine di produzione selezionandone uno attivo dall'elenco delle versioni dei cicli di lavorazione approvate.
 
-    ![Screenshot che illustra la pagina crea ordine di produzione. I campi numero di articolo e recapito sono evidenziati.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-40.png)
+    ![Screenshot che illustra la pagina Crea ordine di produzione. I campi Numero di articolo e Consegna sono evidenziati.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-40.png)
 
 9.  Seleziona **Crea**.
 

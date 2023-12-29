@@ -10,17 +10,17 @@ lab:
 
 ## Obiettivo
 
-In questo lab si apprenderà come copiare dati da finanza e operazioni in Excel usando dynamics data Connessione or office add-in app. Si apprenderà anche come usare la stessa app per inserire dati in Dynamics 365 Finance and Operations. 
+In questo lab, si apprenderà a copiare i dati da Finance and Operations in Excel utilizzando l'applicazione aggiuntiva per Office Dynamics Data Connector. Si apprenderà anche come usare la stessa app per inserire i dati in Dynamics 365 Finance and Operations. 
 
 ## Configurazione del lab
 
-   - **Tempo** stimato: 5 minuti
+   - **Tempo stimato:** 5 minuti
 
 ## Istruzioni
 
 Una volta acquisita familiarità con le app per la finanza e le operazioni è possibile esplorare lo scenario di integrazione di Excel.
 
-1.  Assicurarsi di essere nella **persona giuridica USMF** .
+1.  Assicurarsi di essere nella persona giuridica **USMF**.
 
 2.  Andare ad **Approvvigionamento** > **Impostazione** > **Fornitori** > **Gruppi di fornitori**.
 
