@@ -4,7 +4,7 @@ lab:
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
 ---
 
-# Modulo 4: Informazioni sui concetti fondamentali di Microsoft Dynamics 365 Commerce
+# Modulo 4: imparare i concetti fondamentali di Microsoft Dynamics 365 Commerce
 
 ## Lab 1: Creare un assortimento di prodotti
 
@@ -14,7 +14,7 @@ lab:
 
 ## Configurazione del lab
 
-   - **Tempo** stimato: 10 minuti
+   - **Tempo stimato:** 10 minuti
 
 ## Istruzioni
 
@@ -42,7 +42,7 @@ lab:
 
 11. In **Scegli nodi organizzazione** selezionare il menu **Gerarchia organizzativa** e quindi **Punti vendita al dettaglio per tipo (Fabrikam)**.
 
-12. Nell'elenco **NODI** ORGANIZZAZIONE DISPONIBILI selezionare **Online** e quindi selezionare l'icona **Aggiungi** ![immagine 15](./media/04-learn-the-fundamentals-of-dynamics-365-commerce-17.png) per aggiungerla ai nodi** dell'organizzazione **edizione Standard LEZIONI SELEZIONATE.
+12. Nell'elenco **NODI ORGANIZZAZIONE DISPONIBILI**, selezionare **Online** e quindi selezionare l'icona **Aggiungi**![Immagine 15](./media/04-learn-the-fundamentals-of-dynamics-365-commerce-17.png) per l'aggiunta in **NODI ORGANIZZAZIONE SELEZIONATI**.
 
     In questo modo si aggiungono il nodo padre e tutti i nodi figlio.
 

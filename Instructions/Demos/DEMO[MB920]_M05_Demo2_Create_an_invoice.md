@@ -4,10 +4,10 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## Demo 2 - Creare una fattura
+## Demo 2: Creare una fattura
 
 1. Passare all'area di lavoro  **Gestione progetti**.  
-    In questa demo si esaminerà il processo di fatturazione di un singolo progetto all'interno delle operazioni del progetto. Benché sia possibile eseguire una fatturazione collettiva, a scopo dimostrativo qui ci si concentrerà su un singolo progetto di tempistica e materiali.Si osserveranno anche i risultati di registrazione e le informazioni finanziarie dettagliate all'interno del rendiconto del progetto. Iniziamo con la fatturazione del progetto. 
+    In questa demo verrà descritto il processo di fatturazione di un singolo progetto in Project Operations. Benché sia possibile eseguire una fatturazione collettiva, a scopo dimostrativo qui ci si concentrerà su un singolo progetto di tempistica e materiali.Si osserveranno anche i risultati di registrazione e le informazioni finanziarie dettagliate all'interno del rendiconto del progetto. Iniziamo con la fatturazione del progetto. 
 
 1. Nella selezione della società in alto a destra verificare che la persona giuridica cui si è connessi sia  **USSI**. In caso contrario, impostare la persona giuridica su  **USSI**.  
     Nell'area di lavoro  **Gestione progetti** è possibile visualizzare tutti i progetti attivi.È possibile cercare progetti usando il filtro o, come in questo esempio, selezionare un ID progetto noto. 
@@ -34,7 +34,7 @@ demo:
     Dopo aver effettuato le selezioni, selezionare il pulsante di ricerca per trovare le transazioni che soddisfano tali parametri.
 
 1. Selezionare **Cerca**.  
-    Selezionare quindi l'opzione Seleziona tutto per fatturare tutte le transazioni. Verranno selezionati gli elementi scelti per spese e ore.
+    Successivamente, per fatturare tutte le transazioni, scegliere l'opzione Seleziona tutto. Verranno selezionati gli elementi scelti per spese e ore.
 
 1. Nella scheda **Transazioni progetto** selezionare  **Seleziona tutto**.
 
@@ -43,18 +43,18 @@ demo:
 1. Nella pagina **Proposta di fatturazione**  posizionare il puntatore sulla colonna **Importo riga fattura** .  
     Qui è possibile visualizzare l'importo e il riepilogo della fattura, le transazioni orarie e le spese.
 
-    ![Screenshot della pagina della proposta di fattura con la colonna importo della riga della fattura evidenziata.](./media/projops_invoice_3_invoice_line_amount_column.png)
+    ![Screenshot della pagina della proposta di fattura con la colonna Importo della riga di fattura evidenziata.](./media/projops_invoice_3_invoice_line_amount_column.png)
 
 1. Posizionare il puntatore sulla scheda  **Ora**. 
 
 1. Posizionare il puntatore sulla scheda **Spese**.  
-    È anche possibile cambiare e esaminare la transazione di spesa.  
-A questo punto, controllare il pulsante totali per vedere l'aspetto della fattura sia dal punto di vista dei costi che dei ricavi.
+    È anche possibile cambiare ed esaminare la transazione di spesa.  
+A questo punto, selezionare il pulsante Totali per visualizzare l'aspetto della fattura sia dal punto di vista dei costi che dei ricavi.
 
 1. Nella barra di spostamento selezionare **Totali**.
 
 1. Nella pagina **Totali** posizionare il puntatore sulla colonna **CONTABILITÀ GENERALE**, sulla colonna **CLIENTE** e sulla colonna **Sconto riga**.  
-    Nella schermata dei totali è possibile vedere quale sarà l'impatto sul libro mastro generale, tutte le informazioni sui clienti, ad esempio limiti di credito, eventuali sconti, imposte sulle vendite e l'impatto netto della fattura. 
+    Nella schermata Totali è possibile osservare quale sarà l'impatto sulla contabilità generale, tutte le informazioni come limiti di credito, sconti e imposte di vendita e l'impatto netto della fattura. 
 
 1. Sul lato destro della schermata selezionare la **X** per chiudere la pagina.  
     È ora possibile creare un'anteprima di stampa per garantire che tutte le informazioni di fatturazione siano accurate. Alcune organizzazioni usano l'anteprima durante le riunioni di revisione dei progetti per assicurarsi che tutti concordino sui totali prima che la fattura venga finalizza. 
@@ -65,7 +65,7 @@ A questo punto, controllare il pulsante totali per vedere l'aspetto della fattur
     Qui è possibile visualizzare un esempio dell'anteprima di stampa per una fattura proforma. 
 
 1. Selezionare la **X** per chiudere la pagina.  
-    Dopo aver convalidato tutte le informazioni e aver soddisfatto l'anteprima stampa della fattura, è possibile pubblicare la proposta di fattura.
+    Dopo aver convalidato tutte le informazioni e aver controllato l'anteprima di stampa della fattura, è possibile pubblicare la proposta di fattura.
 
 1. Sulla barra di spostamento selezionare **Registra**.
 
@@ -78,8 +78,8 @@ A questo punto, controllare il pulsante totali per vedere l'aspetto della fattur
 1. Selezionare **OK**.
 
 1. Nella pagina **Fattura** posizionare il puntatore sul numero di **fattura**.  
-    Ora è disponibile un numero di fattura generato.  
-    Una volta registrata la fattura, è possibile esaminare le informazioni nel giornale di registrazione fatture ed eseguire il drill-down delle transazioni del libro mastro.
+    Ora è disponibile un numero di fattura che è stato generato.  
+    Una volta registrata la fattura, è possibile esaminare le informazioni nel giornale di fatturazione e visualizzare i dettagli delle transazioni del libro mastro.
 
 1. Passare all'area di lavoro  **Gestione progetti**.
 
@@ -98,7 +98,7 @@ A questo punto, controllare il pulsante totali per vedere l'aspetto della fattur
 
 1. Nella barra di spostamento della pagina **Contoso Consulting**  selezionare **Controllo**.  
     Qui è possibile visualizzare tutti i dettagli del progetto.  
-    Esaminiamo quindi i dati finanziari del progetto in un rendiconto di progetto.
+    Esaminiamo quindi i dati finanziari del progetto in un rendiconto del progetto.
 
 1. Selezionare **Rendiconti progetto**.
 
@@ -111,7 +111,7 @@ A questo punto, controllare il pulsante totali per vedere l'aspetto della fattur
 
 1. Al termine, selezionare **Calcola**.
 
-    ![Screenshot della pagina delle istruzioni del progetto con l'opzione calculate evidenziata.](./media/projops_invoice_4_calculate.png)
+    ![Screenshot della pagina delle istruzioni del progetto con l'opzione Calcola evidenziata.](./media/projops_invoice_4_calculate.png)
 
 1. Posizionare il puntatore del mouse su **Transazioni**.  
-    Dopo aver aggiornato i dati, un manager di progetto può scegliere di eseguire ulteriormente il drill-down nei dettagli delle transazioni per prendere decisioni sul progetto o apportare le modifiche necessarie.In questa dimostrazione è stata elaborata una fattura di tempo e materiale con transazioni orarie e spese. L'abbiamo esaminata in anteprima, quindi abbiamo pubblicato la fattura, esaminato il libro mastro e infine esaminato l'impatto finanziario tramite questo rendiconto di progetto.
+    Dopo aver aggiornato i dati, un manager di progetto può scegliere di eseguire ulteriormente il drill-down nei dettagli delle transazioni per prendere decisioni sul progetto o apportare le modifiche necessarie.In questa dimostrazione è stata elaborata una fattura di tempistica e materiali con transazioni orarie e di spesa. La fattura è stata visualizzata in anteprima, quindi è stata registrata, è stata esaminata la registrazione contabile e infine è stato verificato l'impatto finanziario tramite questo rendiconto del progetto.

@@ -1,32 +1,32 @@
 ---
 lab:
-  title: 'Lab 1: Esplorare le app finanziarie e operative'
+  title: 'Lab 1: Esplorare le app per la finanza e le operazioni'
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
 
 # Modulo 1. Esplorare le funzionalità principali delle app per la finanza e le operazioni di Dynamics 365
 
-## Lab 1: Esplorare le app finanziarie e operative
+## Lab 1: Esplorare le app per la finanza e le operazioni
 
 ## Obiettivo
 
-Dopo aver acquisito familiarità con le app finanziarie e operative, dedicare del tempo all'esplorazione dell'interfaccia.
+Una volta acquisita familiarità con le app per la finanza e le operazioni è opportuno esplorare l'interfaccia.
 
 ## Configurazione del lab
 
-- **Tempo** stimato: 10 minuti
+- **Tempo stimato:** 10 minuti
 
 ## Istruzioni
 
-### Accedere al computer lab
+### Accedere al computer del lab
 
-1.  Accedere al computer lab usando le credenziali seguenti:
+1.  Accedere al computer del lab usando le credenziali seguenti:
 
     - Nome utente: `Administrator`
 
     - Password: `pass@word1`
 
-1.  Attendere il completamento dello script AdminUserProvisioning prima di continuare. L'operazione può richiedere 2-3 minuti. Una volta completato lo script, verrà visualizzata brevemente una finestra popup per confermare che l'utente amministratore è stato aggiornato correttamente. 
+1.  Attendere il completamento dello script AdminUserProvisioning prima di continuare. L'operazione potrebbe richiedere 2 o 3 minuti. Una volta completato lo script, verrà visualizzata brevemente una finestra popup per confermare che l'utente amministratore è stato aggiornato correttamente. 
 
 1.  **Microsoft Edge** aprirà l'URL di Finance and Operations: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
@@ -85,7 +85,7 @@ Ora che si è acquisita familiarità con le app per la finanza e le operazioni �
 
 16. Nella casella di ricerca immettere **Tutti i fornitori**.
 
-17. Selezionare **Tutti i** fornitori Contabilità > fornitori
+17. Selezionare **Tutti i fornitori** Contabilità fornitori > Fornitori
 
 18. Potrebbe essere necessario attendere qualche istante la prima volta che si cerca una pagina. Durante l'elaborazione della ricerca compare un piccolo cerchio che ruota a destra della casella di ricerca.
 
@@ -103,9 +103,9 @@ Ora che si è acquisita familiarità con le app per la finanza e le operazioni �
 
 23. Molti menu dispongono delle opzioni di ordinamento e filtro. Usare i filtri per individuare rapidamente il contenuto del campo che si sta cercando.
 
-24. In alto a destra si notino le funzioni aggiuntive. Spostare il cursore su ogni elemento ed esaminare il callout delle funzionalità. Al termine, selezionare l'icona **Indietro** all'altra estremità della barra degli strumenti per chiudere la pagina e tornare alla pagina precedente.
+24. In alto a destra notare le funzionalità aggiuntive Spostare il cursore del mouse su ciascun elemento per esaminare il callout della funzionalità. Al termine, selezionare l'icona **Indietro** all'altra estremità della barra degli strumenti per chiudere la pagina e tornare a quella precedente.
 
-    ![Screenshot del menu in alto a destra della pagina Elenco che mostra funzionalità aggiuntive per la connessione a Power Apps, app Office, pagina Aggiornamento allegati documento, Apri nella nuova finestra e Pulsanti Chiudi.](./media/lab-navigate-finance-and-operations-apps-08.png)
+    ![Screenshot del menu in alto a destra della pagina Elenco che mostra le funzionalità aggiuntive per la connessione ai pulsanti Power Apps, app Office, pagina Aggiorna allegati documenti, Apri in una nuova finestra e Chiudi.](./media/lab-navigate-finance-and-operations-apps-08.png)
 
 25. Selezionare l'icona **Guida** a forma di punto interrogativo in alto a destra, quindi scegliere **Guida**.
 

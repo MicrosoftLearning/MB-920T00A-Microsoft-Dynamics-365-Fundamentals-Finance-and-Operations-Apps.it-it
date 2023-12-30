@@ -4,13 +4,13 @@ lab:
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
-# Modulo 3: Informazioni fondamentali sulla gestione della supply chain di Microsoft Dynamics 365
+# Modulo 3: imparare i concetti fondamentali di Microsoft Dynamics 365 Supply Chain Management
 
 ## Lab 2: Creare un ordine di acquisto
 
 ## Configurazione del lab
 
-   - **Tempo** stimato: 15 minuti
+   - **Tempo stimato**: 15 minuti
 
 ## Obiettivo
 
@@ -19,7 +19,7 @@ Questo lab serve ad acquisire familiarità con l'interfaccia utente e con i dive
 
 ## Configurazione del lab
 
-   - **Tempo** stimato: 10 minuti
+   - **Tempo stimato:** 10 minuti
 
 ## Istruzioni
 
@@ -34,7 +34,7 @@ Questo lab serve ad acquisire familiarità con l'interfaccia utente e con i dive
 5. Nel riquadro **Crea ordine fornitore** selezionare il menu a discesa **Conto fornitore**, quindi scegliere **US-101**.
 
 > [!NOTE]
-> Nota: quando si seleziona un fornitore, i dettagli del record fornitore, ad esempio indirizzo, conto fattura, condizioni di consegna e modalità di consegna, vengono copiati come valori predefiniti nell'intestazione dell'ordine. È possibile modificare questi valori in qualsiasi momento.
+> Nota: quando si seleziona un fornitore, i dettagli del record fornitore, come indirizzo, conto fatture, termini e modalità di consegna, vengono copiati come valori predefiniti nell'intestazione dell'ordine. È possibile modificare questi valori in qualsiasi momento.
 
 6. Espandere la sezione **Generale** se necessario.
 
@@ -54,7 +54,7 @@ Il campo **Sito** e il campo **Magazzino** specificano dove consegnare i beni o 
 
 L'intestazione dell'ordine è stata creata. Quando si usano le righe dell'ordine fornitore, viene visualizzato solo un riepilogo delle informazioni di intestazione. Se è necessario visualizzare il resto delle informazioni, selezionare **Intestazione**.
 
-![Screenshot che illustra l'intestazione dell'ordine in cui viene visualizzato il riepilogo delle informazioni sull'ordine. La parola Intestazione è evidenziata.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-17.png)
+![Lo screenshot mostra l'intestazione dell'ordine in cui appare il riepilogo delle relative informazioni. La parola Intestazione è evidenziata.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-17.png)
 
 11. In **Righe ordine fornitore** selezionare **Riga ordine fornitore** dal menu.
 
@@ -62,13 +62,13 @@ L'intestazione dell'ordine è stata creata. Quando si usano le righe dell'ordine
 
 12. In **VISUALIZZAZIONE** selezionare **Dimensioni**.
 
-    I prodotti possono avere varianti che si differenziano per dimensioni, come colore, taglia o stile. I prodotti possono anche essere impostati per usare le dimensioni di immagazzinamento, come sito e magazzino. Sono inoltre disponibili dimensioni di tracciabilità facoltative, come batch e numeri di serie. Per migliorare l'efficienza della registrazione degli ordini, è possibile aggiungere i campi dimensione usati abitualmente direttamente nella griglia dell'ordine.
+    I prodotti possono avere varianti che si differenziano per dimensioni, come colore, taglia o stile. I prodotti possono anche essere impostati per usare le dimensioni di immagazzinamento, come sito e magazzino. Esistono inoltre dimensioni di tracciabilità facoltative, ad esempio batch e numeri di serie. Per migliorare l'efficienza della registrazione degli ordini, è possibile aggiungere i campi dimensione usati abitualmente direttamente nella griglia dell'ordine.
 
 13. Nel pannello **Visualizzazione dimensioni**, in **DIMENSIONI PRODOTTO** selezionare la casella di controllo **Colore**.
 
 Facoltativo: se si seleziona l'interruttore **Salva impostazione**, le dimensioni scelte verranno visualizzate anche nella griglia della riga dell'ordine alla successiva apertura della pagina dell'ordine fornitore.
 
-14. Seleziona **OK**.
+14. Selezionare **OK**.
 
 15. Selezionare il menu a discesa della cella **Numero articolo** e scegliere **T0004**.
 

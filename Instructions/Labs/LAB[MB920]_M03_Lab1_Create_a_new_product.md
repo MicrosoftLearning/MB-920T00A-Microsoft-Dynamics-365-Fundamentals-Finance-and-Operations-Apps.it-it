@@ -4,7 +4,7 @@ lab:
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
-# Modulo 3: Informazioni fondamentali sulla gestione della supply chain di Microsoft Dynamics 365
+# Modulo 3: imparare i concetti fondamentali di Microsoft Dynamics 365 Supply Chain Management
 
 ## Lab 1: Creare un nuovo prodotto
 
@@ -14,7 +14,7 @@ In Contoso Entertainment System USA (USMF) si prevede di acquistare una nuova co
 
 ## Configurazione del lab
 
-   - **Tempo** stimato: 10 minuti
+   - **Tempo stimato:** 10 minuti
 
 ## Istruzioni
 
@@ -68,7 +68,7 @@ In Contoso Entertainment System USA (USMF) si prevede di acquistare una nuova co
 
 21. Nel riquadro di spostamento selezionare Moduli, quindi scegliere Gestione informazioni sul prodotto. Nel menu Prodotti selezionare i prodotti **Rilasciati**.
 
-22. Nella **pagina Prodotti** rilasciati** **individuare il nuovo elemento **GTL007** nella griglia. 
+22. Nella pagina **Prodotti****rilasciati**, individuare il nuovo elemento **GTL007** nella griglia. 
 
 23. Selezionare il collegamento al prodotto e spostarsi sulla pagina **Dettagli prodotto**.
 
@@ -106,10 +106,10 @@ In Contoso Entertainment System USA (USMF) si prevede di acquistare una nuova co
 
 30. Per completare la configurazione, selezionare Prodotto nel riquadro Azioni. Selezionare il pulsante Convalida nel gruppo Gestisci
 
-    ![Screenshot che illustra il gruppo Mantieni sotto il pulsante Prodotto nel riquadro azioni. Il pulsante Convalida nel gruppo Mantieni è selezionato.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
+    ![Screenshot che mostra il gruppo Mantieni sotto il pulsante Prodotto nel riquadro azioni. Il pulsante Convalida nel gruppo Mantieni è selezionato.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
 
 31. Verificare che sia visualizzato il banner informativo in cui si conferma che tutti i valori dei campi richiesti sono stati convalidati.
 
-    ![Screenshot che mostra il banner informativo che conferma che tutti i valori dei campi necessari sono stati convalidati. ](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-11.png)
+    ![Screenshot che mostra il banner informativo in cui si conferma che tutti i valori dei campi necessari sono stati convalidati. ](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-11.png)
 
 32. Chiudere tutte le pagine e tornare alla home page.
