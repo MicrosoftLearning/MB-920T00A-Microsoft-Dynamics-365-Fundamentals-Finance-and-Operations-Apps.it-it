@@ -14,7 +14,7 @@ Una volta acquisita familiarità con le app per la finanza e le operazioni è op
 
 ## Configurazione del lab
 
-- **Tempo stimato:** 10 minuti
+- **Tempo stimato:**: 10 minuti
 
 ## Istruzioni
 
@@ -103,7 +103,7 @@ Ora che si è acquisita familiarità con le app per la finanza e le operazioni �
 
 23. Molti menu dispongono delle opzioni di ordinamento e filtro. Usare i filtri per individuare rapidamente il contenuto del campo che si sta cercando.
 
-24. In alto a destra notare le funzionalità aggiuntive Spostare il cursore del mouse su ciascun elemento per esaminare il callout della funzionalità. Al termine, selezionare l'icona **Indietro** all'altra estremità della barra degli strumenti per chiudere la pagina e tornare a quella precedente.
+24. Notare in alto a destra la funzionalità aggiuntiva. Spostare il mouse su ciascun elemento per visualizzare il callout della funzionalità. Al termine, selezionare l'icona **Chiudi** per chiudere la pagina e tornare alla **home page**.
 
     ![Screenshot del menu in alto a destra della pagina Elenco che mostra le funzionalità aggiuntive per la connessione ai pulsanti Power Apps, app Office, pagina Aggiorna allegati documenti, Apri in una nuova finestra e Chiudi.](./media/lab-navigate-finance-and-operations-apps-08.png)
 
