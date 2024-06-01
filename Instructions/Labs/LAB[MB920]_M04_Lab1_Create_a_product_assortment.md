@@ -14,7 +14,7 @@ lab:
 
 ## Configurazione del lab
 
-   - **Tempo stimato:** 10 minuti
+   - **Tempo stimato:**: 10 minuti
 
 ## Istruzioni
 

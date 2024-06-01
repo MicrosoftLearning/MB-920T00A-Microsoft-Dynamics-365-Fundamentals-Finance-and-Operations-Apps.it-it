@@ -14,7 +14,7 @@ In Contoso Entertainment System USA (USMF) si prevede di acquistare una nuova co
 
 ## Configurazione del lab
 
-   - **Tempo stimato:** 10 minuti
+   - **Tempo stimato:**: 10 minuti
 
 ## Istruzioni
 
