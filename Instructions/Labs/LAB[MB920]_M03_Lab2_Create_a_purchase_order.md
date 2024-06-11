@@ -19,7 +19,7 @@ Questo lab serve ad acquisire familiarità con l'interfaccia utente e con i dive
 
 ## Configurazione del lab
 
-   - **Tempo stimato:** 10 minuti
+   - **Tempo stimato:**: 10 minuti
 
 ## Istruzioni
 
@@ -68,7 +68,7 @@ L'intestazione dell'ordine è stata creata. Quando si usano le righe dell'ordine
 
 Facoltativo: se si seleziona l'interruttore **Salva impostazione**, le dimensioni scelte verranno visualizzate anche nella griglia della riga dell'ordine alla successiva apertura della pagina dell'ordine fornitore.
 
-14. Selezionare **OK**.
+14. Seleziona **OK**.
 
 15. Selezionare il menu a discesa della cella **Numero articolo** e scegliere **T0004**.
 
