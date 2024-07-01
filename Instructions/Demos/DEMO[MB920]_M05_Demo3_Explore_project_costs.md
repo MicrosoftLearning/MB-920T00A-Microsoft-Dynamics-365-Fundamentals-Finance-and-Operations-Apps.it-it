@@ -69,7 +69,7 @@ In questa demo verrà illustrata la creazione di una voce relativa a tempo e spe
 
 1. Nel riquadro **Verifica flusso di lavoro scheda attività - Invio**, aggiungere eventuali commenti.
 
-1. Seleziona **Invia**.
+1. Selezionare **Invia**.
 
 1. Passare alla pagina **Transazioni orarie**. Se la scheda **Transazioni orarie** è disattivata, passare alla **pagina Schede attività personali** e selezionare la scheda attività creata in precedenza.
 
@@ -91,7 +91,7 @@ A questo punto, verrà creata una voce spese per lo stesso progetto Contoso Cons
 
 1. Nel riquadro **Nuovo report spese**, immettere un titolo nella **casella Scopo**. Ad esempio, **Contoso – Feb 2021**.
 
-1. Selezionare **OK**.
+1. Seleziona **OK**.
 
 1. Nella scheda **Spese**, selezionare **+ Nuova spesa**.  
 Verrà visualizzata una nuova riga spese.
@@ -124,7 +124,7 @@ Successivamente, sarà possibile indicare che il carburante verrà addebitato al
 
 1. Nella casella **Commento**, aggiungere eventuali commenti aggiuntivi.
 
-1. Seleziona **Invia**.
+1. Selezionare **Invia**.
 
 1. Nella pagina **Gestione spese**, scegliere la colonna **Stato di approvazione**.  
     A questo punto, verranno applicati i criteri di viaggio e il flusso di approvazione delle spese. I costi sono stati registrati e applicati al progetto Contoso Consulting e saranno disponibili in un secondo momento per la fatturazione, nel caso in cui siano esigibili.
