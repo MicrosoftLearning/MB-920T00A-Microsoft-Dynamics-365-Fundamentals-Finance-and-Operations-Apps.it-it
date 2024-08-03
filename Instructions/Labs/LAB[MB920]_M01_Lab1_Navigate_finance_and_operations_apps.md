@@ -1,12 +1,13 @@
 ---
 lab:
-  title: 'Lab 1: Esplorare le app per la finanza e le operazioni'
-  module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
+  title: 'Lab 1.1: Esplorare le app Finance and Operations'
+  module: 'Learning Path 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
 
-# Modulo 1. Esplorare le funzionalità principali delle app per la finanza e le operazioni di Dynamics 365
+# Percorso di apprendimento 1: Esplorare le funzionalità principali delle app per la finanza e le operazioni di Dynamics 365
+# Modulo 1: Descrivere le app per la finanza e le operazioni
 
-## Lab 1: Esplorare le app per la finanza e le operazioni
+## Lab 1.1: Esplorare le app Finance and Operations
 
 ## Obiettivo
 
@@ -47,12 +48,11 @@ Ora che si è acquisita familiarità con le app per la finanza e le operazioni �
 
     - Un calendario e gli elementi di lavoro assegnati.
 
-    - La barra di ricerca, utile per trovare velocemente gli elementi necessari.
+    - Barra di ricerca utile per trovare rapidamente ciò di cui hai bisogno.
 
     - In alto a destra sono presenti la società con cui si sta attualmente lavorando, le notifiche, le impostazioni e i collegamenti della guida. Verificare che la società elencata sia **USMF**.
 
-    ![Screenshot della home page delle app per la finanza e le operazioni di Dynamics 365 con le aree evidenziate.](./media/lab-navigate-finance-and-operations-apps-04.png)
-
+    ![Screenshot della home page delle app per la finanza e le operazioni di Dynamics 365 con le aree evidenziate.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-14.svg)
 2.  In alto a sinistra selezionare il menu a forma di hamburger **Espande il riquadro di spostamento**.
 
 3.  Il riquadro di spostamento include le raccolte di **Preferiti**, **Elementi recenti**, **Aree di lavoro** e **Moduli**.
@@ -69,7 +69,7 @@ Ora che si è acquisita familiarità con le app per la finanza e le operazioni �
 
 9.  Selezionare l'icona **Impostazioni** nell'angolo in alto a destra della **home page**, quindi scegliere **Opzioni utente**.
 
-    ![Screenshot dell'icona Impostazioni e dell'elenco a discesa Opzioni utente.](./media/lab-navigate-finance-and-operations-apps-05.png)
+    ![Screenshot dell'icona Impostazioni e dell'elenco a discesa Opzioni utente.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-15.svg)
 
 10. Nella pagina **Opzioni** usare le schede per configurare le diverse impostazioni applicabili all'account.
 
@@ -83,29 +83,29 @@ Ora che si è acquisita familiarità con le app per la finanza e le operazioni �
 
 15. In alto al centro della **home page** selezionare la casella **Cerca una pagina**.
 
-16. Nella casella di ricerca immettere **Tutti i fornitori**.
+16. Nella casella di ricerca cercare **Tutti i clienti**.
 
-17. Selezionare **Tutti i fornitori** Contabilità fornitori > Fornitori
+17. Selezionare ** > ****Account clienti Clienti > ****Tutti i clienti** pagina. 
 
-18. Potrebbe essere necessario attendere qualche istante la prima volta che si cerca una pagina. Durante l'elaborazione della ricerca compare un piccolo cerchio che ruota a destra della casella di ricerca.
+18. Potrebbe essere necessario attendere qualche istante la prima volta che si cerca una pagina. Un piccolo cerchio ruota a destra della casella di ricerca durante il processo di ricerca.
 
-19. La pagina **Tutti i fornitori** è un esempio di pagina elenco. La pagina elenco contiene dati master che è possibile leggere, creare, eliminare e aggiornare. La barra multifunzione sopra l'elenco offre ulteriori funzionalità.
+19. 19. La **pagina** Tutti i clienti è un esempio di pagina elenco. La pagina elenco contiene dati master che è possibile leggere, creare, eliminare e aggiornare. Altre funzionalità sono disponibili sulla barra multifunzione sopra l'elenco.
 
-    ![Screenshot dell'elenco Tutti i fornitori con le funzionalità del menu evidenziate.](./media/lab-navigate-finance-and-operations-apps-06.png)
+    ![Screenshot dell'elenco Tutti i fornitori con le funzionalità del menu evidenziate.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-13.svg)
 
-20. Evidenziare uno dei fornitori dall'elenco, selezionare sulla destra il menu **Informazioni correlate**, quindi rivedere le informazioni aggiuntive fornite.
+20. Evidenziare uno dei clienti dall'elenco e, a destra, selezionare il **menu Informazioni** correlate ed esaminare le informazioni fornite.
 
-21. Nell'elenco dei fornitori selezionare **Acme Office Supplies**.
+21. 21. Nell'elenco **Clienti selezionare **Contoso Retail San Dieg****.
 
-22. Selezionare il menu **Gruppo** e scegliere il titolo della colonna **Gruppo fornitori**.
+22. Selezionare il **menu Gruppo** e quindi selezionare il titolo della **colonna Gruppo di clienti** .
 
-    ![Screenshot del titolo della colonna Gruppo fornitori per Acme Office Supplies.](./media/lab-navigate-finance-and-operations-apps-07.png)
+    ![Screenshot del gruppo CUstomer per ContosoRetail San Diego.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-16.svg)
 
 23. Molti menu dispongono delle opzioni di ordinamento e filtro. Usare i filtri per individuare rapidamente il contenuto del campo che si sta cercando.
 
 24. Notare in alto a destra la funzionalità aggiuntiva. Spostare il mouse su ciascun elemento per visualizzare il callout della funzionalità. Al termine, selezionare l'icona **Chiudi** per chiudere la pagina e tornare alla **home page**.
 
-    ![Screenshot del menu in alto a destra della pagina Elenco che mostra le funzionalità aggiuntive per la connessione ai pulsanti Power Apps, app Office, pagina Aggiorna allegati documenti, Apri in una nuova finestra e Chiudi.](./media/lab-navigate-finance-and-operations-apps-08.png)
+    ![Screenshot del menu in alto a destra della pagina Elenco che mostra le funzionalità aggiuntive per la connessione ai pulsanti Power Apps, app Office, pagina Aggiorna allegati documenti, Apri in una nuova finestra e Chiudi.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-17.svg)
 
 25. Selezionare l'icona **Guida** a forma di punto interrogativo in alto a destra, quindi scegliere **Guida**.
 

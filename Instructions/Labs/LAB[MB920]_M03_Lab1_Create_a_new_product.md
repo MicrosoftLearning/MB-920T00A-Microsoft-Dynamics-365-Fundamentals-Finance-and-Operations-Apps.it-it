@@ -1,115 +1,144 @@
 ---
 lab:
-  title: 'Lab 1: Creare un nuovo prodotto'
-  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Lab 3.1: Creare un nuovo prodotto'
+  module: 'Learning Path 3: Learn the fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
-# Modulo 3: imparare i concetti fondamentali di Microsoft Dynamics 365 Supply Chain Management
+# Percorso di apprendimento 3: Concetti fondamentali di Microsoft Dynamics 365 Supply Chain Management
+# Modulo 2: Descrivere il processo di vendita e approvvigionamento
 
-## Lab 1: Creare un nuovo prodotto
+## Lab 3.1: Creare un nuovo prodotto
 
-## Obiettivo
+Nell'organizzazione si prevede di creare un nuovo elemento, che è una camicia. La camicia avrà colori e dimensioni differenti. In questo lab si apprenderà come creare un nuovo elemento con più varianti e rilasciarlo nella entità giuridica USMF.
 
-In Contoso Entertainment System USA (USMF) si prevede di acquistare una nuova configurazione di cabinet da un fornitore. È necessario creare un elemento che rappresenti la nuova configurazione. Questo lab descrive come creare un nuovo elemento e la relativa configurazione.
+## Passaggi del lab
 
-## Configurazione del lab
+1. Nel riquadro di spostamento Dynamics 365 Supply Chain Management selezionare Moduli e quindi selezionare **Configurazione**** > dimensione e gruppi varianti** di Gestione > **** informazioni prodotto.**** Aprire la **pagina Gruppi di colori** e creare un nuovo record.
 
-   - **Tempo stimato:**: 10 minuti
+    - Gruppo di colori: **ShirtColor**
 
-## Istruzioni
+    - Descrizione: **colore camicia**
 
-In Contoso Entertainment System USA (USMF) si prevede di acquistare una nuova configurazione di cabinet da un fornitore. È necessario creare un elemento che rappresenti la nuova configurazione.
+2. **Nella scheda dettaglio Righe gruppo** colori immettere i tre record seguenti:
 
-1.  Nella home page delle app per la finanza e le operazioni, in alto a destra verificare che la società in uso sia **USMF**. Se necessario, nell'elenco a discesa della società, selezionare **USMF**.
+| **Color**| **Nome colore** |
+| - |
+| Blu| Blu |
+| Bianco| Bianco |
+| Nero| Nero |
 
-2.  In alto a sinistra selezionare il menu a forma di hamburger **Espande il riquadro di spostamento**.
+3. Selezionare Salva per salvare i record.
 
-3.  Nel riquadro di spostamento selezionare **Moduli**, quindi scegliere **Gestione informazioni sul prodotto**. Nel menu **Prodotti** selezionare **Prodotti**.
+4. Selezionare **Product information management > ****Setup Dimension and variant groups (Configurazione > ****dimensione e gruppi** varianti). Aprire la **pagina Gruppi di dimensioni** e creare un nuovo record.
 
-4.  Nella pagina **Prodotti**, nel menu in alto selezionare **+ Nuovo**.
+    - Gruppo di dimensioni: **ShirtSize**
 
-5.  Nella pagina **Nuovo prodotto**, nel campo **Tipo di prodotto** verificare che sia selezionato **Articolo**.
+    - Descrizione: **Dimensioni camicia**
 
-6.  Nel campo **Sottotipo di prodotto** verificare che sia selezionato **Prodotto**.
+5. **Nella scheda dettaglio Dimensioni righe** gruppo immettere i tre record seguenti
 
-7.  Sotto **IDENTIFICAZIONE** nella casella **Numero prodotto** immettere **GTL007**.
+| **Dimensione**| **Nome dimensione** |
+| - |
+| S| Piccola |
+| M| Medio |
+| L| Grande |
 
-8.  Nella casella **Nome prodotto** immettere **Cabinet 2**.
+6. Salvare i record
 
-    ![Lo screenshot mostra la vista standard della pagina di creazione del nuovo prodotto.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
+7. Nel riquadro di spostamento Dynamics 365 Supply Chain Management selezionare **Moduli** e quindi selezionare **Gestione** delle informazioni sul prodotto. Scegliere quindi Master** prodotto dal **menu **Prodotti**.
 
-9.  Selezionare il pulsante **OK**.
+8. **Nella pagina Master** prodotto, nel menu superiore, selezionare **+ Nuovo**.
 
-10. Nel menu **Prodotto** del riquadro Azioni, nel gruppo **Imposta** selezionare **Gruppi di dimensioni**.
+9. **Nella pagina Nuovo prodotto, nel **campo Tipo di** prodotto**, verificare che **l'elemento** sia selezionato.
 
-    ![Lo screenshot mostra l'opzione di configurazione nel menu del prodotto in cui è possibile aggiungere i dettagli dei diversi gruppi di dimensioni.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
+10. Nel campo Sottotipo** prodotto verificare che **l'opzione **Product** **master** sia selezionata.
 
-11. Selezionare l'elenco a discesa **Gruppo di dimensioni di immagazzinamento**, quindi selezionare **SiteWH**.
+11. **Nella scheda Identificazione** immettere **SH001** nella **casella Numero** prodotto.
 
-12. Selezionare l'elenco a discesa del campo **Gruppo di dimensioni di tracciabilità**, quindi selezionare **Nessuno**.
+12. **Nel campo Nome** prodotto immettere **Shirt**.
 
-13. Selezionare il pulsante **OK**.
+13. **Nel campo Gruppo di dimensioni** Prodotto immettere **ColorSize**.
 
-14. Selezionare il pulsante **Rilascia prodotti** nel riquadro Azioni per rilasciare il prodotto in una persona giuridica.
+14. Selezionare il pulsante **OK**.
 
-15. Viene visualizzata una pagina che mostra il primo passaggio come **Seleziona i prodotti da rilasciare**.
+15. **Nel menu Prodotto** nel riquadro azioni selezionare **Gruppi di dimensioni** nel **gruppo Configura**.
 
-    ![Lo screenshot mostra la vista standard della pagina dei prodotti rilasciati.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
+16. Nell'elenco **a discesa Gruppo** di dimensioni di archiviazione selezionare **SiteWH**.
 
-16. Selezionare il pulsante **Avanti** nella parte inferiore della pagina.
+17. Nell'elenco **a discesa Gruppo di dimensioni** di rilevamento selezionare **** Nessuno.
 
-17. Nella pagina **Seleziona società cui effettuare il rilascio** selezionare la persona giuridica **USMF** in cui il prodotto deve essere rilasciato.
+18. Selezionare il pulsante **OK**.
 
-18. Selezionare il pulsante **Avanti** nella parte inferiore della pagina.
+19. Selezionare **ShirtColor** nell'elenco **Gruppo** colori.
 
-19. Nella pagina **Conferma selezione** impostare il valore di **Mostra registro informazioni in caso di errori** su **Sì** e di **Esegui come batch** su **No.**.
+20. Selezionare **ShirtSize** nell'elenco **Gruppo dimensioni** .
 
-20. Selezionare il pulsante **Fine** nella parte inferiore della pagina.
+21. Selezionare il **pulsante Varianti** prodotto nel riquadro azioni.
 
-21. Nel riquadro di spostamento selezionare Moduli, quindi scegliere Gestione informazioni sul prodotto. Nel menu Prodotti selezionare i prodotti **Rilasciati**.
+22. **Nella pagina Varianti** prodotto selezionare il **pulsante Suggerimenti** varianti nel riquadro azioni.
 
-22. Nella pagina **Prodotti****rilasciati**, individuare il nuovo elemento **GTL007** nella griglia. 
+23. Selezionare il **pulsante Suggerisci tutto** nella **pagina Suggerimenti** varianti.
 
-23. Selezionare il collegamento al prodotto e spostarsi sulla pagina **Dettagli prodotto**.
+24. Selezionare le varianti suggerite selezionando il **pulsante Seleziona tutto** seguito dal **pulsante Crea** .
 
-24. Nella Scheda dettaglio **Generale** immettere le informazioni seguenti:
+Le varianti verranno create nella pagina Varianti prodotto.
 
-    - **Gruppo di modelli di articoli**: FIFO
+25. Selezionare il **pulsante Rilascia prodotti** nel riquadro azioni per rilasciare il prodotto in una persona giuridica.
 
-25. Nella Scheda dettaglio **Acquisto** immettere le informazioni seguenti:
+26. Viene visualizzata una pagina che mostra il primo passaggio come **Seleziona i prodotti da rilasciare**.
 
-    - **Unità**: ea
+27. Selezionare il pulsante **Avanti** nella parte inferiore della pagina.
 
-    - **Fascia IVA articoli**: TUTTO
+28. Selezionare le varianti da rilasciare nella persona giuridica e selezionare il **pulsante Avanti** .
 
-    - **Prezzo**: 30
+29. **Nella pagina Seleziona società da rilasciare** selezionare la **persona giuridica USMF** in cui rilasciare il prodotto.
 
-26. Nella Scheda dettaglio **Vendita** immettere le informazioni seguenti:
+30. Selezionare il pulsante **Avanti** nella parte inferiore della pagina.
 
-    - **Unità**: ea
+31. **Nella pagina Conferma selezione** impostare il valore di **Mostra infolog in caso di errore** su **Sì** e **Esegui come batch** su **No**.
 
-    - **Fascia IVA articoli**: TUTTO
+32. Selezionare il pulsante **Fine** nella parte inferiore della pagina.
 
-    - **Prezzo**: 35
+16. Nel riquadro di spostamento selezionare **Moduli**, quindi scegliere **Gestione informazioni sul prodotto**. Nel menu **Prodotti** selezionare **Prodotti rilasciati**.
 
-27. Nella Scheda dettaglio **Gestione articoli** immettere le informazioni seguenti:
+33. Nella **pagina Rilascio prodotti** individuare il nuovo elemento **SH001** nella griglia.
 
-    - **Unità**: ea
+34. Selezionare il collegamento al prodotto e spostarsi sulla pagina **Dettagli prodotto**.
 
-28. Nella Scheda dettaglio **Progetta** immettere le informazioni seguenti:
+35. **Nella scheda dettaglio Generale** immettere quanto segue:
 
-    - **Unità DBA**: ea
+    - Gruppo di modelli di elementi: **FIFO**
 
-29. Nella Scheda dettaglio **Gestione costi** immettere le informazioni seguenti:
+36. **Nella scheda dettaglio Acquista** immettere quanto segue:
 
-    - **Gruppo articoli**: audio
+    - Unità: **ea**
 
-30. Per completare la configurazione, selezionare Prodotto nel riquadro Azioni. Selezionare il pulsante Convalida nel gruppo Gestisci
+    - Gruppo iva articolo: **ALL**
 
-    ![Screenshot che mostra il gruppo Mantieni sotto il pulsante Prodotto nel riquadro azioni. Il pulsante Convalida nel gruppo Mantieni è selezionato.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
+    - Prezzo: **30**
 
-31. Verificare che sia visualizzato il banner informativo in cui si conferma che tutti i valori dei campi richiesti sono stati convalidati.
+37. Nella scheda dettaglio Sell (Vendi **) **immettere quanto segue:
 
-    ![Screenshot che mostra il banner informativo in cui si conferma che tutti i valori dei campi necessari sono stati convalidati. ](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-11.png)
+    - Unità: **ea**
 
-32. Chiudere tutte le pagine e tornare alla home page.
+    - Gruppo iva articolo: **ALL**
+
+    - Prezzo: **35**
+
+38. **Nella scheda dettaglio Gestisci inventario** immettere quanto segue:
+
+    - Unità: **ea**
+
+39. Nella scheda dettaglio Engineer (Ingegnere **) **immettere quanto segue:
+
+    - Unità bom: **ea**
+
+40. **Nella scheda dettaglio Gestisci costi** immettere quanto segue:
+
+    - Gruppo di elementi: **audio**
+
+41. Per completare la configurazione, selezionare **Prodotto** nel riquadro azioni. Selezionare il **pulsante Convalida** sotto il **gruppo Mantieni** .
+
+42. Chiudere tutte le pagine e tornare alla **home** page.
+
+ 
