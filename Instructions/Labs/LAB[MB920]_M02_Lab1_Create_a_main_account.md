@@ -57,11 +57,11 @@ In questo lab verranno eseguite le attività seguenti:
 
     - Descrizione: **Calendario dei sistemi demo**
 
-    - Inizio anno fiscale: **10/1/2023**
+    - Inizio anno fiscale: **30/9/2024**
 
-    - Fine anno fiscale: **30/9/2023**
+    - Fine anno fiscale: **10/1/2024**
 
-    - Nome anno fiscale: **2023-24**
+    - Nome anno fiscale: **2024-25**
 
     - Lunghezza del periodo: **1**
 

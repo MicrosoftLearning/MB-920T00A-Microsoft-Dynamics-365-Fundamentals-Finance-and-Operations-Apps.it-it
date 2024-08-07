@@ -22,9 +22,9 @@ Una volta acquisita familiarità con le app per la finanza e le operazioni è po
 
 1.  Assicurarsi di essere nella persona giuridica **USMF**.
 
-2.  Andare ad **Approvvigionamento** > **Impostazione** > **Fornitori** > **Gruppi di fornitori**.
+2.  Passare al modulo **Procurement and sourcing Setup** > **Vendors Vendor groups** (Approvvigionamento e approvvigionamento> **** Fornitori fornitori).** > **
 
-3.  Selezionare **Apri in Microsoft Office** > **Apri in Excel**.
+3.  Nell'angolo in alto a destra selezionare **Apri in Microsoft Office**** > Open in Excel.**
 
 4.  Selezionare **Gruppi di fornitori** (usmf) e scaricare il modello per Excel.
 
@@ -32,7 +32,7 @@ Una volta acquisita familiarità con le app per la finanza e le operazioni è po
 
     Tutti i dati esistenti della tabella **Gruppo fornitori** appaiono nel foglio di calcolo di Excel.
 
-6.  Immettere un nuovo record.
+6.  Immettere un nuovo record nella prima posizione del nuovo gruppo di fornitori.
 
 7.  Immettere **100** nel campo **Gruppo fornitori**, **Fornitore assicurazione** nel campo **Descrizione** e **Net10** nel campo **Termini di pagamento**.
 
