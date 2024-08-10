@@ -13,7 +13,7 @@ Nell'organizzazione si prevede di creare un nuovo elemento, che è una camicia. 
 
 ## Passaggi del lab
 
-1. Nel riquadro di spostamento Dynamics 365 Supply Chain Management selezionare Moduli e quindi selezionare **Configurazione**** > dimensione e gruppi varianti** di Gestione > **** informazioni prodotto.**** Aprire la **pagina Gruppi di colori** e creare un nuovo record.
+1. Nel riquadro di spostamento Dynamics 365 Supply Chain Management selezionare Moduli e quindi selezionare **Configurazione dimensione > ****e gruppi** varianti di Gestione**** > informazioni prodotto.**** Aprire la **pagina Gruppi di colori** e creare un nuovo record.
 
     - Gruppo di colori: **ShirtColor**
 
@@ -21,11 +21,12 @@ Nell'organizzazione si prevede di creare un nuovo elemento, che è una camicia. 
 
 2. **Nella scheda dettaglio Righe gruppo** colori immettere i tre record seguenti:
 
-| **Color**| **Nome colore** |
-| - |
-| Blu| Blu |
-| Bianco| Bianco |
-| Nero| Nero |
+    | **Color** | **Nome colore** |
+    |-----------|----------------|
+    | Blu      | Blu           |
+    | Bianco     | Bianco          |
+    | Nero     | Nero          |
+
 
 3. Selezionare Salva per salvare i record.
 
@@ -37,11 +38,12 @@ Nell'organizzazione si prevede di creare un nuovo elemento, che è una camicia. 
 
 5. **Nella scheda dettaglio Dimensioni righe** gruppo immettere i tre record seguenti
 
-| **Dimensione**| **Nome dimensione** |
-| - |
-| S| Piccola |
-| M| Medio |
-| L| Grande |
+    | **Dimensione** | **Nome dimensione** |
+    |----------|---------------|
+    | S        | Piccola         |
+    | M        | Medio        |
+    | L        | Grande         |
+
 
 6. Salvare i record
 
