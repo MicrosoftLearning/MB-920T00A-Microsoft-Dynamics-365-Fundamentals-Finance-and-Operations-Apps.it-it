@@ -28,7 +28,7 @@ Una volta acquisita familiarità con le app per la finanza e le operazioni è po
 
 4.  Selezionare **Gruppi di fornitori** (usmf) e scaricare il modello per Excel.
 
-5.  Salvare e aprire il modello di Excel scaricato, consentirlo se necessario, chiudere l'attivazione e selezionare **Abilita modifica**. Considerare attendibile il componente aggiuntivo e accedere (usando le proprie credenziali, se richieste).
+5.  Salvare e quindi aprire il modello di Excel scaricato, consentire, se necessario, chiudere l'attivazione e selezionare **Abilita modifica**. Considerare attendibile il componente aggiuntivo e accedere (usando le proprie credenziali, se richieste).
 
     Tutti i dati esistenti della tabella **Gruppo fornitori** appaiono nel foglio di calcolo di Excel.
 
