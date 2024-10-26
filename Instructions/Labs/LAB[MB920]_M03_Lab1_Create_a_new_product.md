@@ -40,7 +40,7 @@ Nell'organizzazione si prevede di creare un nuovo elemento, che è una camicia. 
 
     | **Dimensione** | **Nome dimensione** |
     |----------|---------------|
-    | S        | Piccola         |
+    | S        | Piccolo         |
     | M        | Medio        |
     | L        | Grande         |
 
@@ -101,11 +101,13 @@ Le varianti verranno create nella pagina Varianti prodotto.
 
 32. Selezionare il pulsante **Fine** nella parte inferiore della pagina.
 
-16. Nel riquadro di spostamento selezionare **Moduli**, quindi scegliere **Gestione informazioni sul prodotto**. Nel menu **Prodotti** selezionare **Prodotti rilasciati**.
+33. In alto a destra passare a **USMF** come persona giuridica.
+
+34. Nel riquadro di spostamento selezionare **Moduli**, quindi scegliere **Gestione informazioni sul prodotto**. Nel menu **Prodotti** selezionare **Prodotti rilasciati**.
 
 33. Nella **pagina Rilascio prodotti** individuare il nuovo elemento **SH001** nella griglia.
 
-34. Selezionare il collegamento al prodotto e spostarsi sulla pagina **Dettagli prodotto**.
+34. Selezionare il collegamento del prodotto e passare alla **pagina Dei dettagli** del prodotto rilasciato.
 
 35. **Nella scheda dettaglio Generale** immettere quanto segue:
 
@@ -137,7 +139,7 @@ Le varianti verranno create nella pagina Varianti prodotto.
 
 40. **Nella scheda dettaglio Gestisci costi** immettere quanto segue:
 
-    - Gruppo di elementi: **audio**
+    - Gruppo di elementi: **Audio**
 
 41. Per completare la configurazione, selezionare **Prodotto** nel riquadro azioni. Selezionare il **pulsante Convalida** sotto il **gruppo Mantieni** .
 

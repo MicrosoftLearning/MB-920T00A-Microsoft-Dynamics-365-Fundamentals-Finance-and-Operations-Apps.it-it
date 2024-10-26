@@ -89,6 +89,8 @@ Viene creato un nuovo giornale di registrazione elenco di prelievo con tre righe
 
 21. Pubblicare il giornale di registrazione della lista di prelievo.
 
+Se necessario, selezionare OK nella finestra Post journal .If required, select **OK**  on Post journal window.
+
 22. Tornare alla **pagina Tutti gli ordini di** produzione e selezionare **Visualizza (menu riquadro azioni) &gt; Scheda** route journals&gt;.
 
 Viene creato un nuovo giornale di registrazione carte di route con tre righe.

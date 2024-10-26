@@ -59,7 +59,7 @@ In questo lab verranno eseguite le attività seguenti:
 
     - Inizio anno fiscale: **30/9/2024**
 
-    - Fine anno fiscale: **10/1/2024**
+    - Fine anno fiscale: **10/1/2025**
 
     - Nome anno fiscale: **2024-25**
 
@@ -87,7 +87,7 @@ Il sistema genererà 14 periodi, tra cui un'apertura e un periodo di chiusura e 
 
     - Nome: **Cash**
 
-    - Tipo di spesa principale: **bilancio**
+    - Tipo di conto principale: **bilancio**
 
     - Categoria di conto principale: **CASH**
 
@@ -99,7 +99,7 @@ Il sistema genererà 14 periodi, tra cui un'apertura e un periodo di chiusura e 
 
     - Nome: **Ricavi**
 
-    - Tipo di spesa principale: **Ricavi**
+    - Tipo di account principale: **Ricavi**
 
     - Categoria di account principale: **REV**
 
@@ -111,7 +111,7 @@ Il sistema genererà 14 periodi, tra cui un'apertura e un periodo di chiusura e 
 
     - Nome: **Spese di viaggio**
 
-    - Tipo di spesa principale: **Spesa**
+    - Tipo di conto principale: **Spese**
 
     - Categoria di account principale: **EXP**
 
@@ -125,7 +125,7 @@ Il sistema genererà 14 periodi, tra cui un'apertura e un periodo di chiusura e 
 
     - Nome: **CDS_Training**
 
-3. Nel riquadro azioni selezionare il pulsante Nuovo seguito dal tipo di unità operativa Centro di costo e immettere il valore seguente:
+3. Nel riquadro azioni selezionare il **pulsante Nuovo** seguito dal **tipo di unità operativa** Centro di costo e immettere il valore seguente:
 
     - Nome: **CDS_Purchase**
 
@@ -179,7 +179,7 @@ Il sistema genererà 14 periodi, tra cui un'apertura e un periodo di chiusura e 
 
 14. **Nella scheda dettaglio Segmenti e valori** consentiti selezionare il **pulsante Aggiungi** per aggiungere **l'intervallo account principale 6000...9999**.
 
-15. Selezionare il **pulsante Segment (Segmento** ) nella **scheda dettaglio Segmenti e valori** consentiti
+15. Selezionare il **pulsante Aggiungi segmento** nella **scheda dettaglio Segmenti e valori** consentiti
 
 16. **Nella finestra di dialogo Aggiungi segmento** selezionare **CostCenter** e quindi il **pulsante Aggiungi segmento**.
 
@@ -193,7 +193,7 @@ Il sistema genererà 14 periodi, tra cui un'apertura e un periodo di chiusura e 
 
 2. Se necessario, selezionare l'azienda e dal menu selezionare **CDS**.
 
-3. Nel riquadro di spostamento sinistro di Dynamics 365 Finance selezionare **La pagina** Moduli**** > contabilità generale configurazione &gt; libro mastro &gt; e configurare quanto segue:
+3. Nel riquadro di spostamento sinistro di Dynamics 365 Finance selezionare **Moduli**** > Generali contabilità &gt; imposta &gt; pagina Contabilità** e configurare quanto segue:
 
     - Grafico degli account: **Sistemi demo**
 
@@ -208,6 +208,8 @@ Il sistema genererà 14 periodi, tra cui un'apertura e un periodo di chiusura e 
     - Tipo di tasso di cambio del budget: **Budget**
 
 4. **Nella scheda dettaglio Struttura** account selezionare il **pulsante Aggiungi** per aggiungere la struttura **dell'account CDS_BS**.
+
+> Se obbligatorio, selezionare **Sì** per Aggiunta di una struttura di account.
 
 5. Aggiungere altre due strutture di account: **CDS_Revenue** e **CDS_Expense**.
 
