@@ -35,7 +35,7 @@ In questo lab verranno eseguite le attività seguenti:
 
 ## Creazione di una persona giuridica
 
-1. Nel riquadro di spostamento sinistro di Dynamics 365 Finance selezionare **Moduli**** **&gt;** Amministrazione organizzazione **&gt;** &gt; Organizzazioni Entità** legali.
+1. Nel riquadro di spostamento sinistro di Dynamics 365 Finance selezionare **Moduli** ****&gt;** Amministrazione organizzazione **&gt;** Organizzazioni &gt; entità** legali.
 
 2. Nella **pagina Entità** legali selezionare il **pulsante Nuovo** nel riquadro azioni per creare una nuova persona giuridica e immettere le informazioni seguenti:
 
@@ -49,7 +49,7 @@ In questo lab verranno eseguite le attività seguenti:
 
 ## Creare un calendario fiscale
 
-1. Nel riquadro di spostamento a sinistra di Dynamics 365 Finance selezionare **Moduli&gt;******** Calendari contabili **&gt;** generali Calendari &gt;** fiscali. 
+1. Nel riquadro di spostamento sinistro di Dynamics 365 Finance selezionare **Moduli&gt;******** Calendari contabili **&gt;** generali Calendari &gt;** fiscali. 
 
 2. **Nella pagina Calendario fiscale selezionare il **pulsante Nuovo calendario**** nel riquadro azioni per creare un nuovo calendario fiscale e immettere le informazioni seguenti:
 
@@ -73,7 +73,7 @@ Il sistema genererà 14 periodi, tra cui un'apertura e un periodo di chiusura e 
 
 ## Creazione di un piano dei conti
 
-1. Nel riquadro di spostamento sinistro di Dynamics 365 Finance selezionare **Modules**** > General ledger**&gt;****** Chart of accounts Chart of accounts &gt; (Grafico contabilità generale degli account).** **&gt;**
+1. Nel riquadro di spostamento sinistro di Dynamics 365 Finance selezionare **Modules**** > General ledger****&gt;**** Chart of accounts Chart of accounts Chart of accounts &gt; (Grafico contabilità generale degli account).** **&gt;**
 
 2. **Nella pagina Grafico di account** selezionare il **pulsante Nuovo** nel riquadro azioni per creare un nuovo grafico di account e immettere le informazioni seguenti:
 
@@ -193,7 +193,7 @@ Il sistema genererà 14 periodi, tra cui un'apertura e un periodo di chiusura e 
 
 2. Se necessario, selezionare l'azienda e dal menu selezionare **CDS**.
 
-3. Nel riquadro di spostamento sinistro di Dynamics 365 Finance selezionare **Moduli**** > Generali contabilità &gt; imposta &gt; pagina Contabilità** e configurare quanto segue:
+3. Nel riquadro di spostamento sinistro di Dynamics 365 Finance selezionare **Moduli**** > Generali contabilità &gt; pagina &gt;** e configurare quanto segue:
 
     - Grafico degli account: **Sistemi demo**
 

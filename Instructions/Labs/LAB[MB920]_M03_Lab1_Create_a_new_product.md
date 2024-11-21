@@ -13,7 +13,7 @@ Nell'organizzazione si prevede di creare un nuovo elemento, che è una camicia. 
 
 ## Passaggi del lab
 
-1. Nel riquadro di spostamento Dynamics 365 Supply Chain Management selezionare Moduli e quindi selezionare **Configurazione dimensione > ****e gruppi** varianti di Gestione**** > informazioni prodotto.**** Aprire la **pagina Gruppi di colori** e creare un nuovo record.
+1. Nel riquadro di spostamento Dynamics 365 Supply Chain Management selezionare Moduli e quindi selezionare **Configurazione**** > dimensione e gruppi varianti** di Gestione > **** informazioni prodotto.**** Aprire la **pagina Gruppi di colori** e creare un nuovo record.
 
     - Gruppo di colori: **ShirtColor**
 
